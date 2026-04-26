@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>使用教學</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;  
+        }
+/* 教學步驟樣式 */
+.tutorial-step {
+    border-left: 4px solid #8EE8CC; /* 左側藍色裝飾線 */
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.step-title {
+    color: #074AAB;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.step-title span {
+    background: #6707ab;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.gif-container {
+    margin-top: 15px;
+    line-height: 0; /* 消除圖片下方空隙 */
+}
+
+.tutorial-gif {
+    width: 100%;
+    height: auto;
+}
+
+/* 說明區卡片 */
+.legend-section {
+    background: #f8f9fa;
+    border: 2px solid #000;
+    padding: 25px;
+    box-shadow: 10px 10px 0px #074AAB; /* 這裡用亮粉色點綴 */
+}
+
+.legend-list {
+    list-style: none;
+    padding: 0;
+}
+
+.legend-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px dashed #ccc;
+}
+
+.legend-list li:last-child {
+    border-bottom: none;
+}
+
+.notice-text {
+    font-size: 0.85rem;
+    color: #074AAB;
+    font-weight: bold;
+}
+        
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            font-size: 1.5rem;
+            margin-bottom: 60px;
+            border-left: 5px solid #eee;
+            padding-left: 30px;
+        }
+
+        .highlight {
+            background: none;
+            color: #6707ab; 
+            font-weight: 700;
+            text-decoration: none;  
+        }
+
+        .highlight {
+            padding: 0 2px;
+        }
+
+        u { border-bottom: 3px solid #6707ab; text-decoration: none; }
+
+        .tip {
+            display: inline-block;    /* 改為 inline-block，框線才會緊貼文字長度而非撐滿整行 */
+            margin-top: 5px;
+            padding: 4px 14px;        /* 增加內距，讓文字在框內有呼吸空間 */
+            font-size: 0.85rem;       /* 稍微縮小字體，增加精緻感 */
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      /* 增加字距，讓大寫字母不擁擠 */
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; /* 使用比文字淺一點的灰色，外觀更高端 */
+            border-radius: 50px;         /* 設定極大的圓角，形成「膠囊型」外框 */
+            background-color: #f8f9fa;   /* 淡淡的背景色，讓框線看起來更實心、有質感 */
+        }
+
+        .footer-source {
+            margin-top: 80px;      /* 與上方歌詞保持較大距離 */
+            padding: 40px 20px;
+            border-top: 1px solid #eee; /* 一條淡淡的分割線 */
+            text-align: center;
+        }
+
+        .tutorial-gif {
+    max-width: 100%;       /* 確保在手機上不會超出螢幕 */
+    height: auto;
+    border: 2px solid #000; /* 延續你的黑框風格 */
+    border-radius: 8px;     /* 稍微圓角，看起來更親切 */
+    box-shadow: 6px 6px 0px #6707ab; /* 使用你喜歡的深度藍色做陰影 */
+    margin: 20px 0;
+}
+        mark {
+            background: linear-gradient( #6707ab71 0%); /* 現代感螢光筆 */
+            color: inherit;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+        /* 歌手名稱：不宜太大，保持點綴感 */
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        /* 歌曲標題：使用 clamp 讓它在不同螢幕自動縮放，最大不超過 3.5rem */
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        /* 圓弧提示標籤 (Tip)：字體稍微縮小，但維持外框明顯 */
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <a href="index.html" class="back-link"> ← 返回首頁</a>
+        <div class="title-group">
+            <h1 class="song">使用教學
+            </h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+
+
+
+    <main class="lyrics-body">
+    <div class="lyric-item tutorial-step">
+        <h3 class="step-title"><span>01</span> 選擇歌曲</h3>
+        <p>主頁面可選擇想練習的應援歌曲！</p>
+        <div class="gif-container">
+            <img src="gif/錄製內容 2026-04-25 211924.gif" loading="lazy" class="tutorial-gif">
+        </div>
+    </div>
+
+    <div class="lyric-item tutorial-step">
+        <h3 class="step-title"><span>02</span> 切換團體</h3>
+        <p>右上角的下拉式選單可快速篩選團體/歌手。</p>
+        <div class="gif-container">
+            <img src="gif/錄製內容 2026-04-25 220130.gif"指導 class="tutorial-gif">
+        </div>
+    </div>
+
+    <div class="lyric-item tutorial-step">
+        <h3 class="step-title"><span>03</span> 同步練習</h3>
+        <p>點擊影片播放後，可滑動下方查看歌詞 <span class="notice-text">(影片不會暫停ㄛ)</span></p>
+        <div class="gif-container">
+            <img src="gif/錄製內容 2026-04-25 214646.gif" loading="lazy" class="tutorial-gif">
+        </div>
+    </div>
+
+    <div class="lyric-item legend-section">
+        <h3>📢 應援符號說明</h3>
+        <ul class="legend-list">
+            <li><span class="tip">這是註解</span> <span>不必喊出聲</span></li>
+            <li><span>一般純文字歌詞</span> <span>不必喊出聲</span></li>
+            <li><span class="highlight">[括號粗體]</span> <span><b>非歌詞</b>但要喊 (如人名)</span></li>
+            <li><span class="highlight">純色粗體</span> <span><b>是歌詞</b>且要喊</span></li>
+            <li><u>底線 <span class="highlight">空耳</span></u> <span>對應發音且要大聲喊</span></li>
+            <li><mark>標記區塊</mark> <span>偶像演唱時，同步切入應援</span></li>
+        </ul>
+    </div>
+</main>
+</body>
+</html>

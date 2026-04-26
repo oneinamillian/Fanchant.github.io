@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>教學與簡介 | Cheer Guide</title>
+    <style>
+        :root {
+            --main-blue: #cf2e46;
+            --bright-pink: #2ecfb7;
+            --black: #000000;
+        }
+
+        body {
+            font-family: "PingFang TC", "Microsoft JhengHei", sans-serif;
+            line-height: 1.7;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            background-color: #fefefe;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* 統一的卡片樣式 */
+        .section-card {
+            border: 2px solid var(--black);
+            padding: 25px;
+            margin-bottom: 30px;
+            background: white;
+            box-shadow: 8px 8px 0px #eee;
+        }
+
+        /* 01. 關於本站區塊 (藍色主題) */
+        .about-section {
+    background: #f0f4f8; /* 極淺的藍灰色背景 */
+    border: 2px solid #000;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.about-section h3 {
+    margin-top: 0;
+    color: #2ecfb7; /* 使用你的深藍色 */
+}
+
+.info-list {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 0 0;
+}
+
+.info-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+/* 自定義清單符號 */
+.info-list li::before {
+    content: "•";
+    color: #cf2e46; /* 使用亮粉色點綴符號 */
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.info-list b {
+    color: #cf2e46;
+}
+
+/* 更新紀錄區塊 */
+.update-history {
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px dashed #cf2e46; /* 使用虛線邊框，代表持續開發中 */
+    border-radius: 8px;
+}
+
+.update-history h3 {
+    margin-top: 0;
+    color: #cf2e46;
+    font-size: 1.4rem;
+}
+
+.history-list {
+    margin-top: 20px;
+}
+
+.history-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    flex-wrap: wrap; /* 讓手機版能自動換行 */
+    gap: 15px;
+    align-items: baseline;
+}
+
+.history-item:last-child {
+    border-bottom: none;
+}
+
+/* 日期標籤樣式 */
+.date {
+    background-color: #2ecfb7;
+    color: white;
+    font-family: monospace; /* 用等寬字體更有工程感 */
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    flex-shrink: 0;
+}
+.back-home {
+            display: block;
+            text-align: center;
+            text-decoration: none;
+            color: var(--black);
+            font-weight: bold;
+            margin-top: 40px;
+            padding: 15px;
+            border: 2px solid var(--black);
+            transition: 0.3s;
+        }
+.back-home:hover,.back-home:active {
+            background: #2ecfb7;
+            color: white;
+        }
+.content {
+    font-size: 0.95rem;
+    color: #444;
+}
+
+.content b {
+    color: #cf2e46; /* 重點變更用亮粉色點綴 */
+}
+    </style>
+</head>
+<body>
+
+<div class="lyric-item about-section">
+    <h3>📝 關於 Cheer Guide</h3>
+    <p>歡迎來到我的應援教學站！這裡整理了一些 K-Pop 歌曲應援，幫助大家在現場或螢幕前都能大聲應援。<br>
+    有些空耳可能不太標準，請見諒＞＜</p>
+    
+    <ul class="info-list">
+        <li><b>排序邏輯：</b>主頁的下拉選單依照 <b>英文字母 (A-Z)</b> 排序，方便快速查找團體。</li>
+        <li><b>歌曲順序：</b>卡片排列採用 <b>隨機/直覺式排序</b>，沒有特定的順序意義。</li>
+        <li><b>更新頻率：</b>內容將不定期更新，收錄目前熱門或經典的應援歌曲。</li>
+        <li><b>最佳瀏覽：</b>建議使用手機或平板閱讀，方便一邊觀看影片、一邊對照歌詞。</li>
+    </ul>
+</div>
+</div>
+
+    <a href="index.html" class="back-home">← 回到主頁練習去</a>
+
+</div>
+    <div class="lyric-item update-history">
+    <h3>🚀 更新紀錄 (Update History)</h3>
+    
+    <div class="history-list">
+        <div class="history-item">
+            <span class="date">2026.04.25</span>
+            <span class="content">創建網站、新增<b>關於本站</b>、<b>使用教學</b>及<b>聲明</b>。</span>
+        </div>
+        <div class="history-item">
+            <span class="date">2026.04.26</span>
+            <span class="content">新增<b>TWICE:Like Ooh-Ahh、CHEER UP</b> ; <b>EXO:MAMA、Monster、Ko Ko Bop</b> ; <b>ITZY:DALLA DALLA</b></span>
+        </div>
+    </div>
+
+
+</body>
+</html>

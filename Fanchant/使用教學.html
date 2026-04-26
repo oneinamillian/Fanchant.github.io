@@ -78,25 +78,31 @@
 .legend-section {
     background: #f8f9fa;
     border: 2px solid #000;
-    padding: 25px;
+    padding: 15px;
     box-shadow: 10px 10px 0px #074AAB; /* 這裡用亮粉色點綴 */
 }
 
-.legend-list {
-    list-style: none;
-    padding: 0;
-}
-
-.legend-list li {
+.legend-row {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px dashed #ccc;
+    align-items: flex-start; /* 頂端對齊，避免換行後歪掉 */
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eee; /* 加入細線分隔 */
 }
 
-.legend-list li:last-child {
-    border-bottom: none;
+/* 左側符號區：固定寬度 */
+.symbol {
+    flex: 0 0 130px; /* 這裡設定固定寬度，可依你最長的符號微調 */
+    font-size: 0.95rem;
+    padding-right: 10px;
+}
+
+/* 右側說明區：自動填滿剩餘空間 */
+.explain {
+    flex: 1;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
 }
 
 .notice-text {
@@ -188,6 +194,13 @@
             font-size: 0.75rem;
             padding: 3px 10px;
         }
+        .symbol {
+        flex: 0 0 110px; /* 手機螢幕更小時縮小左側 */
+        font-size: 0.85rem;
+    }
+    .explain {
+        font-size: 0.8rem;
+    }
     }
     </style>
 </head>
@@ -231,16 +244,38 @@
     </div>
 
     <div class="lyric-item legend-section">
-        <h3>📢 應援符號說明</h3>
-        <ul class="legend-list">
-            <li><span class="tip">這是註解</span> <span>不必喊出聲</span></li>
-            <li><span>一般純文字歌詞</span> <span>不必喊出聲</span></li>
-            <li><span class="highlight">[括號粗體]</span> <span><b>非歌詞</b>但要喊 (如人名)</span></li>
-            <li><span class="highlight">純色粗體</span> <span><b>是歌詞</b>且要喊</span></li>
-            <li><u>底線 <span class="highlight">空耳</span></u> <span>對應發音且要大聲喊</span></li>
-            <li><mark>標記區塊</mark> <span>偶像演唱時，同步切入應援</span></li>
-        </ul>
+    <h3>📢 應援符號說明</h3>
+    
+    <div class="legend-row">
+        <div class="symbol"><span class="tip">這是註解</span></div>
+        <div class="explain">不用喊！</div>
     </div>
+
+    <div class="legend-row">
+        <div class="symbol"><span>這是歌詞</span></div>
+        <div class="explain">不用喊！</div>
+    </div>
+
+    <div class="legend-row">
+        <div class="symbol"><span class="highlight">[顏色+粗體+括號]</span></div>
+        <div class="explain">不是歌詞但要喊！</div>
+    </div>
+
+    <div class="legend-row">
+        <div class="symbol"><span class="highlight">顏色標示+粗體</span></div>
+        <div class="explain">是歌詞且要喊！</div>
+    </div>
+
+    <div class="legend-row">
+        <div class="symbol"><u>底線 <span class="highlight">空耳</span></u></div>
+        <div class="explain">是歌詞且要喊！</div>
+    </div>
+
+    <div class="legend-row">
+        <div class="symbol"><mark>有標記的</mark></div>
+        <div class="explain">當偶像唱這段時，就要喊應援！</div>
+    </div>
+</div>
 </main>
 </body>
 </html>

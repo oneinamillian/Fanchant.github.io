@@ -17,6 +17,10 @@
         .header {
             padding: 60px 8%;
             border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
         }
 
         .back-link {
@@ -32,28 +36,28 @@
         .back-link:hover { background: #000; color: #fff; }
 
         .title-group {
-            margin-top: 40px;
-            display: flex;
+            margin-top: 0;
+            display: flex;         
             flex-direction: column;
-            align-items: center;
-            text-align: center;  
+            align-items: center;   
+            text-align: center;     
         }
 
         .artist {
             font-weight: 400;
             letter-spacing: 4px;
             color: #666;
-            margin-bottom: 8px; 
+            margin-bottom: 8px;   
         }
 
         .song {
             font-size: 6rem;
             font-weight: 900;
-             background: linear-gradient(135deg, #FF5FA2,#FF9472);
+            background: linear-gradient(135deg, #FF5FA2,#FF9472);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 0;
-            line-height: 1.1;  
+            line-height: 1.1;
         }
 
         .video-wrapper {

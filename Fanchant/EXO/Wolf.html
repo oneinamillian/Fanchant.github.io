@@ -17,6 +17,10 @@
         .header {
             padding: 60px 8%;
             border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
         }
 
         .back-link {
@@ -32,7 +36,7 @@
         .back-link:hover { background: #000; color: #fff; }
 
         .title-group {
-            margin-top: 40px;
+            margin-top: 0;
             display: flex;         
             flex-direction: column;
             align-items: center;   
@@ -49,7 +53,7 @@
         .song {
             font-size: 6rem;
             font-weight: 900;
-		background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
+            background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             margin: 0;
@@ -162,7 +166,6 @@
 <body>
 
     <header class="header">
-        <a href="../index.html" class="back-link"> ← 返回首頁</a>
         <div class="title-group">
             <span class="artist">EXO</span>
             <h1 class="song"> 늑대와 미녀 (Wolf)</h1>
@@ -290,7 +293,7 @@ Hey 자 안 해본 스타일로<br>
 난 늑대고 넌 미녀<br>
             </p>
         </div>
-
+        <a href="../index.html" class="back-link"> ← 返回首頁</a>
         <footer class="footer-source">
             <div class="source-container">
                 <span class="source-label">參考資源</span>

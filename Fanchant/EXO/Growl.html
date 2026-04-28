@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>으르렁 (Growl) Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        .h {
+            background: none;
+            color: #C0C0C0;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #C0C0C0; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #C0C0C0;     
+            border-bottom-color: #C0C0C0;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">EXO</span>
+            <h1 class="song">으르렁 (Growl)</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/I3dezFzsNss" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Yo O.K.<br>
+<span class="h">[SEXY!]</span><br>
+나 혹시 몰라 경고하는데 <span class="h">[才ㄉ囉]</span><br>
+지금 위험해<span class="h">[so dangerous]</span><br>
+자꾸 나를 자극하지마 <span class="h">[ㄎ哩那]</span><br>
+나도 날 몰라<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+숨이 자꾸 멎는다 <span class="h">[EXO K]</span> <br>
+네가 날 향해 걸어온다<br>
+나를 보며 웃는다 <span class="h">[EXO M]</span><br>
+너도 내게 끌리는지<br>
+눈앞이 다 캄캄해 <br>
+네가 뚫어져라 쳐다볼 땐<br>
+귓가에 가까워진 숨소리 <br>
+날 미치게 만드는 너인걸<br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+아무도 널 못 보게 <br>
+품에 감추고 싶어<br>
+널 노리는 시선들 내 안에 일어난 <br>
+거센 소용돌이<br>
+검은 그림자 내 안에 <u>깨어나 <span class="h">給歐娜</span></u><br>
+널 보는 두 눈에 불꽃이 <u>튄다 <span class="h">聽打</span></u><br>
+그녀 곁에서 모두 다 <u>물러나 <span class="h">母囉啦</span></u> <br>
+이젠 조금씩 사나워<u>진다 <span class="h">進打</span></u><br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대<br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+너 물러서지 않으면 다쳐도 몰라<br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+날이 선 눈빛과 베일듯한 긴장감<br>
+지금 탐색 중이야 너의 주위를 Babe Oh<br>
+넌 그냥 그대로 있어 나만을 바라보면서<br>
+절대 널 보내지 않아 두고 봐 Babe<br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+흐린 공간속에서 선명하게 빛나는<br>
+널 노리는 시선들 내 안에 울리는 경보 울림소리<br>
+검은 그림자 내 안에 <u>깨어나 <span class="h">給歐娜</span></u> <br>
+널 보는 두 눈에 불꽃이 <u>튄다 <span class="h">聽打</span></u><br>
+그녀 곁에서 모두 다 <u>물러나 <span class="h">母囉啦</span></u><br>
+이젠 조금씩 사나워<u>진다 <span class="h">進打</span></u><br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대<br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+너 물러서지 않으면 다쳐도 몰라<br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+<span class="h">E X O</span><br>
+또 다른 늑대들이 볼세라 <span class="h">[剝絲啦]</span><br>
+너무나 완벽한 내 여자라 <span class="h">[優加啦]</span><br>
+품속엔 부드럽게 너를 안고 <br>
+너만을 위해서 나는 난폭해지고<br>
+결국엔 강한 자가 얻게 되는 미인 <br>
+자리가 없으니까 그냥 돌아가 I Win<br>
+가능성 제로야 닳으니까 그만 봐 <br>
+그녀를 넘본다면 나를 먼저 넘어봐<br>
+<span class="h">[We are EXO]</span><br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+우리 말곤 하나둘씩 지워버리자<br>
+너하고 나만 여기 남아 멈춰진 듯이<br>
+워 Yeah<br>
+            </p>
+        </div>
+                <div class="lyric-item">
+            <p>
+검은 그림자 내 안에 <u>깨어나 <span class="h">給歐娜</span></u> <br>
+널 보는 두 눈에 불꽃이 <u>튄다 <span class="h">聽打</span></u><br>
+그녀 곁에서 모두 다 <u>물러나 <span class="h">母囉啦</span></u><br>
+이젠 조금씩 사나워<u>진다 <span class="h">進打</span></u><br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대<br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+너 물러서지 않으면 다쳐도 몰라<br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대<br>
+나 <u>으르렁 으르렁 으르렁 <span class="h">ㄜㄌ龍</span></u> 대 <br>
+너 물러서지 않으면 다쳐도 몰라<br>
+            </p>
+        </div>
+        <a href="../index.html" class="back-link"> ← 返回首頁</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://www.kkbox.com/hk/tc/song/PYUVTPkyNHxJsjLyVj" target="_blank" class="source-link">
+                    歌詞來源:KKBOX
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=mOgC16paPUY" target="_blank" class="source-link">
+                    參考應援影片:Eve Before the WAR - EXO Taiwan Union
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

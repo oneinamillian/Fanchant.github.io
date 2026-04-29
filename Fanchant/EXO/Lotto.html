@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Lotto Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        mark {
+            background: linear-gradient( #c0c0c056 0%); 
+            color: inherit;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+        .h {
+            background: none;
+            color: #C0C0C0;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #C0C0C0; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #C0C0C0;     
+            border-bottom-color: #C0C0C0;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">EXO</span>
+            <h1 class="song">Lotto</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/tbe3pe2BtwA" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Yeah, yeah, yeah, yeah<br>
+<span class="h">[EXO!]</span><br>
+Yeah, yeah, yeah, yeah<br>
+Oh, lotto-tto<br>
+Oh, yeah, yeah<br>
+Oh, yeah, yeah, yeah<br>
+별 관심이 없는 척 시선을 피해서 가<br>
+이해해 모든 걸 걸어야만 할 테니까<br>
+스쳐만 봐도 <span class="h">oh yeah</span><br>
+다른 여자와는 확 달라<br>
+뒤돌아봐도 분명 내게 찾아온 luck<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Lipstick chateau 와인빛 color (<span class="h">la la la la</span>)<br>
+하얀 champagne 버블에 shower (<span class="h">la la la la</span>)<br>
+평생에 한 번일지도 몰라<br>
+꾹 참았던 본능이 튀어 올라<br>
+어쩌나 I just hit the lotto (la la la la)<br>
+<span class="h">Oh, oh, oh,</span> lotto<br>
+<span class="h">Oh, oh, oh,</span> lotto (oh, oh, oh)<br>
+<span class="h">Oh, oh, oh,</span> lotto<br>
+<span class="h">Oh, oh, oh,</span> lotto (oh, oh, oh)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+너란 행운 마치 실낱같은 확률 속에 맘을 던지게 해 날<br>
+다른 사람들은 이제 팝콘 입에 넣은 채 우릴 쳐다봐<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Oh (oh baby)<br>
+멀리서 들려오는 소리<br>
+<span class="h">No way</span> (no way, no way, no)<br>
+즐겨 봐 oh yeah<br>
+모든 게 바뀌어 <span class="h">oh yeah</span><br>
+오늘부턴 공기도 달라<br>
+세상이 바뀌어<br>
+밤하늘엔 은빛 별들<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Lipstick chateau 와인빛 color (<span class="h">la la la la</span>)<br>
+하얀 Champagne 버블에 shower (<span class="h">la la la la</span>)<br>
+평생에 한 번일지도 몰라<br>
+꾹 참았던 본능이 튀어 올라<br>
+널 향해 소리 질러 louder (la la la la)<br>
+<span class="h">Oh, oh, oh,</span> lotto<br>
+<span class="h">Oh, oh, oh,</span> lotto (oh, oh, oh)<br>
+<span class="h">Oh, oh, oh,</span> lotto<br>
+<span class="h">Oh, oh, oh,</span> lotto (oh, oh, oh)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+이 순간을 놓치진 마<br>
+We're going crazy, my lucky lady<br>
+또 한번 기억될 날을<br>
+지금도 난 목이 말라 네게 줄 게 아직 많아<br>
+I don't need no money 너만 있으면 돼<br>
+더없이 간절히 원하는걸 <br>
+<span class="h">[EXO! EXO! EXO! EXO! EXO! EXO!]</span><br>
+모든 것을 걸어 내게 (oh, yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Lipstick chateau 와인빛 color (chateau, chateau all over) (<span class="h">la la la la</span>)<br>
+하얀 champagne 버블에 shower (하얀 champagne on me) (<span class="h">la la la la</span>)<br>
+평생에 한 번일지도 몰라<br>
+꾹 참았던 본능이 튀어 올라 (본능이 튀어 올라)<br>
+어쩌나 I just hit the lotto (<span class="h">la la la la</span>)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+(Yeah, oh)<br>
+Yeah, yeah, yeah, yeah<br>
+Yeah, yeah, yeah, yeah (just hit the lotto woo yeah)<br>
+Lotto oh, oh, oh<br>
+Yeah, yeah, yeah, yeah (yeah, yeah, yeah, yeah, yeah)<br>
+Yeah, yeah, yeah, yeah<br>
+(Hit the lotto, woo yeah)<br>
+넌 lotto (<span class="h">la la la la</span>)<br>
+            </p>
+        </div>
+
+        <a href="../index.html" class="back-link"> ← 返回首頁</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="http://lyrics.lyricfind.com/lyrics/exo-lotto" target="_blank" class="source-link">
+                    歌詞來源:lyrics
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=7RonIEo9F0Q" target="_blank" class="source-link">
+                    參考應援影片:Eve Before the WAR - EXO Taiwan Union
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

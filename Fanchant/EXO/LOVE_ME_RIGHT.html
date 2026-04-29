@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>LOVE ME RIGHT Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        .h {
+            background: none;
+            color: #C0C0C0;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #C0C0C0; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #C0C0C0;     
+            border-bottom-color: #C0C0C0;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">EXO</span>
+            <h1 class="song">LOVE ME RIGHT</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/Yss_LnGY1Uc" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Oh yeah! C'mon!<span class="h">[E! X! O!]</span><br>
+Take your time<br>
+왠지 두근대는 밤이야<br>
+<span class="h">Na na na na</span><br>
+<span class="h">Na na na na</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+So tonight<br>
+달 끝까지 달려가볼까<br>
+<span class="h">Yea yea yea yea</span><br>
+<span class="h">Yea yea yea yea</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<span class="h">Just right</span><br>
+시동을 걸어 엑셀에 발을 올려<br>
+모든 것이 특별해<br>
+너와는 잘 어울려<br>
+무엇을 원하던 I'ma make it work (yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shawty, I'ma party 'til the <span class="h">sun down</span><br>
+지금 이 신비로운 느낌은 <u>뭘까 <span class="h">摸尬</span></u><br>
+와줘 내게로 어서 before the <span class="h">sun rise</span><br>
+네가 없는 난 어딜 가도 nobody (yeah) 오!<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+도로 위에 여긴 <span class="h">runway</span><br>
+날 바라보는 눈 속 <span class="h">milky way</span><br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+Baby love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+오! 내게로 와 망설이지마<br>
+넌 매혹적인 나의 universe<br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+내 우주는 전부 너야<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Just <span class="h">love me right</span><br>
+Just <span class="h">love me right</span><br>
+Just <span class="h">love me right</span><br>
+내 우주는 전부 너야<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shine a light 별빛 속을 달려<br>
+은하술 건너<br>
+<span class="h">Na na na na</span><br>
+<span class="h">Na na na na</span><br>
+멈출 순 없어 오예!<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+우릴 비추는 달빛은 여전하지<br>
+네 궤도 안 헤매고 있어 난 아직<br>
+I can do this all night long baby<br>
+네가 없는 난 어딜 가도 반쪽짜리니까<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+달빛 찬란한 밤 펼쳐진<br>
+별들의 불꽃놀이<br>
+좀 더 높이 날아가볼까 (날아가볼까)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+가슴 터질듯한 이 순간<br>
+우리 둘만 떠올라<br>
+발 밑에 지구를 두고 love me right<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+도로 위에 여긴 <span class="h">runway</span><br>
+날 바라보는 눈 속 <span class="h">milky way</span><br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+Baby love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+So come on baby 눈이 부시게<br>
+더 아름다운 너의 universe (아름다운 lady)<br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+내 우주는 전부 너야 (오!)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Just <span class="h">love me right</span><br>
+Just <span class="h">love me right</span> (can you love me right)<br>
+Just <span class="h">love me right</span><br>
+I just wanna make you love me<br>
+(내 우주는 전부 너야)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+수 없는 밤이 찾아와도<br>
+내 하늘엔 오직 너만 빛나 (woo yeah)<br>
+속삭여줘 내게만<br>
+밤하늘을 너와 내가<br>
+물들여가<br>
+<span class="h">[We! are! One!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+도로 위에 여긴 <span class="h">runway</span><br>
+날 바라보는 눈 속 <span class="h">milky way</span><br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+Baby love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+오! 내게로 와 망설이지마<br>
+넌 매혹적인 나의 universe<br>
+Just love me right (<u>아하! <span class="h">啊哈!</span></u>)<br>
+내 우주는 전부 너야 <br>(내 우주는 전부 너야)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Just <span class="h">love me right</span><br> (oh oh oh yeah)<br>
+Just <span class="h">love me right</span><br>
+Just <span class="h">love me right</span> <br>(우리만의 시간)<br>
+내 우주는 전부 너야<br>
+Just <span class="h">love me right</span> <br>(짜릿한 cosmic ride)<br>
+Just <span class="h">love me right</span> <br>(우리만의 야간비행)<br>
+Just <span class="h">love me right</span><br>
+I just wanna make you love me<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Yea (woo you got to love)<br>
+Yea (you got to love me)<br>
+Yea<br>
+내 우주는 전부 너야 (내 우주는 전부 너야)<br>
+Yea (you love me)<br>
+Yea (you love me)<br>
+Yea내 우주는 전부 너야<br>
+            </p>
+        </div>
+
+        <a href="../index.html" class="back-link"> ← 返回首頁</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://lyrics.lyricfind.com/lyrics/exo-love-me-right" target="_blank" class="source-link">
+                    歌詞來源:lyrics
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=QSmwVaiR_jI" target="_blank" class="source-link">
+                    參考應援影片:WE ARE WAN
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

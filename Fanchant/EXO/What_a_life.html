@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>What a life Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #C0C0C0,#FFF8E7);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        mark {
+            background: linear-gradient( #c0c0c056 0%); 
+            color: inherit;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+        .h {
+            background: none;
+            color: #C0C0C0;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #C0C0C0; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #C0C0C0;     
+            border-bottom-color: #C0C0C0;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">EXO-SC</span>
+            <h1 class="song">What a life</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/AtNBhPxVwh0" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Mmm, uh huh, mmm, yeah<br>
+<span class="h">[Park Chan Yeo! Oh Se Hun! What! a! Li! fe!]</span><br>
+시스템 종료를 <span class="h">click</span><br>
+오늘 미세먼지는 <span class="h">free</span><br>
+차 키 챙겨서 나가<br>
+오랜만에 도론 뻥 뚫렸으니<br>
+시간 되는 애들 나와<br>
+동그랗게 모여서 회의<br>
+동그라미 네모 세모 엑스<br>
+지겹잖아 매일 게임<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+그래서 오늘 어디로 갈까 <span class="h">[尬嘎]</span><br>
+번개처럼 인천공항으로 갈까 <span class="h">[尬嘎]</span><br>
+구름 찢으며 파란 하늘을 날까<br>
+옆 나라에서 별 보는 것도 좋아 yeah<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+날씨는 so amazing (<span class="h">amazing</span>)<br>
+재미난 일이 생길 듯해<br>
+계획 없으면 뭐 어때 (<u>어때, <span class="h">歐ㄉㄟˋ</span></u> 어때)<br>
+We are still young and free<br>
+(<span class="h">Uno, dos, tres</span>)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+(Yeah ah!) 젊고 자유롭지<br>
+성격은 모서리가 없어<br>
+친구들은 내 주변에<br>
+빙 둘러앉아 있지<br>
+난 신선 같고 <u>신선해 <span class="h">欣賞嘿</span></u><br>
+난 친척 같고 <u>친절해 <span class="h">清嗆嘿</span></u><br>
+내 지갑은 오늘 끄떡없네<br>
+Do you wanna get down <span class="h">with me?</span><br>
+그래서 오늘 밤엔 어디로 갈까<span class="h">[尬嘎]</span><br>
+클럽은 뻔해 거리가 차라리 낫잖아<br>
+<u>야자수, <span class="h">呀加速</span></u> 옆에 바닷가도 난 좋아<br>
+Day and night 시동 걸렸지<br>
+오늘은 뭔가 될 것 같아<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+밤공기는 so amazing (<span class="h">amazing</span>)<br>
+재미난 일이 생길 듯해<br>
+계획 없으면 뭐 어때 (<u>어때, <span class="h">歐ㄉㄟˋ</span></u> 어때)<br>
+We are still young and free<br>
+(<u>하나, 둘, 셋 <span class="h">哈娜, 吐, ㄙㄟˋ</span></u>)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Life is good (Life is good)<br>
+Life is good (Life is good), yeah<br>
+열심히 <u>놀고 <span class="h">no狗</span></u> 신나게 <u>벌어 <span class="h">波囉</span></u><br>
+오늘 공기처럼 내 기분은<br>
+완전 <span class="h">fresh</span> 해<br>
+낮과 밤은 길기에 내일 걱정은 짧게 (yeh, yeh, yeh, yeh)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+<u>나는 놀려고 일해 <span class="h">那愣no六購依ㄌㄟA</span></u><br>
+<u>일도 놀 때처럼 해 너는 어때 <span class="h">依都no 貼秋龍 黑no尼no ㄉㄟˋ</span></u><br>
+<u>매일 노는 것 같아 신선 같아 <span class="h">妹依 no愣 勾卡貼 新搜ca貼A</span></u><br>
+<span class="h">What a life, what a life, what a life<br>
+What a life, what a life, what a life<br>
+What a life, what a life</span><br>
+            </p>
+        </div>
+
+
+
+        <a href="../index.html" class="back-link"> ← 返回首頁</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://www.musixmatch.com/lyrics/EXO-SC/What-a-life" target="_blank" class="source-link">
+                    歌詞來源:musixmatch
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=mK6loPe20Qc&list=PLxQWlnu8ukqo5UzK3iPLVzjLKyJ37HtLn&index=17" target="_blank" class="source-link">
+                    參考應援影片:Tha EXpLOrers of Taiwan
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

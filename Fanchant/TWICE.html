@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>FANCHANT</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">KPOP Cheering Guide</div>
+        <div class="search-box">
+            <a href="index.html" class="back-link"> ← 返回首頁</a>
+            <input type="text" id="searchInput" placeholder="搜尋歌曲...">
+            <select id="groupSelect">
+                <option value="all">全部歌曲</option>
+                <option value="like">Like Ooh Ahh</option>
+                <option value="c">CHEER UP</option>
+                <option value="tt">TT</option>
+                <option value="si">Signal</option>
+                <option value="li">Likey</option>
+                <option value="Heark">Heark Shaker</option>
+                <option value="Knock">Knock Knock</option>
+                <option value="What is Love">What is Love</option>
+                <option value="Dance The Night Away">Dance The Night Away</option>
+                <option value="FANCY">FANCY</option>
+                <option value="Feel Special">Feel Special</option>
+                <option value="MORE&MORE">MORE&MORE</option>
+                <option value="I CAN'T STOP ME">I CAN'T STOP ME</option>
+                <option value="CRY FOR ME">CRY FOR ME</option>
+                <option value="Alcohol-Free">Alcohol-Free</option>
+                <option value="The Feels">The Feels</option>
+                <option value="SCIENTIST">SCIENTIST</option>
+                <option value="POP!">POP!</option>
+                <option value="Talk that Talk">Talk that Talk</option>
+                <option value="SET ME FREE">SET ME FREE</option>
+                <option value="Killin' Me Good">Killin' Me Good</option>
+                <option value="I GOT YOU">I GOT YOU</option>
+                <option value="ONE SPARK">ONE SPARK</option>
+                <option value="ABCD">ABCD</option>
+                <option value="Run Away">Run Away</option>
+                <option value="Strategy">Strategy</option>
+                <option value="THIS IS FOR">THIS IS FOR</option>
+                <option value="SHOOT">SHOOT (Firecracker)</option>
+                <option value="MEEEEEE">MEEEEEE</option>
+                <option value="FIX A DRINK">FIX A DRINK</option>
+                <option value="MOVE LIKE THAT">MOVE LIKE THAT</option>
+                <option value="DECAFFEINATED">DECAFFEINATED</option>
+                <option value="ATM">ATM</option>
+                <option value="STONE COLD">STONE COLD</option>
+                <option value="CHESS">CHESS</option>
+                <option value="IN MY ROOM">IN MY ROOM</option>
+                <option value="DIVE IN">DIVE IN</option>
+            </select>
+        </div>
+    </nav>
+
+    <main class="grid" id="cardGrid">
+        <div class="song-card" data-group="like" style="--group-color: #FF5FA2 ;" onclick="location.href='TWICE/Like_Ooh_Ahh.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Like Ooh Ahh</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="c" style="--group-color: #FF5FA2 ;" onclick="location.href='TWICE/CHEER_UP.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">CHEER UP</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="tt" style="--group-color: #FF5FA2 ;" onclick="location.href='TWICE/TT.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">TT</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="si" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Signal</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="li"  style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Likey</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Heark" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Heark Shaker</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Knock" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Knock Knock</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="What is Love" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">What is Love</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Dance The Night Away" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Dance The Night Away</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="FANCY" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">FANCY</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="Feel Special" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Feel Special</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="MORE&MORE" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">MORE&MORE</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="I CAN'T STOP ME" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">I CAN'T STOP ME</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>  
+
+        <div class="song-card" data-group="CRY FOR ME" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">CRY FOR ME</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Alcohol-Free" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Alcohol-Free</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="The Feels" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">The Feels</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="SCIENTIST" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">SCIENTIST</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="POP!" style="--group-color: #79d6e9;" onclick="location.href='ya.html'">
+            <div class="card-artist">NAYEON</div>
+            <h2 class="card-title" style="color:#79d6e9;">POP!</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Talk that Talk" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Talk that Talk</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="SET ME FREE" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">SET ME FREE</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Killin' Me Good" style="--group-color: #FAC066;" onclick="location.href='ya.html'">
+            <div class="card-artist">JIHYO</div>
+            <h2 class="card-title" style="color:#FAC066;">Killin' Me Good</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="I GOT YOU" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">I GOT YOU</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="ONE SPARK" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">ONE SPARK</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="ABCD" style="--group-color: #79d6e9;" onclick="location.href='ya.html'">
+            <div class="card-artist">NAYEON</div>
+            <h2 class="card-title" style="color:#79d6e9;">ABCD</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Run Away" style="--group-color: #074AAB;" onclick="location.href='TWICE/Run_Away.html'">
+            <div class="card-artist">TZUYU</div>
+            <h2 class="card-title" style="color:#074AAB;">Run Away</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+        <div class="song-card" data-group="Strategy" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">Strategy</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="THIS IS FOR" style="--group-color: #FF5FA2 ;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title">THIS IS FOR</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="SHOOT" style="--group-color: #CF2E45;" onclick="location.href='ya.html'">
+            <div class="card-artist">CHAEYOUNG</div>
+            <h2 class="card-title" style="color:#CF2E45;">SHOOT<br>(Firecracker)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="MEEEEEE" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#79d6e9;">MEEEEEE<br>(NAYEON)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="FIX A DRINK" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#BED48A;">FIX A DRINK<br>(JEONGYEON)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="MOVE LIKE THAT" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#f83b70;">MOVE LIKE THAT<br>(MOMO)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="DECAFFEINATED" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#6707ab;">DECAFFEINATED<br>(SANA)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="ATM" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#FAC066;">ATM<br>(JIHYO)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="STONE COLD" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#2ecfb7;">STONE COLD<br>(MINA)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="CHESS" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#F6EEE5;">CHESS<br>(DAHYUN)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="IN MY ROOM" style="--group-color: #FF5FA2;" onclick="location.href='ya.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#CF2E45;">IN MY ROOM<br>(CHAEYOUNG)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+        <div class="song-card" data-group="DIVE IN" style="--group-color: #FF5FA2;" onclick="location.href='TWICE/DIVE_IN.html'">
+            <div class="card-artist">TWICE</div>
+            <h2 class="card-title" style="color:#074AAB;">DIVE IN<br>(TZUYU)</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+    </main>
+
+   <script src="script.js" defer></script>
+</body>
+</html>

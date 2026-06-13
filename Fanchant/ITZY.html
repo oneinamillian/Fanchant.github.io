@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>FANCHANT</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">KPOP Cheering Guide</div>
+        <div class="search-box">
+            <a href="index.html" class="back-link"> ← 返回首頁</a>
+            <select id="groupSelect">
+                <option value="all">全部歌曲</option>
+                <option value="dalla">DALLA DALLA</option>
+                
+
+            </select>
+        </div>
+    </nav>
+
+    <main class="grid" id="cardGrid">
+        <div class="song-card" data-group="dalla" style="--group-color: #FF1744 ;" onclick="location.href='ITZY/DALLA_DALLA.html'">
+            <div class="card-artist">ITZY</div>
+            <h2 class="card-title">DALLA DALLA</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+

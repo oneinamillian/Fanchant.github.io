@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>FANCHANT</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">KPOP Cheering Guide</div>
+        <div class="search-box">
+            <a href="index.html" class="back-link"> ← 返回首頁</a>
+            <select id="groupSelect">
+                <option value="all">全部歌曲</option>
+                <option value="luv">Boy With Luv</option>
+                
+
+            </select>
+        </div>
+    </nav>
+
+    <main class="grid" id="cardGrid">
+        <div class="song-card" data-group="luv" style="--group-color: #dd63e1 ;" onclick="location.href='BTS/Boy_With_Luv.html'">
+            <div class="card-artist">BTS</div>
+            <h2 class="card-title">Boy With Luv</h2>
+            <div class="card-arrow">GO TO GUIDE →</div>
+        </div>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
+

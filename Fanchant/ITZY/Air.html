@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Air Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #3c3c44,#e2ded9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        
+        .h {
+            background: none;
+            color: #3c3c44;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #3c3c44; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #3c3c44;     
+            border-bottom-color: #3c3c44;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">YEJI</span>
+            <h1 class="song">Air</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/TamDOXponnM" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+<span class="h">[Hwang! Ye! ji!]</span><br>
+Every last breath<br>
+달콤해진 oxygen, insane<br>
+호흡의 방법은<br>
+전부 잊게 돼 oh<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Gonna take a <span class="h">chance</span><br>
+Give up all the <span class="h">plans</span><br>
+알 수 없는 힘에 이끌려가게 돼<br>
+빨라진 step 다른 건 다 잊은 채<br>
+온몸을 던질래<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Takin’ my air<br>
+거부할 수 없는 이 느낌<br>
+oh <span class="h">baby</span><br>
+Got in my prayers<br>
+내게 집중한 순간 더 <u>깊이 <span class="h">ㄍㄧ匹</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You keep takin' all of my <span class="h">air, air, air</span><br>
+All my <span class="h">air, air, air</span><br>
+묶인 시선 <u>끝에 <span class="h"></span></u> you take my breath <span class="h">away</span><br>
+Takin' my air<br>
+피할 수 없는 이 feeling <span class="h">[feeling]</span><br>
+You keep takin' all of my<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Here it comes<br>
+또 불어오는 second wind, oh, yeah<br>
+Why would I stay?<br>
+가볼래 let it begin (yeah, yeah, yeah, yeah, yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+I'm gonna take a <span class="h">chance</span>, <br>
+give up all the <span class="h">plans</span><br>
+이 순간 너와 나 말곤 아득해 yeah<br>
+끝없는 chase 이젠 멈추진 못해<br>
+And here I go again<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Takin' my air (air)<br>
+거부할 수 없는 이 느낌 (oh-whoa-ooh) oh, <span class="h">baby</span><br>
+Got in my prayers (in my prayers now)<br>
+내게 집중한 순간 더 <u>깊이 <span class="h">ㄍㄧ匹</span></u>  (no, no, no, no)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You keep takin' all of my <span class="h">air, air, air</span><br>
+All my <span class="h">air, air, air</span><br>
+묶인 시선 <u>끝에 <span class="h">哭ㄊㄟ</span></u> you take my breath <span class="h">away</span><br>
+Takin' my air (takin' my air)<br>
+피할 수 없는 이 feeling (<span class="h">feeling</span>)<br>
+You keep takin' all of my<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Air<br>
+Ooh, it feels so right<br>
+Air<br>
+Ooh, I'm burning so bright<br>
+<span class="h">[Ye! ji! A! ir!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Takin' my air (air)<br>
+내게 빠져든 순간 fallin' (내게 빠져든 순간 fallin')<br>
+Oh, <span class="h">baby</span> (oh, baby)<br>
+Got in my head (got in my head)<br>
+벗어날 수 없는 이 <u>느낌 <span class="h">ㄋ ㄍㄧㄣ</span></u>  (fallin')<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You keep takin' all of my <span class="h">air, air, air</span> (all my air)<br>
+All my <span class="h">air, air, air</span> (all my air)<br>
+묶인 시선 <u>끝에 <span class="h">哭ㄊㄟ</span></u> you take my breath <span class="h">away</span> (oh)<br>
+Takin' my <span class="h">air, air, air</span><br>
+All my <span class="h">air, air, air</span> (all my air, air, air)<br>
+멈출 수가 <u>없게 <span class="h">喔給</span></u> , 나를 숨 멎게 해 (takin' my, takin' my)<br>
+<span class="h">[八邱禿囉 HwangYeji! 西搜ㄎㄊㄟ HwangYeji! ㄙ摸給嘿 HwangYeji!]</span><br>
+            </p>
+        </div>
+
+
+
+        <a href="../ITZY.html" class="back-link"> ← 返回ITZY</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://lyrics.lyricfind.com/lyrics/yeji-itzy-air" target="_blank" class="source-link">
+                    歌詞來源:Lyrics Find
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=nEGU6pbRGDk" target="_blank" class="source-link">
+                    參考應援影片:ITZY
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

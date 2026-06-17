@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>Motto Cheering Guide</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
+
+        body {
+            background-color: #ffffff;
+            color: #000000;
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            padding: 60px 8%;
+            border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
+        }
+
+        .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
+
+        .back-link:hover { background: #000; color: #fff; }
+
+        .title-group {
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
+        }
+
+        .artist {
+            font-weight: 400;
+            letter-spacing: 4px;
+            color: #666;
+            margin-bottom: 8px;   
+        }
+
+        .song {
+            font-size: 6rem;
+            font-weight: 900;
+            background: linear-gradient(135deg, #FF1744,#FF9472);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin: 0;
+            line-height: 1.1;
+        }
+
+        .video-wrapper {
+            padding: 60px 8% 20px 8%;
+            display: flex;
+            justify-content: center;
+        }
+
+        .video-box {
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+
+        .video-box iframe { width: 100%; height: 100%; border: none; }
+
+        .lyrics-body {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px 20px 100px 20px;
+        }
+
+        .lyric-item {
+            margin-bottom: 60px;
+            border-left: 5px solid #eee; 
+            padding-left: 30px;
+        }
+        mark {
+            background: linear-gradient( #ff17454e 0%); 
+            color: inherit;
+            padding: 0 4px;
+            border-radius: 2px;
+        }
+        
+        .h {
+            background: none;
+            color: #FF1744;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
+
+.h {
+    padding: 0 2px;
+}
+
+        u { border-bottom: 3px solid #FF1744; text-decoration: none; }
+
+        .tip {
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
+            font-weight: 700;
+            color: #505357;
+            text-transform: uppercase;
+            letter-spacing: 1px;      
+            
+            /* 圓弧外框核心代碼 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #FF1744;     
+            border-bottom-color: #FF1744;
+        }
+        @media (max-width: 768px) {
+        .artist {
+            font-size: 0.8rem;
+            letter-spacing: 3px;
+        }
+
+        .song {
+            font-size: clamp(2.5rem, 10vw, 3.5rem);
+            line-height: 1.1;
+        }
+
+        .tip {
+            font-size: 0.75rem;
+            padding: 3px 10px;
+        }
+    }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div class="title-group">
+            <span class="artist">ITZY</span>
+            <h1 class="song">Motto</h1>
+        </div>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </header>
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/1jKnI_ib8c8" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Mo-mo-mo-mo-mo-motto<br>
+Mo-mo-mo-mo-mo-motto<br>
+Mo-mo-mo-mo-mo-motto <br>
+<mark><span class="h">[IT! ZY! MID! ZY!]</span><br>
+(you are my motto)</mark><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+두 눈을 감아<br>
+I can feel you by my side<br>
+All the time<br>
+Oh, yeah, eh<br>
+Make me fearless, uh<br>
+늘 소란한 어둠을 헤맬 때<br>
+Got me in a trance<br>
+익숙한 너의 voice <span class="h">[撒浪嘿!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+운명처럼 <span class="h">fallin'</span>, <br>
+달라져 shift my <span class="h">callin'</span><br>
+I know that you feel it, too<br>
+You gotta trust me, <span class="h">baby</span>,<br>
+기다려줘 <span class="h">you'll see</span><br>
+끝내 닿을 너란 꿈<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You are my wish, 날 이끌어 <span class="h">[互!]</span><br>
+You are the gleam, 날 일으켜 <span class="h">[哈!]</span><br>
+세상 끝에 서 있을 때<br>
+Uh 환히 나를 비춰<br>
+Take me to a better place<br>
+이 결말 따윈 not afraid<br>
+Yeah, I need you by my side<br>
+Ready? <span class="h">Dive in</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Take my hand<br>
+Ain't, ain't nobody like you, you, you<br>
+I wanna be the one<br>
+너를 향해 멈추지 않아, ah<br>
+Now I know<br>
+널, 널 닮아 눈부실 my everything<br>
+날 비춘 너<br>
+Want you so bad <br>
+<mark><span class="h">[逆尬ㄋㄟMotto]</span><br>
+'cause you are my motto, oh</mark><br>
+<span class="tip">停四拍</span>                <br>
+<span class="h">[Mo! tto! MID! ZY!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+너로 번져오는 delight (<span class="h">delight</span>)<br>
+끝이 어딘지는 몰라 (<span class="h">what?</span>)<br>
+망설이던 밤은 over (yeah)<br>
+선명하게 빛나 clearly<br>
+뜨거운 <u>숨이 <span class="h">素密</span></u> 날 데려가 <span class="h">swervin'</span><br>
+세상 끝이라 해도 move<br>
+I gotta stand<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+I gotta stand, 나를 던져 <span class="h">[互!]</span><br>
+Don't hesitate, 후회 없게 <span class="h">[哈!]</span><br>
+Everyday, never look back<br>
+Yeah, 답은 오직 너야<br>
+Take me to a better place<br>
+이 결말 따윈 not afraid<br>
+Yeah, I need you by my side<br>
+Ready? <span class="h">Dive in</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Take my hand<br>
+Ain't, ain't nobody like you, you, you<br>
+I wanna be the one<br>
+너를 향해 멈추지 않아, ah<br>
+Now I know<br>
+널, 널 닮아 눈부실 my everything<br>
+날 비춘 너<br>
+Want you so bad <br>
+<mark><span class="h">[內尬 逆 Motto]</span><br>
+'cause you are my motto</mark>, oh<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Mo-mo-mo-mo-mo-<span class="h"></span>motto<br>
+Mo-mo-mo-mo-mo-<span class="h"></span>motto<br>
+Mo-mo-mo-mo-mo-<span class="h"></span>motto<br>
+<mark><span class="h">[內尬 逆 motto]</span><br>
+You are my motto</mark> , oh<br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span><br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span><br>
+Mo-mo-mo-mo-mo-motto<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You know, I know<br>
+That I need your love<br>
+Let's call it us (ooh, ooh)<br>
+지금 순간도 (ooh-ooh-ooh-ooh)<br>
+함께한 시간의 <u>끝에 <span class="h">ㄍㄉㄟˋ</span></u> <br>
+내 안을 채우는 <span class="h">something</span><br>
+Call you any time<br>
+When I need someone, you<br>
+<span class="h">[HwangYeji! ChoiJisu! ShinRyujin! LeeChaeryeong! ShinYuna! Motto!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Oh, now I know<br>
+Take me there like that<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Take my hand (ah)<br>
+Ain't, ain't nobody like you, you, you<br>
+I wanna be the one (the one)<br>
+너를 향해 멈추지 않아, ah (ah)<br>
+As you know<br>
+Feeling so meant to be, 이 떨림이<br>
+Don't take it slow (oh, oh)<br>
+하나가 돼 <br>
+<mark><span class="h">[內尬 逆 Motto]</span><br>
+'cause you are my motto</mark>, oh (you are my motto)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Mo-mo-mo-mo-mo-<span class="h">motto</span> (my motto, baby)<br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span> (yeah, you know)<br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span><br>
+<mark><span class="h">[內尬 逆 Motto]</span><br>
+You are my motto</mark>, oh (my motto)<br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span><br>
+Mo-mo-mo-mo-mo-<span class="h">motto</span><br>
+Mo-mo-mo-mo-mo-motto<br>
+<span class="h">[Motto! ITZY!]</span><br>
+            </p>
+        </div>
+
+
+        
+
+        <a href="../ITZY.html" class="back-link"> ← 返回ITZY</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://lyrics.lyricfind.com/lyrics/itzy-motto" target="_blank" class="source-link">
+                    歌詞來源:Lyrics Find
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=qw-fI7VAiPE&t=1s" target="_blank" class="source-link">
+                    參考應援影片:ITZY
+                </a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>

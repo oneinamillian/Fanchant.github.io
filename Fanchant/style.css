@@ -7,6 +7,7 @@
     --border-color: #000000; /* 強調明顯的外框線條 */
     --text-main: #1a1a1a;
     --text-muted: #666666;
+    
 }
 
 body {
@@ -23,10 +24,72 @@ body {
     align-items: center;
     padding: 1.5rem 8%;
     background: white;
-    border-bottom: 2px solid var(--border-color); /* 頂部粗線條增加設計感 */
-    position: sticky;
+    border-bottom: 2px solid var(--border-color);
+    position: sticky; /* relative 改成 sticky */
     top: 0;
     z-index: 100;
+}
+/* ==================== 1. 右上角三條線按鈕 ==================== */
+.menu-toggle {
+    width: 28px;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 999;
+    margin-left: 8px;    /* 讓它跟左邊的下拉選單（select）保持一點好看的距離 */
+    flex-shrink: 0; /* 確保按鈕永遠在最上層 */
+}
+
+/* 繪製三條黑線 */
+.menu-toggle span {
+    display: block;
+    height: 4px;
+    width: 100%;
+    background-color: #000; /* 可以換成你喜歡的顏色 */
+    border-radius: 2px;
+    transition: all 0.3s ease;
+}
+
+/* ==================== 2. 跳出的選單清單（側邊欄） ==================== */
+.nav-menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    background-color: #fff;
+    border-left: 2px solid #000;
+    padding: 80px 32px 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    transform: translateX(100%);
+    transition: transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    z-index: 999; /* navbar 的 z-index 是 100，這裡要更高 */
+}
+
+/* ==================== 3. 當選單被打開時的樣式 ==================== */
+.nav-menu.active {
+    transform: translateX(0); /* 打開時滑回來 */
+}
+
+.nav-menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    transition: color 0.2s;
+}
+
+.nav-menu a:hover {
+    color: #666;
 }
 
 .logo { font-weight: 900; font-size: 1.3rem; letter-spacing: 1px; }
@@ -40,7 +103,7 @@ body {
     border-radius: 0px; /* 直角設計更有主見 */
     font-weight: 700;
     outline: none;
-    margin-left: 10px;
+    margin-left: 0;
 }
 
 .grid {
@@ -51,20 +114,38 @@ body {
 }
 
 /* --- 強化設計感的卡片 --- */
-.song-card {
-    background: var(--card-bg);
-    padding: 50px 40px;
-    border: 2px solid var(--border-color); /* 顯眼的黑邊框 */
-    border-radius: 0px; 
-    cursor: pointer;
-    transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    position: relative;
-    box-shadow: 8px 8px 0px #000; /* 經典的硬陰影，非常有設計感 */
-    transition: all 0.2s ease;
-}
+
 .song-card:hover, .song-card:active {
     transform: translate(-4px, -4px); /* 向上微移 */
     box-shadow: 12px 12px 0px var(--group-color); /* 懸浮時陰影變藍色 */
+}
+
+.song-card {
+    background: var(--card-bg);
+    padding: 24px; /* 讓四周留白均勻 */
+    border: 2px solid #000; 
+    border-radius: 24px; 
+    cursor: pointer;
+    position: relative;
+    box-shadow: 8px 8px 0px #000;
+    transition: all 0.2s ease;
+    
+    /* 直式排列 */
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* 新增：直式照片樣式 */
+.card-img-top {
+    width: 150px;        /* 寬度填滿卡片 */
+    height: 150px;      /* 設定一個固定的高度 */
+    object-fit: cover;  /* 裁切不變形 */
+    border-radius: 50%;
+    margin-bottom: 0; /* 與下方文字的距離 */
+    flex-shrink: 0;
 }
 
 .card-artist {
@@ -73,6 +154,22 @@ body {
     letter-spacing: 2px;
     margin-bottom: 15px;
     color: var(--group-color);
+}
+.card-title {
+    font-size: 2.2rem;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    
+}
+.progress-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: 500;
+    padding: 3px 12px;
+    border-radius: 99px;
+    margin-top: 6px;
+    letter-spacing: 1px;
 }
 
 .back-link {
@@ -87,21 +184,133 @@ body {
 
 .back-link:hover { background: #000; color: #fff; }
 
-.card-title {
-    font-size: 2.2rem;
-    font-weight: 900;
-    margin: 0;
-    line-height: 1;
-    
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    margin: 0 auto;
+    max-width: 600px;
 }
 
-.card-arrow {
-    margin-top: 40px;
-    font-size: 0.8rem;
+.timeline::before {
+    content: '';
+    position: absolute;
+    left: 50px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: var(--group-color);
+}
+
+.timeline-item {
+    position: relative;
+    padding: 0 0 30px 90px;
+    cursor: pointer;
+    scroll-margin-top: 150px;
+}
+
+.timeline-dot {
+    position: absolute;
+    left: 43px;
+    top: 5px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--group-color);
+    border: 3px solid #fff;
+}
+
+.timeline-date {
+    font-size: 0.75rem;
+    color: var(--group-color);
     font-weight: 700;
-    display: inline-block;
-    border-bottom: 2px solid #000;
-    padding-bottom: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+}
+
+.timeline-card {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px;
+    border: 2px solid #eee;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.timeline-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.timeline-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.timeline-album {
+    font-size: 0.7rem;
+    color: #999;
+    letter-spacing: 1px;
+    margin-bottom: 4px;
+}
+
+.timeline-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #222;
+}
+
+.filter-bar {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    padding: 12px 16px;
+}
+.timeline-divider {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 30px 0;
+    padding-left: 90px;
+}
+
+.timeline-divider::before {
+    content: '';
+    position: absolute;
+    left: 90px;
+    right: 0;
+    height: 1.5px;
+    background: #ddd;
+}
+
+.timeline-divider span {
+    position: relative;
+    background: #fff;
+    padding: 0 10px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: #aaa;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+.filter-btn {
+    padding: 6px 16px;
+    border-radius: 99px;
+    border: 1.5px solid #ddd;
+    background: #fff;
+    font-size: 0.85rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.filter-btn.active {
+    background: #222;
+    color: #fff;
+    border-color: #222;
 }
 
 /* --- 手機版適應 (螢幕寬度 768px 以下) --- */
@@ -130,7 +339,9 @@ body {
         font-size: 0.8rem;
         padding: 8px;
     }
-
+    .nav-menu {
+        width: 50%;
+    }
     /* 3. 網格布局：從多欄改為單欄 */
     .grid {
         grid-template-columns: 1fr; /* 強制每一列只有一張卡片 */
@@ -138,10 +349,21 @@ body {
         gap: 20px;
     }
 
+    .card-img-top {
+        width: 80px;
+        height: 80px;
+    }
+    .timeline-divider {
+        padding-left: 0;
+    }
+    .timeline-divider::before {
+        left: 60px; /* 跟手機版 timeline-item 的 padding-left 一樣 */
+    }
     /* 4. 卡片細節調整：縮小內距，讓標題不要太大 */
     .song-card {
         padding: 30px 20px;
         box-shadow: 6px 6px 0px #000; /* 縮小硬陰影，避免太笨重 */
+        gap: 12px;
     }
 
     .song-card:hover {
@@ -152,7 +374,16 @@ body {
     .card-title {
         font-size: 1.6rem; /* 縮小字體防止換行太嚴重 */
     }
-.back-link {
+
+    .card-artist {
+        font-size: 0.85rem;
+    }
+    .progress-badge {
+        font-size: 0.68rem;
+        padding: 2px 10px;
+    }
+    
+    .back-link {
             text-decoration: none;
             color: #000;
             font-weight: 700;
@@ -165,5 +396,25 @@ body {
 .back-link:hover { background: #000; color: #fff; }
     .card-arrow {
         margin-top: 25px;
+    }
+    .timeline::before {
+        left: 30px;
+    }
+
+    .timeline-item {
+        padding-left: 60px;
+    }
+
+    .timeline-dot {
+        left: 23px;
+    }
+
+    .timeline-img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .timeline-card {
+        margin-right: 16px;
     }
 }

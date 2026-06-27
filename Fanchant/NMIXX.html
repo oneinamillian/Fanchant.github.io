@@ -6,49 +6,40 @@
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body style="--group-color: #49cee1;">
     <nav class="navbar">
         <div class="logo">NMIXX 🐳</div>
         <div class="search-box">
             <a href="index.html" class="back-link"> ← 返回首頁</a>
-            <select id="groupSelect">
+            <select id="songSelect">
                 <option value="all">全部歌曲</option>
-                <!-- <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option>
-                <option value=""></option> -->
+                
                 <option value="HeavySerenade">Heavy Serenade</option>
 
             </select>
         </div>
     </nav>
 
-    <main class="grid" id="cardGrid">
-        <div class="song-card" data-group="HeavySerenade" style="--group-color: #49cee1 ;" onclick="location.href='NMIXX/HeavySerenade.html'">
-            <div class="card-artist">NMIXX</div>
-            <h2 class="card-title">Heavy Serenade</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
+    <main class="timeline-wrapper">
+        <div class="timeline">
+
+            <div class="timeline-item" id="HeavySerenade" onclick="location.href='NMIXX/HeavySerenade.html'">
+                <div class="timeline-dot" ></div>
+                <div class="timeline-date" >2026.05.11</div>
+                <div class="timeline-card">
+                    <img src="image/NMIXX/500x500 (17).jpg" alt="O.O" class="timeline-img">
+                    <div class="timeline-info">
+                        <div class="timeline-album">Heavy Serenade</div>
+                        <div class="timeline-title">Heavy Serenade</div>
+                    </div>
+                </div>
+            </div>
+<div class="timeline-divider">
+    <span>以下歌曲尚未完成</span>
+</div>
+            
+            
         </div>
-        <!-- <div class="song-card" data-group="luv" style="--group-color: #49cee1 ;" onclick="location.href='NMIXX/.html'">
-            <div class="card-artist">NMIXX</div>
-            <h2 class="card-title"></h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
-        </div> -->
-        
-
-
     </main>
 
     <script src="script.js" defer></script>

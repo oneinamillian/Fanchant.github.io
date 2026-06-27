@@ -1,46 +1,81 @@
-/* script.js */
-
-// 使用一個函式封裝，避免變數污染
 function initFilter() {
     const groupSelect = document.getElementById('groupSelect');
     const searchInput = document.getElementById('searchInput');
     const cards = document.querySelectorAll('.song-card');
 
-    // 檢查元素是否存在，避免報錯
-    if (!groupSelect || !cards.length) {
-        console.warn("找不到篩選選單或歌曲卡片");
-        return;
-    }
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
 
-    function performFilter() {
-        const selectedGroup = groupSelect.value.toLowerCase();
-        const searchText = (searchInput ? searchInput.value.toLowerCase() : "");
+    if (menuToggle && navMenu) {
+        menuToggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            navMenu.classList.toggle('active');
+            menuToggle.classList.toggle('active');
+        });
 
-        cards.forEach(card => {
-            const cardGroup = card.getAttribute('data-group').toLowerCase();
-            const cardTitle = card.querySelector('.card-title').innerText.toLowerCase();
+       const menuLinks = document.querySelectorAll('.nav-menu a');
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        menuToggle.classList.remove('active');
+    });
+});
 
-            // 判斷邏輯
-            const matchGroup = (selectedGroup === 'all' || cardGroup.includes(selectedGroup));
-        const matchText = cardTitle.includes(searchText);
-
-            // 執行顯示或隱藏
-            if (matchGroup && matchText) {
-                card.style.display = 'block';
-            } else {
-                card.style.display = 'none';
+        document.addEventListener('click', (e) => {
+            if (!navMenu.contains(e.target) && !menuToggle.contains(e.target)) {
+                navMenu.classList.remove('active');
+                menuToggle.classList.remove('active');
             }
         });
-        
-        console.log(`篩選完成：${selectedGroup}`);
     }
 
-    // 綁定事件
-    groupSelect.addEventListener('change', performFilter);
+    // performFilter 先定義，後面才能呼叫
+    let activeCompany = 'all';
+
+    function performFilter() {
+    const selectedGroup = groupSelect ? groupSelect.value.toLowerCase() : 'all';
+    const searchText = searchInput ? searchInput.value.toLowerCase() : '';
+
+    cards.forEach(card => {
+        const cardGroup = (card.getAttribute('data-group') || '').toLowerCase();
+        const cardTitle = card.querySelector('.card-title') ? card.querySelector('.card-title').innerText.toLowerCase() : '';
+        const cardCompany = card.getAttribute('data-company') || '';
+
+        const matchGroup = (selectedGroup === 'all' || cardGroup.includes(selectedGroup));
+        const matchText = cardTitle.includes(searchText);
+        const matchCompany = (activeCompany === 'all' || cardCompany === activeCompany);
+
+        card.style.display = (matchGroup && matchText && matchCompany) ? '' : 'none';
+    });
+}
+
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            filterBtns.forEach(b => b.classList.remove('active'));
+            btn.classList.add('active');
+            activeCompany = btn.dataset.filter;
+            performFilter();
+        });
+    });
+
+    if (groupSelect) {
+        groupSelect.addEventListener('change', performFilter);
+    }
     if (searchInput) {
         searchInput.addEventListener('input', performFilter);
     }
+
+    if (songSelect) {
+    songSelect.addEventListener('change', () => {
+        const value = songSelect.value;
+        if (value === 'all') return;
+        const target = document.getElementById(value);
+        if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    });
+}
 }
 
-// 執行初始化
 initFilter();

@@ -13,69 +13,77 @@
             <input type="text" id="searchInput" placeholder="搜尋團體...">
             <select id="groupSelect">
                 <option value="all">全部團體</option>
-                
                 <option value="BTS">BTS</option>
                 <option value="EXO">EXO</option>
-                
                 <option value="ITZY">ITZY</option>
-                
-                <!-- <option value="KISS">KISS OF LIFE</option> -->
                 <option value="NMIXX">NMIXX</option>
                 <option value="twice">TWICE</option>
-                
-
             </select>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </nav>
-
+    <div class="nav-menu" id="navMenu">
+            <a href="關於本站.html">About — 關於本站</a>
+            <a href="使用教學.html">Hello — 使用教學</a>
+            <a href="聲明.html">Notice — 聲明</a>
+        </div>
+<div class="filter-bar">
+    <button class="filter-btn active" data-filter="all">全部</button>
+    <button class="filter-btn" data-filter="JYP">JYP</button>
+    <button class="filter-btn" data-filter="SM">SM</button>
+    <button class="filter-btn" data-filter="YG">YG</button>
+    <button class="filter-btn" data-filter="HYBE">HYBE</button>
+</div>
     <main class="grid" id="cardGrid">
-        <div class="song-card" data-group="" style="--group-color: #2ecfb7 ;" onclick="location.href='關於本站.html'">
-            <div class="card-artist">About</div>
-            <h2 class="card-title">關於本站</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
-        </div>
+        
 
-        <div class="song-card" data-group="" style="--group-color: #6707ab ;" onclick="location.href='使用教學.html'">
-            <div class="card-artist">HELLO</div>
-            <h2 class="card-title">使用教學</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
-        </div>
-
-        <div class="song-card" data-group="" style="--group-color: #f83b70 ;" onclick="location.href='聲明.html'">
-            <div class="card-artist">NOTICE</div>
-            <h2 class="card-title">聲明</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
-        </div>
-
-        <div class="song-card" data-group="twice" onclick="location.href='TWICE.html'">
-            <div class="card-artist">JYP Entertainment</div>
+        <div class="song-card" data-group="twice" data-company="JYP" onclick="location.href='TWICE.html'">
+            <img src="image/TWICE/sXFipFg9_400x400.jpg" alt="TWICE" class="card-img-top">
+            <div class="card-info">
+                <div class="card-artist">JYP Entertainment</div>
             <h2 class="card-title" style="color:#FF5FA2;">TWICE</h2>
-            <div class="card-arrow">JYP~(氣音) →</div>
+            <div class="progress-badge" style="background: #ff5fa238;color:#FF5FA2;" >已完成 6 / 37 首</div>
+            </div>
+            
         </div>
 
-        <div class="song-card" data-group="ITZY" onclick="location.href='ITZY.html'">
-            <div class="card-artist">JYP Entertainment</div>
+        <div class="song-card" data-group="ITZY" data-company="JYP" onclick="location.href='ITZY.html'">
+            <img src="image/ITZY/0dTkNqtj_400x400.jpg" alt="ITZY" class="card-img-top">
+            <div class="card-info">
+                <div class="card-artist">JYP Entertainment</div>
             <h2 class="card-title" style="color:#FF1744;">ITZY</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
+            <div class="progress-badge" style="background: #ff174536;color:#FF1744;" >已完成 22 / 28 首</div>
+            </div>
         </div>
 
-        <div class="song-card" data-group="NMIXX" onclick="location.href='NMIXX.html'">
-            <div class="card-artist">JYP Entertainment</div>
+        <div class="song-card" data-group="NMIXX" data-company="JYP" onclick="location.href='NMIXX.html'">
+            <img src="image/NMIXX/N-LP7f2w_400x400.jpg" alt="NMIXX" class="card-img-top">
+            <div class="card-info">
+                <div class="card-artist">JYP Entertainment</div>
             <h2 class="card-title" style="color:#49cee1;">NMIXX</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
+            <div class="progress-badge" style="background: #49cde137;color:#49cee1;" >已完成 1 / 28 首</div>
+            </div>
         </div>
 
-        <div class="song-card" data-group="BTS" onclick="location.href='BTS.html'">
-            <div class="card-artist">HYPE Entertainment/BIG HIT MUSIC</div>
+        <div class="song-card" data-group="BTS" data-company="HYBE" onclick="location.href='BTS.html'">
+            <img src="image/BTS/WproKY0J_400x400.jpg" alt="BTS" class="card-img-top">
+            <div class="card-info">
+                <div class="card-artist">HYBE Entertainment</div>
             <h2 class="card-title" style="color:#dd63e1;">BTS</h2>
-            <div class="card-arrow">GO TO GUIDE →</div>
+            <div class="progress-badge" style="background: #dd63e134;color:#dd63e1;" >已完成 1 / 44 首</div>
+            </div>
         </div>
 
+<!-- 
         <div class="song-card" data-group="EXO" onclick="location.href='EXO.html'">
             <div class="card-artist">SM Entertainment</div>
             <h2 class="card-title" style="color:#C0C0C0;">EXO</h2>
             <div class="card-arrow">GO TO GUIDE →</div>
-        </div>
+        </div> -->
 
         
 

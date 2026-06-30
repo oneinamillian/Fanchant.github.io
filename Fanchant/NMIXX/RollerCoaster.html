@@ -2,7 +2,7 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>...</title>
+    <title>Roller Coaster Cheering Guide</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 
@@ -17,6 +17,10 @@
         .header {
             padding: 60px 8%;
             border-bottom: 2px solid #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* 讓文字在畫面水平置中 */
+            text-align: center;
         }
 
         .back-link {
@@ -32,29 +36,30 @@
         .back-link:hover { background: #000; color: #fff; }
 
         .title-group {
-            margin-top: 40px;
-            display: flex;          /* 啟用彈性佈局 */
-            flex-direction: column; /* 讓內容由上而下排列 */
-            align-items: center;    /* 水平置中所有子元素 */
-            text-align: center;     /* 確保多行文字時也能內部置中 */
+            margin-top: 0;
+            display: flex;         
+            flex-direction: column;
+            align-items: center;   
+            text-align: center;     
         }
 
-        /* 為了讓視覺更完美，建議微調這兩個原有的樣式 */
         .artist {
             font-weight: 400;
             letter-spacing: 4px;
             color: #666;
-            margin-bottom: 8px;    /* 增加一點跟標題之間的距離 */
+            margin-bottom: 8px;   
         }
 
         .song {
             font-size: 6rem;
             font-weight: 900;
+            background: linear-gradient(135deg, #49cee1,#e0f6fa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             margin: 0;
-            line-height: 1.1;      /* 置中時稍微調大行高，避免字母擠在一起 */
+            line-height: 1.1;
         }
 
-        /* 影片區塊 */
         .video-wrapper {
             padding: 60px 8% 20px 8%;
             display: flex;
@@ -65,13 +70,10 @@
             width: 100%;
             max-width: 900px;
             aspect-ratio: 16/9;
-            border: 4px solid #000; /* 顯眼的邊框 */
-            box-shadow: 15px 15px 0px #f0f0f0;
         }
 
         .video-box iframe { width: 100%; height: 100%; border: none; }
 
-        /* 歌詞內容區 */
         .lyrics-body {
             max-width: 800px;
             margin: 0 auto;
@@ -80,66 +82,87 @@
 
         .lyric-item {
             margin-bottom: 60px;
-            border-left: 5px solid #eee; /* 左側裝飾線條 */
+            border-left: 5px solid #eee; 
             padding-left: 30px;
         }
+        
+        .h {
+            background: none;
+            color: #49cee1;
+            font-weight: 700; 
+            text-decoration: none; 
+        }
 
-        .romaji { color: #888; font-size: 1rem; margin-bottom: 8px; }
-        .kana { font-size: 2.2rem; font-weight: 900; margin: 0; line-height: 1.2; }
+.h {
+    padding: 0 2px;
+}
 
-        /* 應援重點標記 */
         mark {
-            background: linear-gradient( #ffff00 0%); /* 現代感螢光筆 */
+            background: linear-gradient( #49cde15f 0%); 
             color: inherit;
             padding: 0 4px;
             border-radius: 2px;
         }
 
-        u { border-bottom: 3px solid #ffff00; text-decoration: none; }
+        u { border-bottom: 3px solid #49cee1; text-decoration: none; }
 
         .tip {
-            display: inline-block;    /* 改為 inline-block，框線才會緊貼文字長度而非撐滿整行 */
-            margin-top: 15px;
-            padding: 4px 14px;        /* 增加內距，讓文字在框內有呼吸空間 */
-            font-size: 0.85rem;       /* 稍微縮小字體，增加精緻感 */
+            display: inline-block;   
+            margin-top: 5px;
+            padding: 4px 14px;        
+            font-size: 0.85rem;       
             font-weight: 700;
             color: #505357;
             text-transform: uppercase;
-            letter-spacing: 1px;      /* 增加字距，讓大寫字母不擁擠 */
+            letter-spacing: 1px;      
             
             /* 圓弧外框核心代碼 */
-            border: 1.5px solid #d1d4d7; /* 使用比文字淺一點的灰色，外觀更高端 */
-            border-radius: 50px;         /* 設定極大的圓角，形成「膠囊型」外框 */
-            background-color: #f8f9fa;   /* 淡淡的背景色，讓框線看起來更實心、有質感 */
+            border: 1.5px solid #d1d4d7; 
+            border-radius: 50px;         
+            background-color: #f8f9fa; 
+        }
+
+        .footer-source {
+            margin-top: 80px;      
+            padding: 40px 20px;
+            border-top: 1px solid #eee; 
+            text-align: center;
+        }
+
+        .source-label {
+            font-size: 0.7rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #bbb;       
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        .source-link {
+            font-size: 0.85rem;
+            color: #666;
+            text-decoration: none;
+            border-bottom: 1px solid #ccc; 
+            padding-bottom: 2px;
+            transition: all 0.3s ease;
+        }
+
+        .source-link:hover {
+            color: #49cee1;     
+            border-bottom-color: #49cee1;
         }
         @media (max-width: 768px) {
-        /* 歌手名稱：不宜太大，保持點綴感 */
         .artist {
             font-size: 0.8rem;
             letter-spacing: 3px;
         }
 
-        /* 歌曲標題：使用 clamp 讓它在不同螢幕自動縮放，最大不超過 3.5rem */
         .song {
             font-size: clamp(2.5rem, 10vw, 3.5rem);
             line-height: 1.1;
         }
 
-        /* 空耳/讀音歌詞：這是最重要的部分，建議加大 */
-        .kana, .pronunciation {
-            font-size: 1.6rem; /* 這是手機閱讀最舒適的大標級別 */
-            font-weight: 900;
-            line-height: 1.3;
-            margin: 5px 0;
-        }
-
-        /* 原文歌詞：輔助性質，縮小並變淡 */
-        .romaji, .original {
-            font-size: 0.9rem;
-            color: #888;
-        }
-
-        /* 圓弧提示標籤 (Tip)：字體稍微縮小，但維持外框明顯 */
         .tip {
             font-size: 0.75rem;
             padding: 3px 10px;
@@ -150,12 +173,139 @@
 <body>
 
     <header class="header">
-        <a href="../NMIXX.html" class="back-link">Back to Gallery</a>
         <div class="title-group">
-            <h1 class="song">施工中...</h1>
+            <span class="artist">NMIXX</span>
+            <h1 class="song">Roller Coaster</h1>
         </div>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </header>
-    <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2VjaW5mbTVnYjU1YnFucWU2amF0bWt3ODh6ZjAxZHU5dG5yNDRqbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PVCFBiXC2IUNOaqO6K/giphy.gif" alt="應援教學動圖" style="width: 100%; max-width: 500px; border: 2px solid #000;">
+
+    
+
+<section class="video-wrapper">
+    <div class="video-box">
+        <iframe id="player" src="https://www.youtube.com/embed/fqBAzCH4-9g" 
+            allow="autoplay; encrypted-media; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+    <main class="lyrics-body">
+        <div class="lyric-item">
+            <p>
+Mm-hm-hm-hm-hm, hm-hm-hm<br>
+Mm-hm-hm-hm-hm<br>
+So incredible<br>
+<span class="h">[Lily! OhHaeWon! SeolYoonAh! BaeJinSol! KimJiWoo! JangKyuJin! Roller! Coaster!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Can't you see, <span class="h">can't you see</span>?<br>
+여기 모여봐<br>
+Chemistry, <span class="h">chemistry</span><br>
+반응하잖니<br>
+Chasin' me, <span class="h">chasin' me</span><br>
+사람들 속에 우린 호기심을 느껴<br>
+그래, 더 가까이<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+무엇을 상상하든지 바짝 긴장해야 돼<br>
+좋아, 좋아 <span class="h">[N! MIX! X!]</span><br>
+어디로 튈지 모르는 나의 달뜬 마음을<br>
+You should try (you should try) 잡아봐<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Rabbit and <span class="h">Alice, Alice</span><br>
+Romeo and <span class="h">Juliet, Juliet</span><br>
+Beast and <span class="h">Beauty, Beauty</span><br>
+그래, 여긴 너의 자리<br>
+곧 심장이 터질 듯, 멎어버릴 듯<br>
+벅찬 이 느낌 oh<br>
+한 치 앞도 모르지 shh<br>
+<span class="h">[Roller! Coaster!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shooting star, roller coaster <span class="h">ri-ri-ride</span><br>
+우린 바람을 갈라 so incredible<br>
+달려 make me feel so high, <span class="h">na-na-na</span><br>
+지금 기분이 어때? How incredible<br>
+Let's ride 꽉 잡아<br>
+Going down, going up with you<br>
+가장 높이 올라 stop!<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Oh 무수한 별종과<br>
+그 중의 별 하나<br>
+Come here, my dear <span class="h">[N! MIX! X!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shooting star, roller coaster <span class="h">ri-ri-ride</span><br>
+우린 바람을 갈라 so incredible<br>
+달려 make me feel so high, <span class="h">na-na-na</span><br>
+지금 기분이 어때? How incredible<br>
+Let's ride 꽉 잡아<br>
+Going down, going up with you<br>
+가장 높이 올라 stop!<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+처음 같은 느낌, 적응이 잘 안돼<br>
+Black hole처럼 빠져들어 가<br>
+특별한 오늘의 만남을 기억해<br>
+Don't forget<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shooting star, roller coaster <span class="h">ri-ri-ride</span><br>
+우린 바람을 갈라 so incredible (so, so, so)<br>
+달려 make me feel so high, <span class="h">na-na-na</span><br>
+지금 기분이 어때? how incredible <span class="h">[Crazy~ hoo]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+온몸이 다 젖은 채로 난 번쩍 눈을 떠<br>
+환상적인 순간에 사로잡혀서<br>
+소름이 막 돋은 채로 거칠게 숨을 쉬어<br>
+혜성처럼 밝고 선명했던 꿈<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Shooting star, roller coaster ri-ri-ride<br>
+우린 바람을 갈라 so incredible<br>
+            </p>
+        </div>
+
+
+        <a href="../NMIXX.html" class="back-link"> ← 返回NMIXX</a>
+
+        <footer class="footer-source">
+            <div class="source-container">
+                <span class="source-label">參考資源</span>
+                <a href="https://lyrics.lyricfind.com/lyrics/nmixx-roller-coaster" target="_blank" class="source-link">
+                    歌詞來源:lyricfind
+                </a><br>
+                <a href="https://www.youtube.com/watch?v=icCkjsxvueo" target="_blank" class="source-link">
+                    參考應援影片:NMIXX & NSWER in Taiwan臺灣聯合應援團隊
+                </a>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>

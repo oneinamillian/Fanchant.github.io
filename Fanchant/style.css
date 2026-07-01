@@ -110,7 +110,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 40px;
-    padding: 80px 8%;
+    padding: 10px 8% 80px;
 }
 
 /* --- 強化設計感的卡片 --- */
@@ -171,7 +171,13 @@ body {
     margin-top: 6px;
     letter-spacing: 1px;
 }
-
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 .back-link {
             text-decoration: none;
             color: #000;
@@ -313,6 +319,50 @@ body {
     border-color: #222;
 }
 
+.marquee-wrapper {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding: 10px 0;
+    overflow: hidden;
+    gap: 16px;
+}
+
+.marquee-label {
+    font-size: 0.75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 0 16px;
+    border-right: 2px solid #000;
+    flex-shrink: 0;
+}
+
+.marquee-track {
+    overflow: hidden;
+    flex: 1;
+}
+
+.marquee-content {
+    display: flex;
+    gap: 48px;
+    animation: marquee 18s linear infinite;
+    width: max-content;
+}
+
+.marquee-content span {
+    font-size: 0.85rem;
+    font-weight: 500;
+    white-space: nowrap;
+    letter-spacing: 1px;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-50%); }
+}
+
 /* --- 手機版適應 (螢幕寬度 768px 以下) --- */
 @media (max-width: 768px) {
     /* 1. 調整導覽列：縮小內距並讓 Logo 置中 */
@@ -346,7 +396,7 @@ body {
     .grid {
         grid-template-columns: 1fr; /* 強制每一列只有一張卡片 */
         padding: 30px 5%;
-        gap: 20px;
+        gap: 20px 5%;
     }
 
     .card-img-top {
@@ -383,17 +433,7 @@ body {
         padding: 2px 10px;
     }
     
-    .back-link {
-            text-decoration: none;
-            color: #000;
-            font-weight: 700;
-            font-size: 0.9rem;
-            border: 2px solid #000;
-            padding: 8px 16px;
-            transition: all 0.2s;
-        }
 
-.back-link:hover { background: #000; color: #fff; }
     .card-arrow {
         margin-top: 25px;
     }

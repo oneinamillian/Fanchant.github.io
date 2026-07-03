@@ -272,8 +272,12 @@ body {
 .filter-bar {
     display: flex;
     gap: 8px;
-    flex-wrap: wrap;
     padding: 12px 16px;
+    margin-top: 16px;
+    overflow-x: auto;
+    flex-wrap: nowrap; /* 不換行 */
+    -webkit-overflow-scrolling: touch; /* iOS 滑順滾動 */
+    scrollbar-width: none; /* 隱藏滾動條 Firefox */
 }
 .timeline-divider {
     position: relative;
@@ -311,6 +315,7 @@ body {
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s;
+    white-space: nowrap;
 }
 
 .filter-btn.active {
@@ -457,4 +462,5 @@ body {
     .timeline-card {
         margin-right: 16px;
     }
+    
 }

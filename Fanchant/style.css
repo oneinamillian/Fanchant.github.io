@@ -110,7 +110,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 40px;
-    padding: 10px 8% 80px;
+    padding: 80px 8%;
 }
 
 /* --- 強化設計感的卡片 --- */
@@ -171,13 +171,7 @@ body {
     margin-top: 6px;
     letter-spacing: 1px;
 }
-.card-info {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-}
+
 .back-link {
             text-decoration: none;
             color: #000;
@@ -211,7 +205,6 @@ body {
     position: relative;
     padding: 0 0 30px 90px;
     cursor: pointer;
-    scroll-margin-top: 150px;
 }
 
 .timeline-dot {
@@ -272,12 +265,8 @@ body {
 .filter-bar {
     display: flex;
     gap: 8px;
+    flex-wrap: wrap;
     padding: 12px 16px;
-    margin-top: 16px;
-    overflow-x: auto;
-    flex-wrap: nowrap; /* 不換行 */
-    -webkit-overflow-scrolling: touch; /* iOS 滑順滾動 */
-    scrollbar-width: none; /* 隱藏滾動條 Firefox */
 }
 .timeline-divider {
     position: relative;
@@ -315,57 +304,12 @@ body {
     font-size: 0.85rem;
     cursor: pointer;
     transition: all 0.2s;
-    white-space: nowrap;
 }
 
 .filter-btn.active {
     background: #222;
     color: #fff;
     border-color: #222;
-}
-
-.marquee-wrapper {
-    display: flex;
-    align-items: center;
-    border-bottom: 2px solid #000;
-    padding: 10px 0;
-    overflow: hidden;
-    gap: 16px;
-}
-
-.marquee-label {
-    font-size: 0.75rem;
-    font-weight: 900;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    white-space: nowrap;
-    padding: 0 16px;
-    border-right: 2px solid #000;
-    flex-shrink: 0;
-}
-
-.marquee-track {
-    overflow: hidden;
-    flex: 1;
-}
-
-.marquee-content {
-    display: flex;
-    gap: 48px;
-    animation: marquee 18s linear infinite;
-    width: max-content;
-}
-
-.marquee-content span {
-    font-size: 0.85rem;
-    font-weight: 500;
-    white-space: nowrap;
-    letter-spacing: 1px;
-}
-
-@keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
 }
 
 /* --- 手機版適應 (螢幕寬度 768px 以下) --- */
@@ -401,7 +345,7 @@ body {
     .grid {
         grid-template-columns: 1fr; /* 強制每一列只有一張卡片 */
         padding: 30px 5%;
-        gap: 20px 5%;
+        gap: 20px;
     }
 
     .card-img-top {
@@ -438,7 +382,17 @@ body {
         padding: 2px 10px;
     }
     
+    .back-link {
+            text-decoration: none;
+            color: #000;
+            font-weight: 700;
+            font-size: 0.9rem;
+            border: 2px solid #000;
+            padding: 8px 16px;
+            transition: all 0.2s;
+        }
 
+.back-link:hover { background: #000; color: #fff; }
     .card-arrow {
         margin-top: 25px;
     }
@@ -462,5 +416,4 @@ body {
     .timeline-card {
         margin-right: 16px;
     }
-    
 }

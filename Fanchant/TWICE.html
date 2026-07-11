@@ -2,154 +2,57 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>FANCHANT</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TWICE Fan Chant</title>
+    <link rel="stylesheet" href="song.css">
     <script src="register-sw.js"></script>
+    <style>
+        :root {
+            --theme-main: #FF5FA2;   /* 主色：歌名文字、應援詞、連結 */
+            --theme-light: #FDE7EF; /* 內容區底色 (淺) */
+            --theme-bg: #eefbd5;    /* 備用底色 */
+        }
+    </style>
 </head>
-<body style="--group-color: #FF5FA2;">
-    <nav class="navbar">
-        <div class="logo">國民女團 TWICE🍭</div>
-        <div class="search-box">
-            <a href="index.html" class="back-link"> ← 返回首頁</a>
-            <select id="songSelect">
-                <option value="all">全部歌曲</option>
-                <option value="LikeOohAhh">Like Ooh Ahh</option>
-                <option value="CHEERUP">CHEER UP</option>
-                <option value="TT">TT</option>
-                <option value="si">Signal</option>
-                <option value="li">Likey</option>
-                <option value="Heark">Heark Shaker</option>
-                <option value="Knock">Knock Knock</option>
-                <option value="WhatisLove">What is Love?</option>
-                <option value="Dance The Night Away">Dance The Night Away</option>
-                <option value="FANCY">FANCY</option>
-                <option value="Feel Special">Feel Special</option>
-                <option value="MORE&MORE">MORE&MORE</option>
-                <option value="I CAN'T STOP ME">I CAN'T STOP ME</option>
-                <option value="CRY FOR ME">CRY FOR ME</option>
-                <option value="Alcohol-Free">Alcohol-Free</option>
-                <option value="The Feels">The Feels</option>
-                <option value="SCIENTIST">SCIENTIST</option>
-                <option value="POP!">POP!</option>
-                <option value="Talk that Talk">Talk that Talk</option>
-                <option value="SET ME FREE">SET ME FREE</option>
-                <option value="Killin' Me Good">Killin' Me Good</option>
-                <option value="I GOT YOU">I GOT YOU</option>
-                <option value="ONE SPARK">ONE SPARK</option>
-                <option value="ABCD">ABCD</option>
-                <option value="RunAway">Run Away</option>
-                <option value="Strategy">Strategy</option>
-                <option value="THIS IS FOR">THIS IS FOR</option>
-                <option value="SHOOT">SHOOT (Firecracker)</option>
-                <option value="MEEEEEE">MEEEEEE</option>
-                <option value="FIX A DRINK">FIX A DRINK</option>
-                <option value="MOVE-LIKE-THAT">MOVE LIKE THAT</option>
-                <option value="DECAFFEINATED">DECAFFEINATED</option>
-                <option value="ATM">ATM</option>
-                <option value="STONE COLD">STONE COLD</option>
-                <option value="CHESS">CHESS</option>
-                <option value="IN MY ROOM">IN MY ROOM</option>
-                <option value="DIVEIN">DIVE IN</option>
-            </select>
+<body>
+
+    <!-- 1. 歌曲選單 -->
+    <div class="fixed-top-bar">
+   
+        <div class="filter-container">
+            <a href="index.html" class="home-btn">← 返回主頁</a>
+
+        <!-- 選項現在由 TWICE.js 的 initFilter() 依 songDatabase 自動產生，
+             之後在 songDatabase 加新歌，這裡不用手動同步新增 <option> -->
+        <select id="songSelect" onchange="filterSong()"></select>
+     </div>
+
+
+    <!-- 2. 歌名切換控制列 -->
+    <div class="song-control-bar">
+        <button class="nav-btn" onclick="prevSong()">❮</button>
+        <div class="song-title-wrapper">
+            <span class="artist-name" id="artist-name">TWICE</span>
+            <h1 id="song-title">Like OOH-AHH</h1>
         </div>
-    </nav>
-
-    <main class="timeline-wrapper">
-        <div class="timeline">
-
-            <div class="timeline-item" id="LikeOohAhh" onclick="location.href='TWICE/Like_Ooh_Ahh.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2015.10.20</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500.jpg" alt="Like Ooh Ahh" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">The Story Begins</div>
-                        <div class="timeline-title">Like Ooh Ahh</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="CHEERUP" onclick="location.href='TWICE/CHEER_UP.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2016.04.25</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500 (1).jpg" alt="CHEER UP" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">PAGE TWO</div>
-                        <div class="timeline-title">CHEER UP</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="TT" onclick="location.href='TWICE/TT.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2017.02.20</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500 (2).jpg" alt="TT" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Twicecoaster: Lane 2</div>
-                        <div class="timeline-title">TT</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Knock" onclick="location.href='TWICE/Kncok.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2017.02.20</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500 (2).jpg" alt="Knock Knock" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Twicecoaster: Lane 2</div>
-                        <div class="timeline-title">Knock Knock</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="WhatisLove" onclick="location.href='TWICE/WhatIsLove.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2018.04.09</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x5005.jpg" alt="Knock Knock" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">What is Love?</div>
-                        <div class="timeline-title">What is Love?</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="RunAway" onclick="location.href='TWICE/Run_Away.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.09.06</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500 (3).jpg" alt="Run Away" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">abouTZU</div>
-                        <div class="timeline-title" style="color:#074AAB;">Run Away</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="DIVEIN" onclick="location.href='TWICE/DIVE_IN.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.10.10</div>
-                <div class="timeline-card">
-                    <img src="image/TWICE/500x500 (4).jpg" alt="DIVE IN" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">TEN: The Story Goes On</div>
-                        <div class="timeline-title" style="color:#074AAB;">DIVE IN (TZUYU)</div>
-                    </div>
-                </div>
-            </div>
-<div class="timeline-divider">
-    <span>以下歌曲尚未完成</span>
+        <button class="nav-btn" onclick="nextSong()">❯</button>
+    </div>
 </div>
-            
-            
-        </div>
-    </main>
+     
 
-    <script src="script.js" defer></script>
+    <!-- 3. 自己的內容區 (支援左右滑動切換) -->
+    <div class="content-container" id="content-container">
+        <!-- 影片區 -->
+        <div class="video-wrapper" id="video-area">
+            <!-- 動態插入 YouTube iframe -->
+        </div>
+
+        <!-- 應援與歌詞區 -->
+        <div class="lyrics-wrapper" id="lyrics-area">
+            <!-- 動態插入歌詞與應援 -->
+        </div>
+    </div>
+
+    <script src="TWICE.js"></script>
 </body>
 </html>
-

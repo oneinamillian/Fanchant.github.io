@@ -7,29 +7,19 @@ const urlsToCache = [
   '/',
   '/index.html',
   '/style.css',
+  '/song.css',
 
   // 子頁面
   '/關於本站.html',
   '/使用教學.html',
   '/聲明.html',
   '/TWICE.html',
-  '/ITZY.html',
-  '/NMIXX.html',
-
-  //歌曲
-  '/TWICE/WhatIsLove.html',
-  '/TWICE/Run_Away.html',
-
-
-
-  // 圖片
-  //'/image/TWICE/sXFipFg9_400x400.jpg',
-  //'/image/ITZY/0dTkNqtj_400x400.jpg',
+  '/TWICE.js',
 
   // 如果有共用的 JS 檔案也要加進來，例如：
    '/script.js',
    '/register-sw.js',
-   '/generate-sw.js',
+   
 ];
 
 // ====== 安裝階段：把清單裡的檔案存進快取 ======

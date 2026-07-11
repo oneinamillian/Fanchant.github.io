@@ -185,7 +185,8 @@ u { border-bottom: 3px solid var(--theme-main); text-decoration: none; }
 .footer-source {
     margin-top: 24px;
     padding-top: 12px;
-    border-top: 1px dashed #e0b8c8;
+    border-top: 1px dashed rgba(255, 126, 184, 0.5); /* 給不支援 color-mix 的舊瀏覽器用的備援色 */
+    border-top: 1px dashed color-mix(in srgb, var(--theme-main) 50%, transparent);
     text-align: center;
 }
  

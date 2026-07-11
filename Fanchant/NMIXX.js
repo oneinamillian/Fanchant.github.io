@@ -2526,7 +2526,7 @@ function buildSourceFooter(song) {
     return `
         <footer class="footer-source">
             <div class="source-container">
-                <span class="source-label">參考資源</span>
+                <span class="source-label">參考資源</span><br>
                 <a href="${song.sourceUrl}" target="_blank" rel="noopener noreferrer" class="source-link">
                     歌詞來源：lyricfind
                 </a><br>

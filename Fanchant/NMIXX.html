@@ -2,273 +2,57 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>FANCHANT</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NMIXX Fan Chant</title>
+    <link rel="stylesheet" href="song.css">
+    <script src="register-sw.js"></script>
+    <style>
+        :root {
+            --theme-main: #49cee1;   /* 主色：歌名文字、應援詞、連結 */
+            --theme-light: #e2fbff; /* 內容區底色 (淺) */
+            --theme-bg: #eefbd5;    /* 備用底色 */
+        }
+    </style>
 </head>
-<body style="--group-color: #49cee1;">
-    <nav class="navbar">
-        <div class="logo">NMIXX 🐳</div>
-        <div class="search-box">
-            <a href="index.html" class="back-link"> ← 返回首頁</a>
-            <select id="songSelect">
-                <option value="all">全部歌曲</option>
-                <option value="O.O">O.O</option>
-                <option value="TANK">占 TANK</option>
-                <option value="DICE">DICE</option>
-                <option value="YoungDumbStupid">Young, Dumb, Stupid</option>
-                <option value="LoveMeLikeThis">Love Me Like This</option>
-                <option value="RollerCoaster">Roller Coaster</option>
-                <option value="PartyOClock">Party O'Clock</option>
-                <option value="HOME">HOME</option>
-                <option value="Soñar(Breaker)">Soñar (Breaker)</option>
-                <option value="DASH">DASH</option>
-                <option value="RunForRoses">Run For Roses</option>
-                <option value="BreakTheWall">Break The Wall</option>
-                <option value="Seethat?">See that?</option>
-                <option value="LoveIsLonely">Love Is Lonely</option>
-                <option value="HighHorse">High Horse</option>
-                <option value="KNOWABOUTME">KNOW ABOUT ME</option>
-                <option value="BlueValentine">BlueValentine</option>
-                <option value="SPINNIN’ONIT">SPINNIN’ ON IT</option>
-                <option value="HeavySerenade">Heavy Serenade</option>
-                <option value="Crescendo">Crescendo</option>
-            </select>
+<body>
+
+    <!-- 1. 歌曲選單 -->
+    <div class="fixed-top-bar">
+   
+        <div class="filter-container">
+            <a href="index.html" class="home-btn">← 返回主頁</a>
+
+        <!-- 選項現在由 TWICE.js 的 initFilter() 依 songDatabase 自動產生，
+             之後在 songDatabase 加新歌，這裡不用手動同步新增 <option> -->
+        <select id="songSelect" onchange="filterSong()"></select>
+     </div>
+
+
+    <!-- 2. 歌名切換控制列 -->
+    <div class="song-control-bar">
+        <button class="nav-btn" onclick="prevSong()">❮</button>
+        <div class="song-title-wrapper">
+            <span class="artist-name" id="artist-name">NMIXX 🐳</span>
+            <h1 id="song-title">O.O</h1>
         </div>
-    </nav>
+        <button class="nav-btn" onclick="nextSong()">❯</button>
+    </div>
+</div>
+     
 
-    <main class="timeline-wrapper">
-        <div class="timeline">
+    <!-- 3. 自己的內容區 (支援左右滑動切換) -->
+    <div class="content-container" id="content-container">
+        <!-- 影片區 -->
+        <div class="video-wrapper" id="video-area">
+            <!-- 動態插入 YouTube iframe -->
+        </div>
 
-            <div class="timeline-item" id="O.O" onclick="location.href='NMIXX/OO.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.02.22</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500.jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">AD MARE</div>
-                        <div class="timeline-title">O.O</div>
-                    </div>
-                </div>
-            </div>
+        <!-- 應援與歌詞區 -->
+        <div class="lyrics-wrapper" id="lyrics-area">
+            <!-- 動態插入歌詞與應援 -->
+        </div>
+    </div>
 
-            <div class="timeline-item" id="TANK" onclick="location.href='NMIXX/TANK.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.02.22</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500.jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">AD MARE</div>
-                        <div class="timeline-title">占 TANK</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="DICE" onclick="location.href='NMIXX/DICE.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.09.19</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (1).jpg" alt="DICE" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">ENTWURF</div>
-                        <div class="timeline-title">DICE</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="YoungDumbStupid" onclick="location.href='NMIXX/YoungDumbStupid'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.03.12</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (8).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">expérgo</div>
-                        <div class="timeline-title">Young,Dumb,Stupid</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="LoveMeLikeThis" onclick="location.href='NMIXX/LoveMeLikeThis'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.03.20</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (4).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">expérgo</div>
-                        <div class="timeline-title">Love Me Like This</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="HOME" onclick="location.href='NMIXX/HOME.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.03.20</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (4).jpg" alt="HOME" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">expérgo</div>
-                        <div class="timeline-title">HOME</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="RollerCoaster" onclick="location.href='NMIXX/RollerCoaster'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.07.03</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (7).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">A Midsummer NMIXX’s Dream</div>
-                        <div class="timeline-title">Roller Coaster</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="PartyOClock" onclick="location.href='NMIXX/PartyOClock'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.07.11</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (6).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">A Midsummer NMIXX’s Dream</div>
-                        <div class="timeline-title">Party O'Clock</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="Soñar(Breaker)" onclick="location.href='NMIXX/Soñar(Breaker)'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.12.04</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (5).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: BREAK</div>
-                        <div class="timeline-title">Soñar (Breaker)</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="DASH" onclick="location.href='NMIXX/DASH.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.15</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (2).jpg" alt="DASH" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: BREAK</div>
-                        <div class="timeline-title">DASH</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="RunForRoses" onclick="location.href='NMIXX/RunForRoses'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.15</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (2).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: BREAK</div>
-                        <div class="timeline-title">Run For Roses</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="BreakTheWall" onclick="location.href='NMIXX/BreakTheWall.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.15</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (2).jpg" alt="DASH" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: BREAK</div>
-                        <div class="timeline-title">Break The Wall</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Seethat?" onclick="location.href='NMIXX/Seethat.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.08.19</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (3).jpg" alt="DASH" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: STICK OUT</div>
-                        <div class="timeline-title">별별별(see that?)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="LoveIsLonely" onclick="location.href='NMIXX/LoveIsLonely.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.08.19</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (3).jpg" alt="DASH" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: STICK OUT</div>
-                        <div class="timeline-title">Love Is Lonely</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="HighHorse" onclick="location.href='NMIXX/HighHorse.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.03.04</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/0248-f1fe-4018-bd4b-f81cff19e873.webp" alt="High Horse" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">High Horse</div>
-                        <div class="timeline-title">High Horse</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="KNOWABOUTME" onclick="location.href='NMIXX/KNOWABOUTME.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.03.17</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/KNOW ABOUT ME.webp" alt="High Horse" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Fe3O4: FORWARD</div>
-                        <div class="timeline-title">KNOW ABOUT ME</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="BlueValentine" onclick="location.href='NMIXX/BlueValentine'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.10.13</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/b125-9392-454a-b571-3c0fee64f784.webp" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Blue Valentine</div>
-                        <div class="timeline-title">Blue Valentine</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="SPINNIN’ONIT" onclick="location.href='NMIXX/SPINNIN’ONIT.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.10.13</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/b125-9392-454a-b571-3c0fee64f784.webp" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Blue Valentine</div>
-                        <div class="timeline-title">SPINNIN’ ON IT</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="HeavySerenade" onclick="location.href='NMIXX/HeavySerenade.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2026.05.11</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (17).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Heavy Serenade</div>
-                        <div class="timeline-title">Heavy Serenade</div>
-                    </div>
-                </div>
-            </div>
-            <div class="timeline-item" id="Crescendo" onclick="location.href='NMIXX/Crescendo'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2026.05.11</div>
-                <div class="timeline-card">
-                    <img src="image/NMIXX/500x500 (17).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Heavy Serenade</div>
-                        <div class="timeline-title">Crescendo</div>
-                    </div>
-                </div>
-            </div>
-
-    <script src="script.js" defer></script>
+    <script src="NMIXX.js"></script>
 </body>
 </html>
-

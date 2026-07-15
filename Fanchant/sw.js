@@ -1,5 +1,5 @@
 // ====== 版本號：每次更新內容(新增團體、新增圖片、改口號)都要改這裡 ======
-const CACHE_NAME = 'kpop-cheering-guide-v2';
+const CACHE_NAME = 'kpop-cheering-guide-v3';
 
 // ====== 需要離線快取的檔案清單 ======
 const urlsToCache = [
@@ -19,6 +19,8 @@ const urlsToCache = [
   '/NMIXX.js',
   '/EXO.html',
   '/EXO.js',
+  '/aespa.html',
+  '/aespa.js',
 
   // 如果有共用的 JS 檔案也要加進來，例如：
    '/script.js',

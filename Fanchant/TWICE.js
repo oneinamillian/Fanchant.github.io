@@ -895,8 +895,7 @@ In love, in love (ooh), can't get enough (yeah)<br>
                     購布哈速嘎喔搜!<br>
                     ㄊㄟ降兔ㄎㄧ! ImNayeon!<br>
                     波搜那速尬喔搜!<br>
-                    A! B! C! D!<br>
-                    ]</span><br>
+                    A! B! C! D!]</span><br>
             </p>
         </div>
         <div class="lyric-item">

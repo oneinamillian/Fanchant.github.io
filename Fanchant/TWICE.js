@@ -653,7 +653,284 @@ I wanna know<br>
             </p>
         </div>`
     },
-    
+    {
+id: "POP!",
+        title: "POP!",
+        category: "NAYEON",
+        artist: "NAYEON",                 // 蓋掉頁面預設的 "TWICE"
+        themeOverride: {                 // 蓋掉頁面預設的粉色主題
+            main: "#95DFED",
+            light: "#E6EDF7",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "6lvYvZQQ6hU", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/nayeon-pop",
+        videoRefUrl: "https://www.youtube.com/watch?v=8ANZzxOqUCw",
+        lyricsHTML:`<div class="lyric-item">
+            <p>
+                <span class="h">波搜那速嘎喔搜 su per s tar Imnayeon</span><br>
+                What's wrong?<br>
+홀릴 듯이 난 너를 자극해 (<span class="h">pop, pop, pop</span>)<br>
+Watch out!<br>
+설렌 듯이 니 부푼 맘이 터질 듯해 (<span class="h">pop, pop, pop</span>)<br>
+(Let's start) 내 맘대로 <span class="h">play it</span><br>
+(Won't stop) 거침없이 <span class="h">shake it</span><br>
+<span class="h">You know?</span> 넌 내게 달려있단 것만 알아둬<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                (Yeah-yeah) 이미 넌 나를 벗어<u>날 수가 없어 <span class="h">壘 蘇嘎 ㄛ搜</span></u> <br>
+떨린 그 눈빛, 티 나는 몸짓 baby<br>
+터뜨리고 싶은 너 <span class="h">[pop pop pop]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                설렘이 멎기 전에<br>
+<span class="h">I wanna make it pop, pop</span><br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 터지길 원해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                가슴이 뛰는 이 느낌<br>
+<span class="h">I wanna make it pop, pop</span><br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 널 갖길 원해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">Pop, pop, pop</span> (uh, uh, you want it)<br>
+<span class="h">Pop, pop, pop</span> (uh, uh, hey, I got it)<br>
+<span class="h">Pop, pop, pop</span> (uh, uh)<br>
+<span class="h">Pop, pop, pop</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                너무 잘 보여 아무리 숨겨도 <span class="h">[印右沃]</span><br>
+이미 들킨 걸, 자꾸 둥둥 떠다니잖아 <span class="h">[撒浪嘿]</span><br>
+(Yeah-yeah) 여유롭게 <span class="h">check it</span><br>
+보란 듯이 <span class="h">take it</span><br>
+Baby, baby, you're out of control<br>
+So you're under my control<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                설렘이 멎기 전에<br>
+<span class="h">I wanna make it pop, pop</span><br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 터지길 원해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+               가슴이 뛰는 이 느낌<br>
+<span class="h">I wanna make it pop, pop</span><br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 널 갖길 원해 <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">Pop, pop, pop</span> (uh, uh, you want it)<br>
+<span class="h">Pop, pop, pop</span> (uh, uh, hey, I got it)<br>
+<span class="h">Pop, pop, pop</span> (uh, uh)<br>
+<span class="h">Pop, pop, pop</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Pop, pop 버블같이 <u>터져 버릴지 몰라 <span class="h">投就撥立即摸拉</span></u> <br>
+끝도 없이 점점 부풀어 가<br>
+내게 푹 빠진 <u>너를 애써 참진 마 <span class="h">[那樓A搜洽機麻]</span></u> <br>
+Bae, bae, eyes on me now<br>
+내가 터뜨려 줄 테니<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">Five!</span> 자, 때가 됐어<br>
+<span class="h">Four!</span> 딱 숨을 멈춰<br>
+<span class="h">Three!</span> 난 너를 겨눠<br>
+<span class="h">Two! One! Here we go!</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                설렘이 멎기 전에<br>
+<span class="h">I wanna make it pop, pop</span> (pop)<br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 터지길 원해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                가슴이 뛰는 이 느낌 (뛰는 이 느낌 yeah, yeah)<br>
+<span class="h">I wanna make it pop, pop</span><br>
+Pop, you want it<br>
+<span class="h">Pop, pop, pop</span> 널 갖길 원해 (I know you want it bae)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <mark>
+                    <span class="h">[那Aㄍㄟˋ瀑霸就so!<br>
+                        su per! s tar! Im Nayeon!<br>
+                        波搜那速嘎喔搜!<br>
+                        撒浪嘿佑! Im Nayeon!]</span><br>
+                    Pop, pop, pop (uh, uh, you want it)<br>
+Pop, pop, pop (you gotta pop it, I got it)<br>
+Pop, pop, pop (I can't stop it)<br>
+Pop, pop, pop<br>
+                </mark>
+            </p>
+        </div>`
+},
+{
+id: "ABCD",
+        title: "ABCD",
+        category: "NAYEON",
+        artist: "NAYEON",                 
+        themeOverride: {                 
+            main: "#95DFED",
+            light: "#E6EDF7",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "aBiSoLKFPnc", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/nayeon-abcd",
+        videoRefUrl: "https://www.youtube.com/watch?v=9uNTb4z26BY",
+        lyricsHTML:`<div class="lyric-item">
+            <p>
+                (Don't stop it)<br>
+Mm, yeah<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Slow-mo <span class="h">[ImNayeon]</span><br>
+Hey, I see you looking at me<br>
+And I like it, oh (I like it, oh), yeah (uh)<br>
+No more <span class="h">[ABCD]</span><br>
+다가오길 기다리는 건 not my option (option)<br>
+Yeah (ah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                피어나 (피어나, 피어나) my desire <span class="h">[de si re]</span><br>
+원하는 건 가져야 하는 걸 (ooh)<br>
+All I want is love (all I want, all I want) love with you <span class="h">[撒浪嘿]</span><br>
+Stop thinkin' 거부할 수 없을걸 (break it down now)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                (Hey, listen to me now) <br>
+                <span class="h">A</span>, you're gonna <span class="h">B</span> my babe<br>
+Every time you <span class="h">C</span> me 빠져 <span class="h">D</span>eeper, deeper, babe<br>
+(Hey, listen to me now) A-B-C-D <u>반복해 <span class="h">巴波K</span></u> <br>
+How to fall in love <u> <span class="h">咖樂邱 ju K</span></u> 가르쳐 줄게<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                너는 들어왔어 in my <span class="h">fantasy</span><br>
+벗어날 수 없어 나의 <span class="h">gravity</span><br>
+In love, in love, can't get enough<br>
+Hey 빠져들고 있어 you're <span class="h">hypnotized</span> (yeah)<br>
+홀린 듯 하나가 되는 <span class="h">you and I</span><br>
+In love, in love, can't get enough (oh, yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                넌 따라오면 돼 my <span class="h">baby</span><br>
+지금부터 I'ma drive you <span class="h">crazy</span> (oh)<br>
+아슬아슬한 너와 내 emotion<br>
+자칫하면 이성의 끈을 놓쳐<br>
+대화는 필요 없어 <span class="h">mute</span><br>
+본능이 향하는 곳 <span class="h">move</span><br>
+전부 벗어던질래<br>
+진짜 나를 볼 수 있게<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                피어나 (피어나, 피어나) feel alive <span class="h">[ImNayeon]</span><br>
+떨리는 마음 감출 수 없는 걸 (ooh)<br>
+All I want is love (all I want, all I want) love with you <span class="h">[撒浪嘿]</span><br>
+Stop thinkin' 거부할 수 없을걸 (you)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                (Hey, listen to me now) <br>
+                <span class="h">A</span>, you're gonna <span class="h">B</span> my babe<br>
+Every time you <span class="h">C</span> me 빠져 <span class="h">D</span>eeper, deeper, babe<br>
+(Hey, listen to me now) A-B-C-D <u>반복해 <span class="h">巴波K</span></u><br>
+How to fall in love <u>가르쳐 줄게 <span class="h">咖樂邱 ju K</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                너는 들어왔어 in my <span class="h">fantasy</span> (my fantasy)<br>
+벗어날 수 없어 나의 <span class="h">gravity</span><br>
+In love, in love, can't get enough<br>
+Hey 빠져들고 있어 you're <span class="h">hypnotized</span> (yeah)<br>
+홀린 듯 하나가 되는 <span class="h">you and I</span><br>
+In love, in love (ooh), can't get enough (yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">[購布哈速嘎喔搜!<br>
+                    ㄊㄟ降兔ㄎㄧ! ImNayeon!<br>
+                    波搜那速尬喔搜!<br>
+                    ABCD ImNayeon!<br>
+                    購布哈速嘎喔搜!<br>
+                    ㄊㄟ降兔ㄎㄧ! ImNayeon!<br>
+                    波搜那速尬喔搜!<br>
+                    A! B! C! D!<br>
+                    ]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                너는 들어왔어 in my <span class="h">fantasy</span> (my fantasy)<br>
+벗어날 수 없어 나의 <span class="h">gravity</span><br>
+In love, in love, can't get enough<br>
+Hey 빠져들고 있어 you're <span class="h">hypnotized</span> (yeah)<br>
+홀린 듯 하나가 되는 <span class="h">you and I</span><br>
+In love, in love (ooh), can't get enough (yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                I don't care and I like, <span class="h">yeah</span><br>
+A to Z, you're my type, <span class="h">yeah</span> (shoo)<br>
+알려줄게 baby, <span class="h">how to love</span> (how to love)<br>
+알기 쉽게 네게 <span class="h">one by one</span> (one by one)<br>
+I don't care and I like, <span class="h">yeah</span> (yeah)<br>
+A to Z, you're my type, <span class="h">yeah</span><br>
+알려줄게 baby, <span class="h">how to love</span> (알려줄게 baby, love)<br>
+알기 쉽게 네게 <span class="h">one by one</span> (알기 쉽게 one by one)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">A</span>, you're gonna <span class="h">B</span> my babe<br>
+Every time you <span class="h">C</span> me 빠져 <span class="h">D</span>eeper, deeper, babe<br>
+A-B-C-D <u>반복해 <span class="h">巴波K</span></u> <br>
+How to fall in love <u>가르쳐 줄게 <span class="h">咖樂邱 ju K</span></u> <br>
+            </p>
+        </div>`
+},
+
     {
         id: "RunAway",
         title: "Run Away",
@@ -773,7 +1050,101 @@ So are you ready tonight?<br>
             </p>
         </div>`
     },
-
+{
+    id: "MEEEEEE",
+        title: "MEEEEEE",
+        category: "NAYEON",
+        artist: "NAYEON",                 // 蓋掉頁面預設的 "TWICE"
+        themeOverride: {                 // 蓋掉頁面預設的粉色主題
+            main: "#95DFED",
+            light: "#E6EDF7",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "NEPHzkDCw08", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-meeeeee",
+        videoRefUrl: "https://www.youtube.com/watch?v=DsaP3UqbIss",
+        lyricsHTML:`<div class="lyric-item">
+            <p>
+                Don't play with a girl, don't play with a girl<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Don't cook but I got good taste <span class="h">[taste]</span><br>
+Don't drive but I love the chase <span class="h">[chase]</span><br>
+Soft touch when I use my teeth <span class="h">[teeth]</span><br>
+Don't play with a girl like me <span class="h">[me]</span><br>
+Stay close but I need my space <span class="h">[space]</span><br>
+One kiss that's all it takes <span class="h">[takes]</span><br>
+You're in way, way, way deep (way deep)<br>
+Don't play with a girl, don't play with a girl like<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">meeeeee [ImNayeon!]</span><br>
+                Meeeeee<br>
+Don't play with a girl, don't play with a girl like<br>
+<span class="h">meeeeee [ImNayeon!]</span><br>
+Meeeeee<br>
+Don't play with a girl, don't play with a girl like<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">Whoa</span>, wait a minute, I might just let you<br>
+<span class="h">Oh</span>, do you get it? I might just let you<br>
+Hit it <span class="h">sideways</span>, leave you by the end of days<br>
+Treat you like a <span class="h">holiday</span>, we ain't going no place fast<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                I'm a summer day<br>
+Sip on me like lemonade<br>
+So hot you gonna pray for rain<br>
+You ain't going no place fast<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Don't cook but I got good taste <span class="h">[taste]</span><br>
+Don't drive but I love the chase <span class="h">[chase]</span><br>
+Soft touch when I use my teeth <span class="h">[teeth]</span><br>
+Don't play with a girl like me <span class="h">[me]</span><br>
+Stay close but I need my space <span class="h">[space]</span><br>
+One kiss that's all it takes <span class="h">[takes]</span><br>
+You're in way, way, way deep (way deep)<br>
+Don't play with a girl, don't play with a girl like<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">meeeeee [ImNayeon!]</span><br>
+                (don't play with a girl like) <br>
+                Meeeeee
+                Don't play with a girl, don't play with a girl like<br>
+                <span class="h">meeeeee [ImNayeon!]</span><br>
+                (don't play with a girl like)<br>
+                Meeeeee
+                Don't play with a girl, don't play with a girl like<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                <span class="h">[Like me! ImNayeon!<br>
+                    Like me! 印右握!<br>
+                    Like me! 印哈gril!<br>
+                    Like me! ImNayeon!<br>
+                    Like me! ImNayeon!<br>
+                    Like me! 印右握!<br>
+                    Like me! 印哈gril!<br>
+                    Like me! ImNayeon! <br>]</span>
+Don't play with a girl, don't play with a girl like (play with a girl like)  <br>
+            </p>
+        </div>
+        `
+},
     {
         id: "DIVEIN",
         title: "DIVE IN",

@@ -659,7 +659,7 @@ id: "POP!",
         category: "NAYEON",
         artist: "NAYEON",                 // 蓋掉頁面預設的 "TWICE"
         themeOverride: {                 // 蓋掉頁面預設的粉色主題
-            main: "#95DFED",
+            main: "#4cdbf7",
             light: "#E6EDF7",
             bg: "#CDDBEE"
         },
@@ -797,7 +797,7 @@ id: "ABCD",
         category: "NAYEON",
         artist: "NAYEON",                 
         themeOverride: {                 
-            main: "#95DFED",
+            main: "#4cdbf7",
             light: "#E6EDF7",
             bg: "#CDDBEE"
         },
@@ -1055,7 +1055,7 @@ So are you ready tonight?<br>
         category: "NAYEON",
         artist: "NAYEON",                 // 蓋掉頁面預設的 "TWICE"
         themeOverride: {                 // 蓋掉頁面預設的粉色主題
-            main: "#95DFED",
+            main: "#4cdbf7",
             light: "#E6EDF7",
             bg: "#CDDBEE"
         },

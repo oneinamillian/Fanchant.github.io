@@ -34,7 +34,7 @@ const songDatabase = [
                 단 한번도 느껴본 적 없는 걸<br>
                 알게 해주는<br>
                 <u>사람 기다리고 있는 걸 <span class="h">撒郎KI搭哩狗衣能勾</span></u> <br>
-                얼마가 <u>돼도 <span class="h">推斗</span></u>  기다리고 <u>싶어<span class="highlight">溪坡</span></u> <br>
+                얼마가 <u>돼도 <span class="h">推斗</span></u>  기다리고 <u>싶어<span class="h">溪坡</span></u> <br>
                 I just wanna fall in love<br>
             </p>
             <p>
@@ -50,7 +50,7 @@ const songDatabase = [
                 <span class="h">Ooh- ahh</span><u>하게 <span class="h">哈給</span></u><br>
             </p>
             <p>
-                날 <u>봐<span class="h">八</span></u>  거<u>봐<span class="highlight">八</span></u>  또 두 번 봐<br>
+                날 <u>봐<span class="h">八</span></u>  거<u>봐<span class="h">八</span></u>  또 두 번 봐<br>
                 한번 지나치고 등을 돌려 쳐다봐 <span class="h">TWICE</span> <br>
                 어딜 가더라도 항상 민 낯<br>
                 하지만 내가 제일 <u>빛나<span class="h">冰那</span></u> <br>
@@ -67,7 +67,7 @@ const songDatabase = [
                 단 한번도 느껴본 적 없는 걸<br>
                 알게 해주는<br>
                 <u>사람 기다리고 있는 걸 <span class="h">撒郎KI搭哩狗衣能勾</span></u> <br>
-                얼마가 <u>돼도 <span class="h">推斗</span></u>  기다리고 <u>싶어<span class="highlight">溪坡</span></u> <br>
+                얼마가 <u>돼도 <span class="h">推斗</span></u>  기다리고 <u>싶어<span class="h">溪坡</span></u> <br>
                 I just wanna fall in love<br>
             </p>
             <p>
@@ -465,12 +465,12 @@ Sign을 보내, signal 보내<br>
 눈빛을 보내 눈치를 주네<br>
 <u>근데 못 알아듣네 <span class="h">肯爹 某 塔拉 的捏</span></u> <br>
 답답해서 미치겠다, <u>정말 <span class="h">窮賣</span></u><br>
-왜 그런지 모르겠다, <u>정말 <span class="h">窮賣</span><br>
+왜 그런지 모르겠다, <u>정말 <span class="h">窮賣</span></u><br>
 다시 한 번 힘을 내서<br>
 <span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
             </p>
             <p>
-                눈짓도 손짓도 <U>어떤 표정도 <span class="h">歐動 潑冏豆</span> <br>
+                눈짓도 손짓도 <u>어떤 표정도 <span class="h">歐動 潑冏豆</span></u> <br>
 소용이 없네, <u>하나도 안 통해 <span class="h">哈娜都 安通嘿</span></u> <br>
 눈치도 코치도 전혀 없나 봐<br>
 <u>더 이상 어떻게 내 맘을 표현해 <span class="h">偷 以桑 歐都ㄎㄟ 內 麻ㄇ 潑優內</span></u> <br>
@@ -506,8 +506,8 @@ I must let you know<br>
 계속 네 곁에 <u>머물러있는데 <span class="h">某木漏以嫩ㄉㄟ</span></u> <br>
             </p>
             <p>
-                언제부턴가 난 네가 <u>좋아 <span class="h">邱哇</span></u><br>
-지기 시작했어, <span class="h">趴波呀</span></u><br>
+언제부턴가 난 네가 <u>좋아 <span class="h">邱哇</span></u><br>
+지기 시작했어, <u>바보야 <span class="h">趴波呀</span></u><br>
 왜 이렇게도 내 맘을 <u>몰라 <span class="h">摸拉</span></u>?<br>
 언제까지 이렇게 둔하게<br>
 나를 친구로만 <u>대할래 <span class="h">貼哈勒</span></u>?<br>
@@ -554,9 +554,9 @@ id: "LIKEY",
         videoRefUrl: "https://www.youtube.com/watch?v=DA77N9nRJSo",
         lyricsHTML:`
             <p>
-<p class="tip">第二個八拍</p><br>
+<p class="tip">前奏開始播放後的第二個八拍</p><br>
 <span class="h">[TWICE!]</span><br>
-<p class="tip">一個八拍</p><br>
+<p class="tip">一個八拍後</p><br>
 <span class="h">[LI! KEY了! 努囉九! 兔! 哇! 意! 思!]</span><br>        
 설렌다, me likey<br>
 Me likey likey likey<br>
@@ -641,7 +641,7 @@ Ooh, 잠깐만, 잠깐만, 연락이 이제야 오는걸, <span class="h">woo</s
 울다가도 다시 신나서 <u>춤추네 <span class="h">春秋內</span></u> <br>
             </p>
             <p>
-[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! ONE IN A! MILLION! 邱哇優! LI! KEY了! 努囉九! 兔!哇!意!思!]<br>
+<span class="h">[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! ONE IN A! MILLION! 邱哇優! LI! KEY了! 努囉九! 兔!哇!意!思!]</span><br>
             </p>
             <p>
 설렌다, me likey<br>
@@ -666,9 +666,9 @@ id: "HeartShaker",
             <p>
 <span class="h">Yeah, yeah, yeah, yeah, yeah</span><br>
 Come and be my love, come and be my love, baby<br>
-<span class="h">Yeah, yeah, yeah, yeah, yeah<br>
+<span class="h">Yeah, yeah, yeah, yeah, yeah</span><br>
     <mark>
-        [內 新降ㄜ 亨的漏! 兔! 哇! 意! 思!]</span><br>
+        <span class="h">[內 新降ㄜ 亨的漏! 兔! 哇! 意! 思!]</span><br>
 Come and be my love, come and be my love, baby<br>
     </mark>
             </p>
@@ -1205,7 +1205,7 @@ Fancy, ooh<br>
 id: "FeelSpecial",
         title: "Feel Special",
         category: "twice",
-        youtubeId: "3ymwOvzhwHs", // YouTube 影片網址後的 ID
+        youtubeId: "mocGxuUoy_Y", // YouTube 影片網址後的 ID
         sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-feel-special",
         videoRefUrl: "https://www.youtube.com/watch?v=IOmuE8keA7g",
         lyricsHTML:`
@@ -1297,7 +1297,463 @@ I feel loved, I feel so special<br>
             </p>
         `
 },
+{
+id: "MORE&MORE",
+        title: "MORE & MORE",
+        category: "twice",
+        youtubeId: "SUCNse5JoO4",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-more-more",
+        videoRefUrl: "https://www.youtube.com/watch?v=bDLuAp9Xgu0",
+        lyricsHTML:`
+            <p>
+I know I want it
+입에 바른 소린 이제 그만할게
+'Cause I deserve it, deserve it
+혹시 잠깐 내가 미워지더라도 걱정 안 할게
+'Cause I know you, I know you</p>
 
+<p>내 눈을 자꾸 피해봐
+네 맘을 자꾸 숨겨봐
+나에게서 도망쳐봐 no, no
+감았던 눈을 떴을 때
+문득 내가 떠오를 때
+You are gonna be mine again</p>
+
+<p>You're gonna say more, more, more, more, more and more
+멈추지 못해 more, more, more and more
+그러니 한 번 더
+I wanna have more, more, more, more, more and more
+멈추기 싫어 more, more, more and more
+그러니 한 번 더</p>
+
+<p>멈추지를 못해
+More and more
+그러니 한 번 더
+멈추기가 싫어
+More and more
+그러니 한 번 더</p>
+
+<p>Do you feel me?
+니가 날 위한 사람이라고 믿니
+Only for me, only for me
+간지러운 말은 굳이 하지 않아도 넌
+'Cause you know me, you know me</p>
+
+<p>네 귀를 자꾸 막아도
+나를 멀리 밀어내도
+나에게서 멀어져도 (저 멀리) no, no
+내가 다시 널 부르면
+나의 목소릴 들으면
+You are gonna be mine again
+Yeah 한 번 더</p>
+
+<p>You're gonna say more, more, more, more, more and more
+멈추지 못해 more, more, more and more
+그러니 한 번 더
+I wanna have more, more, more, more, more and more
+멈추기 싫어 more, more, more and more
+그러니 한 번 더</p>
+
+<p>멈추지를 못해
+More and more
+그러니 한 번 더
+멈추기가 싫어
+More and more
+그러니 한 번 더</p>
+
+<p>난 원래 욕심쟁이 몰랐다면 미안
+사과는 미리 할게 'cause I want you more more
+의견은 필요 없어 훔칠 거야 네 맘
+내게 홀리게 될걸 you can't say no, no
+난 도둑고양이 오늘만은 널
+꼭 잡으러 왔으니까 딱 기다려 너
+멀리 가지 말고 다시 내게 come come
+Yeah 한 번 더</p>
+
+<p>멈추지를 못해
+More and more
+그러니 한 번 더
+멈추기가 싫어
+More and more
+그러니 한 번 더
+            </p>
+        `
+},
+{
+id: "ICAN'TSTOPME",
+        title: "I CAN'T STOP ME",
+        category: "twice",
+        youtubeId: "rhMm79NZQTw",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-i-cant-stop-me",
+        videoRefUrl: "https://www.youtube.com/watch?v=ESn0dkDh000",
+        lyricsHTML:`
+            <p>
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+알람이 울려대 ring, ring-a-ling
+서로의 눈길이 닿을 때마다
+알면서 빙빙 도는데
+점점 다가가잖아 I know it's too late
+마음속으로는 다 알고 있잖아
+결국에는 선을 넘게 될 거라는 걸
+I'm warning myself
+너 그러면 안 돼
+매분, 매초, 내 맘이 내 맘을 추월해
+Out of control (ha!)</p>
+
+<p>나를 감시하는 저 spot, spot, spotlight
+비출수록 어둠 속으로 빨려 들어
+끝이 보이는데 I know it's not right
+I can't stop me, can't stop me (no, whoa, whoa, ha!)</p>
+
+<p>내 앞에 놓여진 이 red, red, red line
+건너편의 너와 난 이미 눈을 맞춰
+느끼고 싶어 짜릿한 highlight
+I can't stop me, can't stop me (no, whoa, whoa, ha!)</p>
+
+<p>Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo</p>
+
+<p>I can't stop me, can't stop me</p>
+
+<p>눈감아 달라구 (ya, ya)
+딱 한 번만 no rules (ah, ah)
+모른 척해 줘 lights off tonight
+나 참을 수 없을 거 같아 losing myself (yeah, yeah)</p>
+
+<p>이제는 turning back
+불가능해 난 점점 더 깊은 어둠에
+너무나 짜릿해 나 눈을 감을래
+다시는 돌아갈 수 없을 것만 같애
+Out of control (ooh, yeah, ha!)</p>
+
+<p>나를 감시하는 저 spot, spot, spotlight
+비출수록 어둠 속으로 빨려 들어
+끝이 보이는데 I know it's not right
+I can't stop me, can't stop me (no, whoa, whoa, ha!)</p>
+
+<p>내 앞에 놓여진 이 red, red, red line (red line)
+건너편의 너와 난 이미 눈을 맞춰
+느끼고 싶어 짜릿한 highlight (I can't stop me, yeah)
+I can't stop me, can't stop me (no, whoa, whoa)</p>
+
+<p>Risky, risky, wiggy 위기
+This is an emergency
+Help me, help me, somebody stop me
+'Cause I know I can't stop me
+답은 알고 있잖아
+근데 가고 있잖아
+이러고 싶지 않아
+내 안에 내가 또 있나 봐</p>
+
+<p>나는 원하는데 (ah)
+원하는 게 안돼 (ah)
+Guilty 난 싫은데
+I can't stop me, can't stop me, can't stop me (oh, ha)</p>
+
+<p>나를 감시하는 저 spot, spot, spotlight (oh)
+비출수록 어둠 속으로 빨려 들어 (oh, oh)
+끝이 보이는데 I know it's not right (oh, oh, oh)
+I can't stop me, can't stop me (no, whoa, whoa)</p>
+
+<p>내 앞에 놓여진 이 red red red line (oh, oh)
+건너편의 너와 난 이미 눈을 맞춰 (oh, oh)
+느끼고 싶어 짜릿한 highlight (ooh, ooh, ooh, ooh, ooh)
+I can't stop me, can't stop me (no, whoa, whoa, yeah, yeah, yeah)</p>
+
+<p>Ooh-hoo, ooh-hoo, hoo, hoo, hoo (ah)
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo (ooh)
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+I can't stop me, can't stop me (no, whoa, whoa)
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo
+            </p>
+        `
+},
+{
+id: "Alcohol-Free",
+        title: "Alcohol-Free",
+        category: "twice",
+        youtubeId: "t0hYMtM4ZKg",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-alcohol-free",
+        videoRefUrl: "https://www.youtube.com/watch?v=DKSVlHSQvF0",
+        lyricsHTML:`
+            <p>
+(JYP)
+너와 있을 땐 내게
+신기한 변화가 있는데
+자꾸 미소 짓게 돼
+아무 일도 없는데</p>
+
+<p>자꾸 마법에 걸려
+밤을 새워도 안 졸려
+다른 생각 지워져
+심장 소리는 커져
+사랑이 참 쉬워져
+그래서 빠지고 빠져 점점 너에게
+That's what you do to me</p>
+
+<p>나는 alcohol free 근데 취해 (취해, 취해)
+마신 게 하나도 없는데 (없는데)
+너와 있을 때마다 이래 (이래, 이래)
+날 보는 네 눈빛 때문에</p>
+
+<p>너는 눈으로 마시는 내 champagne 내 wine
+내 tequila, margarita
+Mojito with lime
+Sweet mimosa, pina colada</p>
+
+<p>I'm drunk in you (I'm drunk in you)
+I'm drunk in you (I'm drunk in you)</p>
+
+<p>너는 정말 특별해
+전혀 독하지 않은데 yeah
+낮에 별이 뜨게 해
+한 모금 마셨는데</p>
+
+<p>자꾸 마법에 걸려 (걸려)
+밤을 새도 안 졸려 (안 졸려)
+다른 생각 지워져
+심장 소리는 커져
+사랑이 참 쉬워져
+그래서 빠지고 빠져 점점 너에게
+That's what you do to me</p>
+
+<p>나는 alcohol free 근데 취해 (취해, 취해)
+마신 게 하나도 없는데 (없는데)
+너와 있을 때마다 이래 (이래, 이래)
+날 보는 네 눈빛 때문에</p>
+
+<p>Yo
+Alcohol 도수는 완전 zero point zero
+근데 마실 때마다 자꾸 길을 잃어
+자고 일어나도 깨지가 않아
+근데 이 기분 싫지가 않아</p>
+
+<p>Easy to the mouth and tummy
+Like a drink made of honey
+이 술 이름은 도대체 뭐니?
+Makes the whole world bright and sunny</p>
+
+<p>나는 alcohol free 근데 취해 (취해, 취해)
+마신 게 하나도 없는데 (없는데)
+너와 있을 때마다 이래 (이래, 이래)
+날 보는 네 눈빛 때문에</p>
+
+<p>너는 눈으로 마시는 내 champagne 내 wine
+내 tequila, margarita
+Mojito with lime
+Sweet mimosa, pina colada</p>
+
+<p>I'm drunk in you (I'm drunk in you)
+I'm drunk in you (I'm drunk in you)
+            </p>
+        `
+},
+{
+id: "TheFeels",
+        title: "The Feels",
+        category: "twice",
+        youtubeId: "f5_wn8mexmM",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-the-feels",
+        videoRefUrl: "https://www.youtube.com/watch?v=X-1lbSCbzz4",
+        lyricsHTML:`
+            <p>
+Boy I, boy I, boy I know
+I know you get the feels (yeah)
+Boy I, boy I, boy I know</p>
+
+<p>Uh, I'm so curious
+'Bout you boy, wanna keep it cool
+But I know, every time you move
+Got me frozen I
+Get so shy
+It's obvious (yeah, yeah)
+Catchin' feels like butterflies
+If I say what's on my mind
+Would I hit bullseye? (Woo)
+Shoot, I'm ready, aim and fire (fire)</p>
+
+<p>Baby I (whoa)
+Feel like Cupid's alive
+Alive tonight
+Yeah, tonight
+If your heart beats the same way, let me know (yeah, let me know)
+'Cause I'm boom, boom, boom from head to toe and I (from head to toe)</p>
+
+<p>I know love, it is such a funny thing
+A mystery allure
+Gotta get to know you more
+'Cause I, I can feel a real connection
+A supernatural attraction-ah
+I got the feels for you, yeah, yeah, yeah, yeah</p>
+
+<p></p>You have stolen my heart, oh yeah
+Never let it go, oh, oh, no
+Never let it go, oh, oh, oh
+Lightning straight to my heart, oh yeah
+I got all the feels for sure
+Yeah, I got all the feels for ya
+
+<p>Boy I, boy I, boy I know
+I know I get the feels
+Boy I, boy I, boy I know
+I know you feel it, too</p>
+
+<p>Sway in the moonlight, dance in the dark
+I, I know that I caught your eye (that's right)
+Are we on the same vibe? (Same vibe)
+I wonder what's on your mind
+'Cause you got me good and I wanna be your boo
+If it's dumb, well, I wanna be a fool
+Underneath the neon lights, baby
+Electricity tonight, baby</p>
+
+<p>I know love, it is such a funny thing
+A mystery allure
+Gotta get to know you more
+'Cause I, I can feel a real connection
+A supernatural attraction-ah
+I got the feels for you, yeah, yeah, yeah, yeah</p>
+
+<p>You have stolen my heart, oh yeah (oh yeah)
+Never let it go, oh, oh, no
+Never let it go, oh, oh, oh
+Lightning straight to my heart, oh yeah
+I got all the feels for sure
+Yeah, I got all the feels for ya</p>
+
+<p>Boy I, boy I, boy I know
+I know I get the feels
+Boy I, boy I, boy I know
+I know you feel it, too
+Boy I, boy I, boy I know
+I know I get the feels
+Boy I, boy I, boy I know
+I know you feel it, too</p>
+
+<p>You got my attention (oh)
+So what's your intention
+Yeah, tell me baby what's the deal?
+Oh, one look and I know it, baby, my eyes reveal
+That you, you, you give me the feels (oh), oh yeah</p>
+
+<p>You have stolen my heart, oh yeah (oh yeah)
+Never let it go, oh, oh, no
+Never let it go, oh, oh, oh
+Lightning straight to my heart, oh yeah
+I got all the feels for sure
+Yeah, I got all the feels for ya</p>
+
+<p>Boy, I, boy, I, boy, I know (the feels)
+I know I get the feels (oh, yeah) (the feels)
+Boy, I, boy, I, boy, I know (yeah, yeah, yeah)
+I know you feel it, too (yeah, yeah, yeah)
+Boy, I, boy, I, boy, I know (the feels) (come on)
+I know I get the feels
+Boy, I, boy, I, boy, I know
+I know you feel it, too
+            </p>
+        `
+},
+{
+id: "SCIENTIST",
+        title: "SCIENTIST",
+        category: "twice",
+        youtubeId: "xFBvfk4Ul-Q",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-scientist",
+        videoRefUrl: "https://www.youtube.com/watch?v=jcHcRqqm8KQ",
+        lyricsHTML:`
+            <p>
+Yeah</p>
+
+<p>왜 자꾸 날 연구해
+아인슈타인도 아니고
+왜 그렇게 각을 재
+Sine, cosine도 아니고
+밀고 당기는 게 내 스타일은 더 아니고
+알아보다 말 거면
+눈에 밟히지나 마 좀 제발</p>
+
+<p>넌 생각이 많아 문제야 문제
+머릿속만 들여다보면 뭐 해 (뭐 해)
+각 잴 시간에 답 낼 시간에
+Better make a move</p>
+
+<p>Love ain't a science
+Don't need no license
+머리 싸매고 고민할수록 minus</p>
+
+<p>Don't try to be a genius
+Why so serious?
+맘이 가는 대로 ooh ah
+맘이 시킨 대로 what you, what you waiting for?</p>
+
+<p>그래 뭘 알아냈어?
+그동안 나에 대해
+다음 과목은 뭐야?
+So what's the next class, then?
+백날 연구해봤자 이런 식이면 failure
+분 단위로 바뀌어대는
+내 맘은 못 풀어낼걸</p>
+
+<p>넌 생각이 많아 문제야 문제
+머릿속만 들여다보면 뭐 해 (뭐 해)
+각 잴 시간에 답 낼 시간에
+Better make a move</p>
+
+<p>Love ain't a science
+Don't need no license
+머리 싸매고 고민할수록 minus</p>
+
+<p>Don't try to be a genius
+Why so serious?
+맘이 가는 대로 ooh ah
+맘이 시킨 대로 what you, what you waiting for?</p>
+
+<p>You got a crush on me
+You're gonna fall for me
+사랑 앞에서 이론이 무슨 소용, it's all useless, uh huh</p>
+
+<p>이론 빠삭한 genius 아인슈타인
+보단 불도저 curious 프랑켄슈타인
+처럼 돌진해 서툰데 멋지네
+거침없이, 세게 rush
+Got a crush on me</p>
+
+<p>답이 없어 재미있는 걸 넌 왜 몰라
+답을 몰라 설레었던 걸 넌 왜 몰라
+나사 하나 빠진 것처럼 사랑하자
+딱 하나만 아는 바보 된 것처럼</p>
+
+<p>Love ain't a science, uhm uhm
+Need no license, uhm uhm
+연구해 about me, 'bout me
+충분히 you know 'bout me
+Love ain't a science, uhm uhm
+Need no license, uhm uhm
+말했잖아 what you, what you, what you waiting for?</p>
+
+<p>Love ain't a science
+Don't need no license
+머리 싸매고 고민할수록 minus</p>
+
+<p>Don't try to be a genius
+Why so serious?
+맘이 가는 대로 ooh ah
+맘이 시킨 대로 what you, what you waiting for? (hoo)</p>
+
+<p>(Science, you ain't a scientist) mm
+(What's the vibe? You, you ain't a science, oh)
+You better move
+(Science, you ain't a scientist) what you, baby
+What you, baby
+(What's the vibe? You, you ain't a science, what)
+(You ain't a)
+            </p>
+        `
+},
     {
 id: "POP!",
         title: "POP!",
@@ -1408,6 +1864,387 @@ Pop, pop, pop (I can't stop it)<br>
 Pop, pop, pop<br>
                 </mark>
             </p>`
+},
+{
+id: "TalkthatTalk",
+        title: "Talk that Talk",
+        category: "twice",
+        youtubeId: "ulopgxJASwI",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-talk-that-talk",
+        videoRefUrl: "https://www.youtube.com/watch?v=KIsbsNjtltg",
+        lyricsHTML:`
+            <p>
+날 보는 eyes 씩 웃는 lips
+맘에 들지 I like it (oh, yeah)
+니 A to Z 꽤 달콤해 (that's right)
+But I wanna skip (just skip)
+더 결정적인 thing (that thing)
+본론을 원해, 빙빙 돌린 서론 따위 말고 (I mean L-word)</p>
+
+<p>더-더-더, 더-더 더 보여줘 (보여줘)
+너-너-너, 너-너 널 알려줘 (알려줘)
+지금 난 need some hints
+채우고 있어 너란 crosswords
+Beep-beep-beep, beep-beep, the time is up
+난 이미 알 것 같지만
+니 목소리로 바로 듣고 싶은데</p>
+
+<p>Baby 내 답은 뻔하잖아 yes or yes
+밀거나 당기는 괜한 시간 낭비는 싫으니
+과감하게 say it now 원해 one to ten
+시작해볼까? Right now</p>
+
+<p>Tell me what you want
+Tell me what you need
+A to Z 다 말해봐 but 시작은 이렇게 해
+Talk that talk 딱 한 마디
+Talk that talk L-O-V-E
+들려줘 ooh
+Now-now-now-now-now, yeah (yeah, turn it up)</p>
+
+<p>너의 눈 look, look, look
+위아래로 roll, roll, roll
+읽었잖아 뭐 피차, 눈빛 사이 오고 가는 말
+차근차근 one, two, three (just one, two, three)
+더 친절하게 ABC (like ABC)
+Don't stop and just replay
+Replay (yeah, that's my only request)</p>
+
+<p>Baby 날 안고 달콤하게
+Tell me now (just tell me now)
+때로는 뻔한 말이 더 좋다는 걸 알잖니
+Favorite part 지금이야 (want it more)
+Now we're almost there
+시작해볼까? Right now</p>
+
+<p>Tell me what you want
+Tell me what you need
+A to Z 다 말해봐 but 시작은 이렇게 해
+Talk that talk 딱 한 마디
+Talk that talk L-O-V-E
+들려줘 ooh
+Now-now-now-now-now, yeah</p>
+
+<p>단순한 words 사랑한다는 말
+그게 다야, 난 꾸밈없이 듣길 원하지
+미루지 않아, 너에게 다가가
+난 심플하게 다 말할게 I love you</p>
+
+<p>Tell me what you want
+Tell me what you need
+A to Z 다 좋지만 난 이 말이 제일 좋은데
+Talk that talk 딱 한 마디
+Talk that talk L-O-V-E
+Oh, yeah, it sounds so good 더 빠져들어 푹</p>
+
+<p>Tell me what you want
+Tell me what you need
+한 번 더 해줘, 그래, 방금 그 말
+Talk that talk 딱 한 마디
+Talk that talk L-O-V-E
+들려줘 ooh
+Now-now-now-now-now, yeah (yeah, turn it up)
+            </p>
+        `
+},
+{
+id: "SETMEFREE",
+        title: "SET ME FREE",
+        category: "twice",
+        youtubeId: "Elp13qgVgHI",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-set-me-free-1",
+        videoRefUrl: "https://www.youtube.com/watch?v=rYWvOyGg0b8",
+        lyricsHTML:`
+            <p>
+모든 걸 잃어버린대도 상관없어
+지금 이 감정이 순간이라 해도
+이제는 더 이상 내 맘 숨기긴 싫어
+니 눈빛이 날 자유롭게 만들잖아</p>
+
+<p>No, no-no-no-no
+의식하지 말고 날 안아줘
+더는 잃을 것도 숨길 것도 없어</p>
+
+<p>내 모든 걸 걸어 risk it all
+이 사랑 말고는 fade out
+Gonna set me, set me, set me free
+(Oh)
+내 맘 끝까지 갈 테니
+넌 그냥 날 안으면 돼
+Come and set me, set me, set me free</p>
+
+<p>내가 원하던 best of me (best of me)
+이제 나는 ready to be (gonna be)
+Yeah, gonna set me, set me, set me free (oh)
+지금 all eyes on me (ah)
+나를 안아줘 다 보란 듯이
+Yeah, come and set me, set me, set me free</p>
+
+<p>어리석은 충동이래도 상관없어 (yeah-yeah)
+날 가두는 시선 따윈 이미 out of sight (oh-oh)
+지금 우린 내가 꿈꿔왔던 그대로
+눈앞에 그려진 완벽한 fantasy</p>
+
+<p>No, no-no-no-no
+신경 쓰지 말고 날 안아줘
+더는 잃을 것도 숨길 것도 없어</p>
+
+<p>모든 걸 걸어 risk it all
+이 사랑 말고는 fade out
+Gonna set me, set me, set me free
+(Oh)
+내 맘 끝까지 갈 테니
+넌 그냥 날 안으면 돼
+Come and set me, set me, set me free</p>
+
+<p></p>내가 원하던 best of me (best of me)
+이제 나는 ready to be (gonna be)
+Yeah, gonna set me, set me, set me free (oh)
+지금 all eyes on me (ah)
+나를 안아줘 다 보란 듯이
+Yeah, come and set me, set me, set me free
+
+<p>Uh, uh
+I'm gonna tell you straight
+No matter what they say (they say)
+두 점을 잇는 line 안 끊겨 all my life
+부딪히고 넘어져도 일으켜 날
+두 눈이 맞닿을 땐 make me feel special
+너로 인해 완전한 나로 completed
+이 말 믿어도 돼 'cause this is official, uh</p>
+
+<p>내 모든 걸 걸어 risk it all
+이 사랑 말고는 fade out
+Gonna set me, set me, set me free
+(Oh)
+내 맘 끝까지 갈 테니
+넌 그냥 날 안으면 돼
+Come and set me, set me, set me free</p>
+
+<p>내가 원하던 best of me (ooh-ooh)
+이제 나는 ready to be (gonna be)
+Yeah, gonna set me, set me, set me free (oh)
+지금 all eyes on me (ah)
+나를 안아줘 다 보란 듯이 (yeah)
+Yeah, come and set me, set me, set me free
+            </p>
+        `
+},
+{
+id: "Killin'MeGood",
+        title: "Killin' Me Good",
+        category: "JIHYO",
+        artist: "JIHYO",                 
+        themeOverride: {                 
+            main: "#fac066",
+            light: "#faf0e1",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "0M2bZCiwnKI", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/jihyo-killin-me-good",
+        videoRefUrl: "https://www.youtube.com/watch?v=8S18JPKXCVo",
+        lyricsHTML:`
+            <p>
+Yeah
+Yeah</p>
+
+<p>Something that I can't deny
+처음 입을 댄 그 순간
+온몸이 느끼는 뭔가
+Something that I can't explain
+하지만 너무 특별해
+눈을 감고서 집중해</p>
+
+<p>몸이 떠오르는 시간
+내 안에 들리는 소리만
+듣고 그대로 따라갈래 (that's what you do)
+I'm losing all my senses
+You're taking me to places
+And you know all that I can say is</p>
+
+<p>Killin' me, killin' me good (so good, so good)
+Feeling things I never knew that I could, ooh
+니가 만들어주는 이 기분 (so good, so good)
+십 초마다 생각이 나
+내 모습에 내가 놀라
+You're killin' me, killin' me good
+(You're making me feel something new, hey)
+(You're making me feel so brand new)</p>
+
+<p>나보다 날 더 잘 아는 거야
+Oh, you keep on making me say, oh my, oh my
+Don't stop 두 단어만 끝없이
+네 귀에 속삭이지 take me so high</p>
+
+<p>나에게 널 맡길 시간
+이제 널 위해 준비한
+날 보여줄게 너에게만 (that's what I'll do)
+I'll let you lose your senses
+And make you and go to places
+Then I know all that you can say is</p>
+
+<p>You're killin' me, killin' me good (so good, so good)
+Feeling things I never knew that I could, ooh
+니가 만들어주는 이 기분 (so good, so good)
+십 초마다 생각이 나
+내 모습에 내가 놀라
+You're killin' me, killin' me good
+(You're making me feel something new, hey)
+(You're making me feel so brand new)</p>
+
+<p>Oh, oh 날 솔직하게 해, 모두 표현하게 돼
+그래서 또 내 입에서 나오는
+Oh, oh 넌 위험하게 달콤해, 그래서 난 계속 원해
+I just can't help but to say</p>
+
+<p>Killin' me, killin' me good (so good, so good) yeah, yeah
+Feeling things I never knew that I could, ooh
+니가 만들어주는 이 기분 (so good, so good)
+십 초마다 생각이 나
+내 모습에 내가 놀라 (내가 놀라)
+You're killin' me, killin' me good
+(You're making me feel something new, hey)
+(You're making me feel so brand new)</p>
+
+<p>(You're making me feel something new, hey)
+(You're making me feel so brand new)
+You're killin' me, killin' me good
+            </p>`
+},
+{
+id: "IGOTYOU",
+        title: "I GOT YOU",
+        category: "twice",
+        youtubeId: "fwPjD-jFsls",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-i-got-you",
+        videoRefUrl: "https://www.youtube.com/watch?v=ZLAPXBbc0gk",
+        lyricsHTML:`
+            <p>
+A little reckless around the edges
+Call it young, dumb love and it's just enough
+Keep me guessing (keep me guessing)
+How the story unfolds with you (you)
+When I'm walking into the darkness
+I know you'll be right there, lighting up the flares
+When it's starless, I will follow you to the moon (moon, ayy)</p>
+
+<p>No, we'll never fall apart (never fall apart)
+Even million miles apart (million miles apart)
+We were lightning from the start (lightning from the start)
+And it keeps me going to know that</p>
+
+<p>Ooh, no matter what, you got me
+I got you and I wouldn't want it any other way
+Ooh, no drop of doubt, I know deep down that
+We'll make it through (it through)
+Just like we always do</p>
+
+<p>Ayy, every second, every minute
+Want you close to me like you're supposed to be
+Ain't no limit (ain't no limit)
+To what I would do for you, oh, oh
+And you know, you turn my whole world upside down
+Catch me before I ever hit the ground
+And I'd do the same for you, oh, whoa</p>
+
+<p>No, we'll never fall apart (no, we'll never fall a)
+Even million miles apart (even million miles a)
+We were lightning from the start (we were lightning from the)
+And it keeps me going to know that</p>
+
+<p>Ooh, no matter what, you got me
+I got you and I wouldn't want it any other way
+Ooh, no drop of doubt, I know deep down that
+We'll make it through (make it through)
+Just like we always do</p>
+
+<p>Do-do-do, do-do, do-do, do, do
+Do-do-do, do-do, do-do, do, do
+Do-do-do, do-do, do-do, do, do, oh-oh</p>
+
+<p>Ooh, no matter what, you got me
+I got you and I wouldn't want it any other way
+Ooh, no drop of doubt, I know deep down that
+We'll make it through (through)
+Just like we always do</p>
+
+<p>Do-do-do, do-do, do-do, do, do (that we do)
+Do-do-do, do-do, do-do, do, do (we do)
+Do-do-do, do-do, do-do, do, do
+Just like we always do
+            </p>
+        `
+},
+{
+id: "ONESPARK",
+        title: "ONE SPARK",
+        category: "twice",
+        youtubeId: "ChvAoD3-hXA",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-one-spark",
+        videoRefUrl: "https://www.youtube.com/watch?v=_3KdaVwKpXw",
+        lyricsHTML:`
+            <p>
+Ah, he-he-he
+One spark, baby</p>
+
+<p>Everybody wants that endless flame
+식지 않을 everlasting blast
+영원한 걸 염원해, 그래, 영원히
+We're sparkling beautifully (ooh)
+아름다울 걸 난 확신해</p>
+
+<p>너의 숨결에 온기를 데워
+계속 타오르는 energy
+If I lose my rhythm
+Then your beat goes on and on (on and on)
+Bring me the, bring me the spark in my veins
+Give me the freedom, the freedom to chase
+You know it's all ours
+이대로 make this moment last</p>
+
+<p>'Cause my heart is burning, burning, burning
+So good that it's hurting, hurting, hurting
+눈부시게 아름답고 아프다 해도 it's our golden days
+Yeah, my heart is burning, burning, burning
+Don't lose this spark, baby</p>
+
+<p>너와 누워본 coral 빛 heaven
+붉은 두 뺨이 식지 않도록
+더 세게 끌어안고
+더 크게 불러줄게</p>
+
+<p>너의 숨결에 온기를 데워
+계속 타오르는 energy
+If I lose my rhythm
+Thеn your beat goes on and on (on and on)
+Bring me thе, bring me the spark in my veins
+Gimme the freedom the freedom to chase
+You know it's all ours
+이대로 make this moment last (baby)</p>
+
+<p>'Cause my heart is burning, burning, burning
+So good that it's hurting, hurting, hurting
+눈부시게 아름답고 아프다 해도 it's our golden days
+Yeah, my heart is burning, burning, burning
+Don't lose this spark, baby</p>
+
+<p>Lighting it up 빛이 나는 시간을 건너 (빛의 시간을 건너)
+Glowing so bright 찬란한 환상쯤에 이르러
+This is the time of our lives
+Carved into our minds
+저물지 않아 there ain't no sundown
+An everlasting spark to an everlasting fire
+Don't let this fire die (oh-whoa, burning on, ooh)</p>
+
+<p>'Cause my heart is burning, burning, burning (oh, my heart is burning, yeah)
+So good that it's hurting, hurting, hurting (hurting, ooh)
+눈부시게 아름답고 아프다 해도 it's our golden days (yeah)
+Yeah, my heart is burning (oh), burning (oh), burning
+Don't lose this spark, baby (oh)</p>
+
+<p>'Cause my heart is burning, burning, burning
+            </p>
+        `
 },
 {
 id: "ABCD",
@@ -1522,7 +2359,6 @@ A-B-C-D <u>반복해 <span class="h">巴波K</span></u> <br>
 How to fall in love <u>가르쳐 줄게 <span class="h">咖樂邱 ju K</span></u> <br>
             </p>`
 },
-
     {
         id: "RunAway",
         title: "Run Away",
@@ -1623,6 +2459,193 @@ So are you ready tonight?<br>
 [Run! A! way! 億!]</span> </mark><br>
             </p>`
     },
+{
+id: "Strategy",
+        title: "Strategy",
+        category: "twice",
+        youtubeId: "Z6Fc5TYih3M",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-strategy",
+        videoRefUrl: "https://www.youtube.com/watch?v=kJItjpQoFgU",
+        lyricsHTML:`
+            <p>
+Hey, boy, I'ma get ya
+I'ma get you real good and I bet ya (it's Megan Thee Stallion)
+Hey, boy, once I get ya
+You'll be, oh, so glad that I met ya (and TWICE)
+Ow</p>
+
+<p>Step one, do my highlight
+Make me shine so bright in the moonlight
+Step two, silhouette tight
+Baby, even my shadow looks good, right?
+Step three, when I arrive
+Make you look my way with your heart eyes
+Step four, got you on the floor
+Make you say, "More, more, more"</p>
+
+<p>When I say, "Hi"
+I'm feeling all your attention on me
+Hi
+No reason to be so shy with me
+I ain't gonna bite, come on over (no)
+I know you wanna move a little closer (yeah)
+I got a plan to get you with me</p>
+
+<p>I got you on my radar, soon you're gonna be with me
+My strategy, strategy will get ya, get ya, baby
+Winning is my trademark, soon you'll never wanna leave
+My strategy, strategy will get ya, get ya, baby</p>
+
+<p>Hey, boy, I'ma get ya
+I'ma get you real good and I bet ya
+Hey, boy, once I get ya
+You'll be, oh, so glad that I met ya</p>
+
+<p>When your cheeks go red (that's cute)
+I wanna dance, you said, "Oh, cool"
+'Til I'm in your head (it's cruel)
+And you can't forget
+You're feeling things now, and you're confused
+Watching my body getting loose
+You don't know what you're gonna do
+You're mine</p>
+
+<p>When I say, "Hi"
+I'm feeling all your attention on me
+Hi
+No reason to be so shy with me
+I ain't gonna bite, come on over (no)
+I know you wanna move a little closer (yeah)
+I got a plan to get you with me</p>
+
+<p>I got you on my radar, soon you're gonna be with me
+My strategy, strategy will get ya, get ya, baby
+Winning is my trademark, soon you'll never wanna leave
+My strategy, strategy will get ya, get ya, baby (real hot girl, shh)</p>
+
+<p>Do you like that? (Huh?)
+When I smack it and you watch it bounce right back?
+He really lost it when he saw me do the right, left (hmm)
+I'm a man eater, you were just a light snack (baow)
+I got him pressed like he's workin' on his triceps (hmm)
+I'm a flirt, I'm a tease, they be hurt after me
+Told him, "Baby, what's a player to the G-A-M-E?"
+Sand need to worry about him bringing me to the beach
+Jealous? Who? Girl, please
+Left, right, left, right, do it to the beat (do it to the beat)
+Talk with my body, that's my strategy (baow, baow)
+Other girls try but I'm really hard to beat (I'm really hard to beat)
+He'll be mine off my strategy (yeah, yeah)
+Left, right, left, right, do it to the beat (do it to the beat)
+Talk with my body, that's my strategy (baow, baow)
+Other girls try but I'm really hard to beat (yeah, I'm really hard to beat)
+He'll be mine off my strategy (yeah, yeah)</p>
+
+<p>My strategy, strategy
+Like gravity, gravity
+One look at me, look at me
+I bet ya, bet ya, bet ya, boy
+You'll be down on your knees
+Calling me up, begging me, don't leave
+My strategy, strategy
+Will get ya, get ya, get ya, boy (ow)</p>
+
+<p>Hey, boy, I'ma get ya
+I'ma get you real good and I bet ya
+Hey, boy, once I get ya
+You'll be, oh, so glad that I met ya (ooh)
+Hey, boy, I'ma get ya (yeah)
+I'ma get you real good and I bet ya (good and I bet ya)
+Hey, boy, once I get ya
+You'll be, oh, so glad that I met ya</p>
+
+<p>Hey, boy, I'ma get ya
+I'ma get you real good and I bet ya
+            </p>
+        `
+},
+{
+id: "THISISFOR",
+        title: "THIS IS FOR",
+        category: "twice",
+        youtubeId: "p9spvfXou9M",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-this-is-for",
+        videoRefUrl: "https://www.youtube.com/watch?v=cfMFmH2qmyc",
+        lyricsHTML:`
+            <p>
+(Ha-ha-ha)</p>
+
+<p>This is for all my ladies
+Who don't get hyped enough (hey, ladies)
+If you've been done wrong
+Then this your song, so turn it up (turn it up for me, uh, uh)</p>
+
+<p>I wanna go where the baddest girls are from (uh, uh)
+Might be another planet maybe that's where mother nature made me (ooh)
+Something about that water tastes like fun (yeah, yeah)
+My girls make it rain confetti, sweet on your tongue</p>
+
+<p>Beep, beep, beep
+I'm outside your door, so let's go, don't let that
+Beep, beep, beep
+Have you feeling low when you're grown, you got the
+Key, key, keys (you got it)
+You already know and it shows tonight
+It's you and me how it should be</p>
+
+<p>This is for all my ladies
+Who don't get hyped enough
+If you've been done wrong
+Then this your song, so turn it up
+One time for all my ladies
+You looking good as what
+So tell 'em bye, bye
+'Cause it's your time to turn it up</p>
+
+<p>Thi-thi-this for the girls with that light inside
+They spin around you like satellite
+Yeah, you the baddest all day and night
+I'll give you flowers 'til the end of time
+(Ooh) this your moment, go get it
+(Ooh) forget that boy and don't sweat it (oh)
+I'll always be your ride or die so</p>
+
+<p>Beep, beep, beep
+I'm outside your door, so let's go don't let that
+Beep, beep, beep
+Have you feeling low when you're grown, you got the
+Key, key, keys (you got it)
+You already know and it shows tonight
+It's you and me how it should be (yeah)</p>
+
+<p>This is for all my ladies (ooh, ooh)
+Who don't get hyped enough (hyped enough)
+If you've been done wrong
+Then this your song so turn it up (turn it up, oh, ooh-woah)
+One time for all my ladies (all my ladies)
+You looking good as what (good as what)
+So tell 'em bye, bye (step out, done wrong)
+'Cause it's your time to turn it up</p>
+
+<p>All my ladies now (now)
+Oh, oh, oh, oh
+Let's get down (oh, let's get)
+Come on, dip your hip into it
+All my ladies now (now)
+Oh, oh, oh, oh (ladies now)
+Let's get down (down)
+Come on, dip your hip into it
+All my ladies now (ladies)
+Oh, oh, oh, oh (this is for my ladies)
+Let's get down (yeah)
+Come on, dip your hip into it
+All my ladies now (ladies)
+Oh, oh, oh, oh (this is for my ladies)
+Let's get down
+Come on, dip your hip into it
+            </p>
+        `
+},
     {
 id: "SHOOT (Firecracker)",
         title: "SHOOT (Firecracker)",
@@ -1689,6 +2712,91 @@ Shoot from the</span><br>
     SonChaeYeong! 撒浪嘿!]</span><br>
 Salute from the heart</mark><br>
             </p>`
+},
+{
+id: "ME+YOU",
+        title: "ME+YOU",
+        category: "twice",
+        youtubeId: "4HlV_5Zof2c",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-me-you",
+        videoRefUrl: "https://www.youtube.com/watch?v=O4ztove6LsQ",
+        lyricsHTML:`
+            <p>
+Yeah
+You know I'm always by your side
+So just listen
+Yeah</p>
+
+<p>Babe
+Feels like only yesterday
+Guess the memories never fade away
+So many dreams we've been chasing together
+We've been through the tears and the laughter
+Now we've found a happy ever after
+I got you and that's all that matters
+I'm so glad you're in my life</p>
+
+<p>No one knows me like you do, honestly
+Better than I know myself</p>
+
+<p>All I need is you, just you
+For everything we've been through
+I'm grateful that you're my best friends (friends) until the end
+I'll stick by your side like glue
+It's true
+Nothing's ever gonna come between us
+Ain't no way we can't lose
+Always me plus you</p>
+
+<p>It still feels the same (uh-huh) and though the seasons change (yeah)
+Through the ups and the downs, you'll stay my main (right?)
+'Cause, girl, one look in my eye and you read my mind (mind)
+We got a connection that gets stronger every time, ride or die
+(Yup) I won't take you for granted (granted)
+A shoulder to cry on, I got it (no, no, no)
+So reach out your hand and I'll grab it
+Day or night, I hold you down</p>
+
+<p>No one knows me like you do, honestly
+Better than I know myself</p>
+
+<p>All I need is you, just you (oh)
+For everything we've been through
+I'm grateful that you're my best friends (that you're my friends) until the end
+I'll stick by your side like glue
+It's true (nothing's ever come between us)
+Nothing's ever gonna come between us
+Ain't no way we can't lose (we can't lose)
+Always me plus you</p>
+
+<p>All I know
+It just gets better with time
+When you're feeling so down and lonely
+I'll be there come rain or shine
+Oh, if you don't already know
+There's nothing that I won't do
+It's always me plus you</p>
+
+<p>Oh, yeah, yeah (oh, yeah, yeah)
+Oh, yeah, yeah, yeah, yeah
+Oh, yeah, yeah
+Ain't no thing, it's just me plus you</p>
+
+<p>All I need is you, just you
+For everything we've been through
+I'm grateful that you're my best friends (oh, yeah, yeah) until the end
+I'll stick by your side like glue
+It's true
+Nothing's ever gonna come between us (no, no, no)
+Ain't no way we can't lose (we can't lose)
+Always me plus you (always me plus you)</p>
+
+<p>Ha-ha
+Oh, yeah
+I gotta tell you
+Always me plus you
+            </p>
+        `
 },
 {
     id: "MEEEEEE",

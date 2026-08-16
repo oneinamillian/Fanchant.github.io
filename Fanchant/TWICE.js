@@ -529,6 +529,418 @@ Knock knock knock knock knock on my door</span><br>
             </p>
         </div>`
     },
+{
+id: "SIGNAL",
+        title: "SIGNAL",
+        category: "twice",
+        youtubeId: "VQtonf1fv_s", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-signal",
+        videoRefUrl: "https://www.youtube.com/watch?v=urn2g4RkhHk",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+                Trying to let you know<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+Hey, I must let you know<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Sign을 보내, signal 보내<br>
+Sign을 보내, signal 보내<br>
+Sign을 보내, signal 보내<br>
+<span class="h">I must let you know</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                (Hey) sign을 보내, signal 보내<br>
+근데 <u>전혀 안 통해 <span class="h">邱妞 安 通嘿</span></u> <br>
+눈빛을 보내 눈치를 주네<br>
+<u>근데 못 알아듣네 <span class="h">肯爹 某 塔拉 的捏</span></u> <br>
+답답해서 미치겠다, <u>정말 <span class="h">窮賣</span></u><br>
+왜 그런지 모르겠다, <u>정말 <span class="h">窮賣</span><br>
+다시 한 번 힘을 내서<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                눈짓도 손짓도 <U>어떤 표정도 <span class="h">歐動 潑冏豆</span> <br>
+소용이 없네, <u>하나도 안 통해 <span class="h">哈娜都 安通嘿</span></u> <br>
+눈치도 코치도 전혀 없나 봐<br>
+<u>더 이상 어떻게 내 맘을 표현해 <span class="h">偷 以桑 歐都ㄎㄟ 內 麻ㄇ 潑優內</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                언제부턴가 난 네가 <u>좋아 <span class="h">邱哇</span></u><br>
+지기 시작했어, <u>바보야 <span class="h">趴波呀</span></u><br>
+왜 이렇게도 내 맘을 <u>몰라 <span class="h">摸拉</span></u>?<br>
+언제까지 이렇게 둔하게<br>
+나를 친구로만 <u>대할래 <span class="h">貼哈勒</span></u>?<br>
+내가 원하는 건 <u>그게 아닌데 <span class="h">ㄎ給 阿逆ㄉㄟ</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Signal 보내, signal 보내<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u> <br>
+난 너를 원해, 난 너를 원해<br>
+<u>왜 반응이 없니 <span class="h">威 趴ㄋ以 歐逆</span></u>?<br>
+만날 때 마다 마음을 담아<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u> <br>
+기다리잖아, 다 보이잖아<br>
+<u>왜 알지 못하니 <span class="h">威 阿季 摸塔逆</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+              Trying to let you know<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+I must let you know<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                널 보며 웃으면 <u>알아채야지 <span class="h">阿拉切呀機</span></u> <br>
+오늘만 몇 번째 <u>널 보며 웃는데 <span class="h">no 頗謬 五嫩ㄉㄟ</span></u> <br>
+자꾸 말을 걸면 <u>좀 느껴야지 <span class="h">冏 ㄋ溝呀機</span></u> <br>
+계속 네 곁에 <u>머물러있는데 <span class="h">某木漏以嫩ㄉㄟ</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                언제부턴가 난 네가 <u>좋아 <span class="h">邱哇</span></u><br>
+지기 시작했어, <span class="h">趴波呀</span></u><br>
+왜 이렇게도 내 맘을 <u>몰라 <span class="h">摸拉</span></u>?<br>
+언제까지 이렇게 둔하게<br>
+나를 친구로만 <u>대할래 <span class="h">貼哈勒</span></u>?<br>
+내가 원하는 건 <u>그게 아닌데 <span class="h">ㄎ給 阿逆ㄉㄟ</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+              Signal 보내, signal 보내<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u> <br>
+난 너를 원해, 난 너를 원해<br>
+<u>왜 반응이 없니 <span class="h">威 趴ㄋ以 歐逆</span></u>?<br>
+만날 때 마다 마음을 담아<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u> <br>
+기다리잖아, 다 보이잖아<br>
+<u>왜 알지 못하니 <span class="h">威 阿季 摸塔逆</span></u>  <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                드르르드드 드르르드드<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u><br>
+드르르드드 드르르드드<br>
+<u>왜 반응이 없니 <span class="h">威 趴ㄋ以 歐逆</span></u>?<br>
+드르르드드 드르르드드<br>
+<u>찌릿 찌릿 찌릿 찌릿 <span class="h">機哩 機哩 機哩 機哩</span></u><br>
+드르르드드 드르르드드<br>
+<u>왜 알지 못하니 <span class="h">威 阿季 摸塔逆</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+                Sign을 보내, signal 보내<br>
+근데 <u>전혀 안 통해 <span class="h">邱妞 安 通嘿</span></u><br>
+눈빛을 보내, 눈치를 주네<br>
+<u>근데 못 알아듣네 <span class="h">肯爹 某 塔拉 的捏</span></u> <br>
+답답해서 미치겠다, <u>정말 <span class="h">窮賣</span></u> <br>
+왜 그런지 모르겠다, <u>정말 <span class="h">窮賣</span></u> <br>
+다시 한 번 힘을 내서<br>
+<span class="h">Sign</span><u> 을 보내 <span class="h">嫩 波捏</span></u>, <span class="h">signal</span><u> 보내 <span class="h">波捏</span></u><br>
+            </p>
+        </div>
+        `
+},
+{
+id: "LIKEY",
+        title: "LIKEY",
+        category: "twice",
+        youtubeId: "V2hlQkVJZhE", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-likey",
+        videoRefUrl: "https://www.youtube.com/watch?v=DA77N9nRJSo",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+<p class="tip">第二個八拍</p><br>
+<span class="h">[TWICE!]</span><br>
+<p class="tip">一個八拍</p><br>
+<span class="h">[LI! KEY了! 努囉九! 兔! 哇! 意! 思!]</span>    <br>        
+설렌다, me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u> <span class="h">heart heart</span><br>
+Me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+자꾸 드러내고 싶지 <u>자꾸만 <span class="h">掐辜滿</span></u> <br>
+사소한 것 하나까지 <u>전부다 <span class="h">窮ㄅㄨ打</span></u><br>
+작은 화면 속에 내가 제일 예뻐 보이고파<br>
+아직은 감춰, 이런 내 마음 꾹꾹<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+멋 부린다는 건 정말 귀찮은 거<br>
+그렇다고 절대 대충할 수가 없는걸<br>
+매일 가슴 뛰게 해, 이건 네가 몰라야만 돼<br>
+그러면서 뻔뻔하게<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+BB크림 <u>파파파 <span class="h">啪啪啪</span></u> <br>
+립스틱을 <u>맘맘마 <span class="h">媽媽媽</span></u> <br>
+카메라에 담아볼까, <u>예쁘게 <span class="h">耶ㄅ給</span></u> <br>
+이거 보면 <u>웃어줘 <span class="h">屋搜九</span></u> <br>
+그리고 꼭 <u>눌러줘 <span class="h">no囉九</span> <br>
+저 밑에 앙증맞고 <u>새빨간 <span class="h">ㄙㄟ掰乾</span></u> <span class="h">heart, heart</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+근데 <u>좋아요 <span class="h">邱哇優</span></u> 란 말은 뻔해<br>
+내 맘 표현하기엔 부족한데<br>
+근데 <u>좋아요 <span class="h">邱哇優</span></u>, 잠도 못 자도<br>
+지각하게 돼도 좋은걸<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+설렌다, me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u> <span class="h">heart heart</span><br>
+Me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u> <span class="h">heart heart</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+숨을 훕 참아, 지퍼를 올리게<br>
+다시 한번 허리를 훕<br>
+<u>으라차차차 <span class="h">ㄜ拉恰恰恰</span></u>, 다 입었다, <span class="h">baby</span><br>
+세상엔 예쁜 옷이 너무나도 <u>많고, 많아 <span class="h">滿摳 滿那</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+BB크림 <u>파파파 <span class="h">啪啪啪</span></u> <br>
+립스틱을 <u>맘맘마 <span class="h">媽媽媽</span></u> <br>
+카메라에 담아볼까, <u>예쁘게 <span class="h">耶ㄅ給</span></u> <br>
+이거 보면 <u>웃어줘 <span class="h">屋搜九</span></u> <br>
+그리고 꼭 <u>눌러줘 <span class="h">no囉九</span> <br>
+저 밑에 앙증맞고 <u>새빨간 <span class="h">ㄙㄟ掰乾</span></u> <span class="h">heart, heart</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+근데 <u>좋아요 <span class="h">邱哇優</span></u>란 말은 뻔해<br>
+내 맘 표현하기엔 부족한데<br>
+근데 <u>좋아요 <span class="h">邱哇優</span></u>, 잠도 못 자도<br>
+지각하게 돼도 좋은걸<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+그저 바라보고 있지<br>
+아무 말도 할 수 없지, oh<br>
+조금만 더 다가와요, 내 맘 알아줘요<br>
+더 이상 감추고만 싶지 않아<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Ah, 오늘따라 기분이 <u>꿀꿀해 <span class="h">古古勒</span></u> <br>
+안 그런척해 봐도 <u>슬프냬 <span class="h">ㄙㄆ捏</span></u> <br>
+아무 반응 없는 너 땜에 삐졌는데<br>
+눈치 없이 친구들이 나오라고 <u>부르네 <span class="h">鋪ㄌ內</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Ooh, 잠깐만, 잠깐만, 연락이 이제야 오는걸, <span class="h">woo</span><br>
+하루종일 기분이 왔다 갔다<br>
+울다가도 다시 신나서 <u>춤추네 <span class="h">春秋內</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! ONE IN A! MILLION! 邱哇優! LI! KEY了! 努囉九! 兔!哇!意!思!]<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+설렌다, me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u> <span class="h">heart heart</span><br>
+Me likey<br>
+Me likey likey likey<br>
+Me likey likey likey<br>
+<u>두근두근두근 <span class="h">督跟督跟督跟</span></u> <span class="h">heart heart</span><br>
+            </p>
+        </div>
+        `
+},
+{
+id: "Heart Shaker",
+        title: "Heart Shaker",
+        category: "twice",
+        youtubeId: "o2PHqq19ufM", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-heart-shaker",
+        videoRefUrl: "https://www.youtube.com/watch?v=M0dlmpn8E3U",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+<span class="h">Yeah, yeah, yeah, yeah, yeah</span><br>
+Come and be my love, come and be my love, baby<br>
+<span class="h">Yeah, yeah, yeah, yeah, yeah<br>
+    <mark>
+        [內 新降ㄜ 亨的漏! 兔! 哇! 意! 思!]</span><br>
+Come and be my love, come and be my love, baby<br>
+    </mark>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+멍하니 서서 막 고민고민 해<br>
+나 이거 진짜 잘하는 짓인지<br>
+<span class="h">Yeah, yeah, yeah, yeah</span> 뭐 어때<br>
+<span class="h">No, no, no, no</span> 미쳤어<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+난 쯔위라고 해<br>
+무작정 인사할까?<br>
+내 전화번호야<br>
+쪽질 주고 도망칠까?<br>
+<span class="h">Yeah, yeah, yeah, yeah</span><br>
+어떡해 <span class="h">no, no, no, no</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+지금이야 girl, you can <span class="h">do it</span><br>
+눈이 마주치고 있잖아<br>
+Love is <span class="h">timing</span><br>
+놓치면 후회할지 몰라<br>
+Love is coming, coming<br>
+좀만 더 용길 내<br>
+<u>더는 망설이지 마 <span class="h">偷嫩 忙搜哩機 麻</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+이상하게 생각해도<br>
+어쩔 수 없어 <u>반했으니까 <span class="h">怕內ㄙ尼嘎</span></u> <br>
+You're my heart <span class="h">shaker, shaker</span> 놓치기 싫어<br>
+You're my heart <span class="h">shaker, shaker</span> 어떡해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+바보처럼 안 기다려<br>
+내가 말할래 <u>반해버렸다고 <span class="h">怕內潑六搭古</span></u> <br>
+니가 맘에 든다고 하루 종일 보고 싶다고<br>
+Would you be my love?<br>
+<u>반해버렸으니까 <span class="h">趴內潑六ㄙ尼ㄋㄧ嘎</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+표정관리 해 어색하지 않게<br>
+말투는 <span class="h">cool, cool</span><br>
+긴장할 필요 없어<br>
+<span class="h">Yeah, yeah, yeah, yeah</span> 정신 바짝 차리고 집중해<br>
+<span class="h">No, no, no, no</span> 어떡해 똑바로 못 보겠어<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+지금이야 girl, you can <span class="h">do it</span><br>
+눈이 마주치고 있잖아<br>
+Love is <span class="h">timing</span><br>
+놓치면 후회할지 몰라<br>
+Love is coming, coming<br>
+좀만 더 용길 내<br>
+<u>더는 망설이지 마 <span class="h">偷嫩 忙搜哩機 麻</span></u> <br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+이상하게 생각해도<br>
+어쩔 수 없어 <u>반했으니까 <span class="h">怕內ㄙ尼嘎</span></u><br>
+You're my heart <span class="h">shaker, shaker</span> 놓치기 싫어<br>
+You're my heart <span class="h">shaker, shaker</span> 어떡해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+바보처럼 안 기다려<br>
+내가 말할래 <u>반해버렸다고 <span class="h">怕內潑六搭古</span></u><br>
+니가 맘에 든다고 하루 종일 보고 싶다고<br>
+Would you be my love?<br>
+<u>반해버렸으니까 <span class="h">趴內潑六ㄙ尼ㄋㄧ嘎</span></u><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+너도 날 원하게 될 거야, 날 사랑하게 될 걸<br>
+간절히 바라 너도 나와 같기를 oh, yeah<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+망설이지 마 먼저 다가가<br>
+사랑을 말해, 주저 하지 마<br>
+Come baby, be my, be my, be my love<br>
+Come baby, <span class="h">bae, bae, bae, bae</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+이상하게 생각해도<br>
+어쩔 수 없어 <u>반했으니까 <span class="h">怕內ㄙ尼嘎</span></u> <br>
+You're my heart <span class="h">shaker, shaker</span> 놓치기 싫어<br>
+You're my heart <span class="h">shaker, shaker</span> 어떡해<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+바보처럼 안 기다려<br>
+내가 말할래 <u>좋아한다고 <span class="h">邱哇和大谷</span></u> <br>
+니가 맘에 든다고, 하루 종일 보고 싶다고<br>
+사랑한다고<br>
+반해버렸다고<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<span class="h">Yeah, yeah, yeah, yeah, yeah</span><br>
+You are mine, <span class="h">be mine</span><br>
+You are mine, <span class="h">be mine</span><br>
+<span class="h">Yeah, yeah, yeah, yeah, yeah</span> 좋아한다고 말할래<br>
+반했으니까<br>
+            </p>
+        </div>
+        `
+},
     {
         id: "What is Love?",
         title: "What is Love?",
@@ -653,6 +1065,497 @@ I wanna know<br>
             </p>
         </div>`
     },
+{
+id: "Dance The Night Away",
+        title: "Dance The Night Away",
+        category: "twice",
+        youtubeId: "Fm5iP0S1z9w", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-dance-the-night-away",
+        videoRefUrl: "https://www.youtube.com/watch?v=ve7PuS91s14",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+라라라라라라라<br>
+라라라라라라라<br>
+<mark><span class="h">[素! 不! 衝! 冏! <br>
+    兔! 哇!意! 思!]</span><br>
+라라라라라라라<br>
+라라라라라라라</mark><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You and me in the moonlight, <span class="h">ah ah ah ah</span><br>
+별 꽃 축제 열린 밤, <span class="h">ah ah ah ah</span><br>
+파도 소리를 틀고 춤을 추는 이 순간<br>
+이 느낌 정말 <u>딱야 <span class="h">大ㄍㄧㄚ</span></u>, <span class="h">ah</span><br>
+바다야 우리와 같이 놀아, <span class="h">ah</span><br>
+바람아 너도 이쪽으로 와, <span class="h">whoa</span><br>
+달빛 조명 아래서 너와 나와 세상과<br>
+다 같이 party all night long, <span class="h">yeah it's good</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+If you wanna have some fun<br>
+짭짤한 공기처럼<br>
+이 순간의 특별한<br>
+행복을 놓치지마<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<span class="h">One two three, let's go</span><br>
+<u>저 우주 위로 <span class="h">邱 屋啾 we囉</span></u> <br>
+날아갈 듯 춤추러 가 <span class="h">hey</span><br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Let's dance the night away<br>
+Yeah<br>
+<span class="h">One two three, let's go</span><br>
+<u>저 바다 건너 <span class="h">邱 八他 空弄</span></u> <br>
+들릴 듯 소리 질러<br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Dance the night away<br>
+Let's dance the night away (<span class="h">hoo</span>)<br>
+Dance the night away<br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+You and me in this cool night, <span class="h">ah ah ah ah</span><br>
+미소 짓는 반쪽 달, <span class="h">ah ah ah ah</span><br>
+그 언젠가 너와 나 저 달 뒷면으로 가<br>
+파티를 열기로 약속 <span class="h">yeah, it's good</span> (hey)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+If you wanna have some fun<br>
+은빛 모래알처럼<br>
+이 순간의 특별한<br>
+행복을 놓치지 마<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<span class="h">One two three, let's go</span><br>
+<u>저 우주 위로 <span class="h">邱 屋啾 we囉</span></u> <br>
+날아갈 듯 춤추러 가 <span class="h">hey</span><br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Let's dance the night away (hey)<br>
+Yeah<br>
+<span class="h">One two three, let's go</span><br>
+<u>저 바다 건너 <span class="h">邱 八他 空弄</span></u><br>
+들릴 듯 소리 질러 <span class="h">Yeah</span><br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+오늘이 마지막인 듯 소리 질러 <u>저 멀리 <span class="h">邱 摸立</span></u><br>
+끝없이 날아오를 듯 힘껏 뛰어 <u>더 높이 <span class="h">偷no屁</span></u><br>
+오늘이 마지막인 듯 소리 질러 저 멀리<br>
+쏟아지는 별빛과<br>
+Oh let's dance the night away (yeah, yeah, yeah)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Let's dance the night away<br>
+Yeah<br>
+<span class="h">One two three, let's go</span><br>
+<u>저 바다 건너 <span class="h">邱 八他 空弄</span></u><br>
+들릴 듯 소리 질러 <span class="h">Yeah</span><br>
+Let's dance the night away<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Yeah, yeah, <span class="h">yeah</span><br>
+Yeah, yeah, <span class="h">yeah</span><br>
+Yeah, yeah, yeah<br>
+<mark>
+    <span class="h">[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu!]</span><br>
+Let's dance the night away<br>
+Let's dance the night away (yeah, yeah, yeah)<br>
+Let's dance the night away (yeah, yeah, yeah)<br>
+Let's dance the night away (yeah, yeah, yeah)<br>
+</mark>
+Let's dance the night away<br>
+            </p>
+        </div>
+        `
+},
+{
+id: "YES or YES",
+        title: "YES or YES",
+        category: "twice",
+        youtubeId: "mAKsZ26SabQ", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-yes-or-yes",
+        videoRefUrl: "https://www.youtube.com/watch?v=Udud0ZjVWCE",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+Hey, boy<br>
+Look, I'm gonna make this simple for you<br>
+You got two choices<br>
+Yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Ah 둘 중에 하나만 골라 yes or yes?<br>
+Ah-ah 하나만 선택해 어서 yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+내가 이렇게도 이기적이었던가<br>
+뭔가 이렇게 갖고 싶던 적 있었나 (있었나)<br>
+다 놀라 (다 놀라) 내 뻔뻔함에<br>
+Come on and tell me yes<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+생각보다 과감해진 나의 시나리오<br>
+이 정도 plan이면 완벽해, 만족해 (만족해)<br>
+I don't care (I don't care)<br>
+누가 뭐래도 ooh<br>
+You better tell me yes<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+내 맘은 정했어 yes<br>
+그럼 이제 니 대답을 들을 차례<br>
+힘들면 보기를 줄게, 넌 고르기만 해<br>
+고민할 필요도 없게 해줄게<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+뭘 고를지 몰라 준비해 봤어<br>
+둘 중에 하나만 골라 yes or yes?<br>
+니 마음을 몰라 준비해 봤어<br>
+하나만 선택해 어서 yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+"싫어"는 싫어, 나 아니면 우리?<br>
+선택을 존중해, 거절은 거절해<br>
+선택지는 하나, 자, 선택은 니 맘<br>
+It's all up to you<br>
+둘 중에 하나만 골라 yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+진심일까? Do not guess<br>
+진심이니? Do not ask<br>
+애매한 좌우 말고 확실히 위아래로<br>
+There's no letters N and O<br>
+지워버릴래 오늘부로 (no more)<br>
+복잡하게 고민할 필요 (ooh-ooh)<br>
+없어 정답은 yes, yes, yo<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+없던 이기심도 자극하는 너의 눈과<br>
+널 향한 호기심이 만나서<br>
+타올라 (올라), 타오른다<br>
+My heart burn, burn, burn<br>
+You better hurry up<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+조금 쉽게 말하자면<br>
+넌 뭘 골라도 날 만나게 될 거야<br>
+뭐 좀 황당하긴 해도 (waiting for you)<br>
+억지라고 해도 (whoa-whoa)<br>
+절대 후회하지 않게 해줄게<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+뭘 고를지 몰라 준비해 봤어<br>
+둘 중에 하나만 골라 yes or yes?<br>
+니 마음을 몰라 준비해 봤어<br>
+하나만 선택해 어서 yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+"싫어"는 싫어, 나 아니면 우리?<br>
+선택을 존중해, 거절은 거절해<br>
+선택지는 하나, 자, 선택은 니 맘<br>
+Now, it's all up to you<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Maybe not (no, no)<br>
+Maybe yes (no, no)<br>
+좀 더 선명하게 니 맘을 내게 보여봐<br>
+귀 기울여봐, 무슨 소리가 들리지 않니?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+It's simple, Y-E-S, hey<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+둘 중에 하나만 골라 yes or yes? (Hey)<br>
+하나만 선택해 어서 yes or yes?<br>
+하나 더 보태서 yes or yes or yes<br>
+골라봐, 자, 선택은 니 맘<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+뭘 고를지 몰라 준비해 봤어<br>
+둘 중에 하나만 골라 yes or yes?<br>
+니 마음을 몰라 준비해 봤어<br>
+하나만 선택해 어서 yes or yes?<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+"싫어"는 싫어, 나 아니면 우리?<br>
+선택을 존중해, 거절은 거절해<br>
+선택지는 하나, 자, 선택은 니 맘<br>
+It's all up to you<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+하나만 선택해 어서 yes or yes?<br>
+            </p>
+        </div>
+        `
+},
+{
+id: "FANCY",
+        title: "FANCY",
+        category: "twice",
+        youtubeId: "kOHB85vDuow", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-fancy-1",
+        videoRefUrl: "https://www.youtube.com/watch?v=--fw0TREtPA",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+지금 하늘 구름 색은 tropical, yeah<br>
+저 태양 빨간빛 니 두 볼 같애<br>
+Oh, tell me, I'm the only one, babe<br>
+I fancy you, I fancy you, fancy you (TWICE)<br>
+It's dangerous 따끔해, 넌 장미 같아<br>
+괜찮아, 조금도 난 겁나지 않아<br>
+더 세게 꼭 잡아 take my hand<br>
+좀 위험할 거야, 더 위험할 거야 babe<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+달콤한 초콜릿 아이스크림처럼<br>
+녹아버리는 지금 내 기분 so lovely<br>
+깜깜한 우주 속 가장 반짝이는<br>
+저 별, 저 별, 그 옆에 큰 니 별<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+거기 너 I fancy you 아무나 원하지 않아<br>
+Hey, I love you (love ya)<br>
+그래, 너 I fancy you 꿈처럼 행복해도 돼<br>
+'Cause I need you (what?)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Fancy you, ooh 누가 먼저 좋아하면 어때?<br>
+Fancy you, ooh 지금 너에게로 갈래<br>
+Fancy, ooh<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+매일매일 (매일) 난 정말 아무것도 못 하네<br>
+Oh my, Mayday (day) 이러다 큰일 낼 것 같은데<br>
+Bang, bang 머리가 홀린 듯 리이 돼<br>
+어쩌면 좋아? 이게 맞는 건지 몰라 SOS<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Swim, swim 너란 바다에 잠수함이 돼<br>
+매일이 birthday 달콤해 너와 나의 fantasy<br>
+Dream, dream 마치 꿈 같아, 볼 꼬집어봐<br>
+요즘 나의 상태 메세진 랄랄라 baby<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+달콤한 초콜릿 아이스크림처럼<br>
+녹아버리는 지금 내 기분 so lovely<br>
+깜깜한 (hey) 우주 속 가장 반짝이는<br>
+저 별, 저 별, 그 옆에 큰 니 별<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+거기 너 I fancy you 아무나 원하지 않아<br>
+Hey, I love you (love ya)<br>
+그래, 너 I fancy you 꿈처럼 행복해도 돼<br>
+'Cause I need you (what?)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Fancy you, ooh 누가 먼저 좋아하면 어때?<br>
+Fancy you, ooh 지금 너에게로 갈래<br>
+Fancy, ooh<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+연기처럼 훅 사라질까<br>
+늘 가득히 담아, 두 눈에 담아<br>
+생각만으로 포근해져<br>
+몰래 뒤에서 안아, 널 놓지 않을래<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+거기 너 I fancy you (fancy you) 아무나 원하지 않아<br>
+Hey, I love you (love ya)<br>
+그래, 너 I fancy you 꿈처럼 행복해도 돼<br>
+'Cause I need you (what?)<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+Fancy you, ooh 누가 먼저 좋아하면 어때?<br>
+Fancy you, ooh 지금 너에게로 갈래<br>
+Fancy, ooh<br>
+            </p>
+        </div>
+        `
+},
+{
+id: "Feel Special",
+        title: "Feel Special",
+        category: "twice",
+        youtubeId: "3ymwOvzhwHs", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-feel-special",
+        videoRefUrl: "https://www.youtube.com/watch?v=IOmuE8keA7g",
+        lyricsHTML:`
+            <p>
+(You make me feel special)<br>
+            </p>
+            <p>
+그런 날이 있어<br>
+갑자기 혼자인 것만 같은 날<br>
+어딜 가도 내 자리가 아닌 것만 같고<br>
+고갠 떨궈지는 날<br>
+            </p>
+            <p>
+그럴 때마다 내게<br>
+얼마나 내가 소중한지<br>
+말해주는 너의 그 한마디에 (hey)<br>
+Everything's alright<br>
+초라한 nobody에서 다시 somebody<br>
+특별한 나로 변해<br>
+            </p>
+            <p>
+You make me feel special<br>
+세상이 아무리 날 주저앉혀도 (앉혀도)<br>
+아프고 아픈 말들이 날 찔러도<br>
+네가 있어 난 다시 웃어<br>
+That's what you do<br>
+            </p>
+            <p>
+Again I feel special<br>
+아무것도 아닌 존재 같다가도 (같다가도)<br>
+사라져도 모를 사람 같다가도<br>
+날 부르는 네 목소리에<br>
+I feel loved, I feel so special<br>
+            </p>
+            <p>
+자꾸 숨고만 싶어서<br>
+마주하기가 싫어서<br>
+모든 게 의미를 잃은 듯이<br>
+내가 의미를 잃은 듯이 가만히 주저앉아 있을 때 (oh)<br>
+            </p>
+            <p>
+그때 내 앞에 나타난 너의<br>
+따뜻한 미소와 손길에 (hey)<br>
+            </p>
+            <p>
+Everything's alright<br>
+초라한 nobody에서 다시 somebody<br>
+특별한 나로 변해<br>
+            </p>
+            <p>
+You make me feel special<br>
+세상이 아무리 날 주저앉혀도 (앉혀도)<br>
+아프고 아픈 말들이 날 찔러도<br>
+네가 있어 난 다시 웃어<br>
+That's what you do<br>
+            </p>
+            <p>
+Again I feel special<br>
+아무것도 아닌 존재 같다가도 (같다가도)<br>
+사라져도 모를 사람 같다가도<br>
+날 부르는 네 목소리에<br>
+I feel loved, I feel so special<br>
+            </p>
+            <p>
+Uh, you make everything alright<br>
+구름이 쫙 낀 햇살 한 줌 없는 날<br>
+네가 바로 나의 shining light<br>
+That's what you do<br>
+아무리 어두운 밤도 다시 낮<br>
+I owe it to you<br>
+Because you make me feel (make me feel special)<br>
+            </p>
+            <p>
+세상이 아무리 날 주저앉혀도 (앉혀도)<br>
+아프고 아픈 말들이 날 찔러도<br>
+네가 있어 난 다시 웃어<br>
+That's what you do<br>
+            </p>
+            <p>
+Again I feel special<br>
+아무것도 아닌 존재 같다가도 (같다가도)<br>
+사라져도 모를 사람 같다가도<br>
+날 부르는 네 목소리에<br>
+I feel loved, I feel so special<br>
+            </p>   
+            <p>
+(I feel so special)<br>
+(I feel so, I feel so special)<br>
+            </p>
+        `
+},
+
     {
 id: "POP!",
         title: "POP!",
@@ -1049,6 +1952,84 @@ So are you ready tonight?<br>
             </p>
         </div>`
     },
+    {
+id: "SHOOT (Firecracker)",
+        title: "SHOOT (Firecracker)",
+        category: "CHAEYOUNG",
+        artist: "CHAEYOUNG",                 // 蓋掉頁面預設的 "TWICE"
+        themeOverride: {                 // 蓋掉頁面預設的粉色主題
+            main: "#CF2E45",
+            light: "#ffd3da",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "DzxykhI_8v4", // YouTube 影片網址後的 ID
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/chaeyoung-shoot-firecracker",
+        videoRefUrl: "https://www.youtube.com/watch?v=2lV1cTppl6c",
+        lyricsHTML:`
+        <div class="lyric-item">
+            <p>
+I know that you're waiting for this tonight<br>
+<p class="tip">停四拍</p><br>
+<span class="h">[類判他幾 波魯萬]</span><br>
+I can't wait 'til the sun turns to light<br>
+<p class="tip">停四拍</p><br>
+<span class="h">[SonChaeYeong! 撒浪嘿!]</span><br>
+Fireflies, they color my eyes<br>
+Feel a void without the fire, Ignite it<br>
+Butterflies<br>
+Come, promised to me<br>
+That you'll shine along the way<br>
+</p>
+        </div>
+<div class="lyric-item">
+            <p>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart <span class="h">[Son! Chae! Yeong!]</span><br>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart <span class="h">[shoot! from! my! heart!]</span><br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+I've traveled the world<br>
+But my room is <span class="h">perfect</span><br>
+Love is within why are we still <span class="h">searching</span><br>
+Can we let go of the world so <span class="h">judging</span><br>
+Don't say goodbye there's a new beginning<br>
+</p>
+        </div>
+<div class="lyric-item">
+            <p>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart <span class="h">[Son! Chae! Yeong!]</span><br>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart <span class="h">[Son! Chae! Yeong!]</span><br>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart <span class="h">[shoot! from! my! heart!]</span><br>
+Just <span class="h">shoot</span> from my heart<br>
+<span class="h">Shoot from the</span><br>
+Salute from the heart<br>
+            </p>
+        </div>
+        <div class="lyric-item">
+            <p>
+<span class="h">Shoot from my heart<br>
+Shoot from the</span><br>
+Salute from the heart<br>
+<span class="h">Shoot from my heart<br>
+Shoot from the</span><br>
+<mark><span class="h">[類判他幾 波魯萬<br>
+    SonChaeYeong! 撒浪嘿!]</span><br>
+Salute from the heart</mark><br>
+            </p>
+        </div>
+        `
+},
 {
     id: "MEEEEEE",
         title: "MEEEEEE",
@@ -1308,7 +2289,7 @@ function buildSourceFooter(song) {
     return `
         <footer class="footer-source">
             <div class="source-container">
-                <span class="source-label">參考資源</span>
+                <span class="source-label">參考資源</span><br>
                 <a href="${song.sourceUrl}" target="_blank" rel="noopener noreferrer" class="source-link">
                     歌詞來源：lyricfind
                 </a><br>

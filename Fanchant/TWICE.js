@@ -1296,76 +1296,78 @@ id: "MORE&MORE",
         videoRefUrl: "https://www.youtube.com/watch?v=bDLuAp9Xgu0",
         lyricsHTML:`
             <p>
-I know I want it
-입에 바른 소린 이제 그만할게
-'Cause I deserve it, deserve it
-혹시 잠깐 내가 미워지더라도 걱정 안 할게
-'Cause I know you, I know you</p>
+I know I want it<br>
+입에 바른 소린 이제 그만할게<br>
+'Cause I deserve it, <span class="h">deserve it</span><br>
+혹시 잠깐 내가 미워지더라도 걱정 안 할게<br>
+'Cause I know you, <span class="h">I know you</span><br></p>
 
-<p>내 눈을 자꾸 피해봐
-네 맘을 자꾸 숨겨봐
-나에게서 도망쳐봐 no, no
-감았던 눈을 떴을 때
-문득 내가 떠오를 때
-You are gonna be mine again</p>
+<p>내 눈을 자꾸 피해봐 <span class="h">[hey]</span><br>
+네 맘을 자꾸 숨겨봐 <span class="h">[hey]</span><br>
+나에게서 도망쳐봐 no, no<br>
+감았던 눈을 떴을 때 <span class="h">[hey]</span><br>
+문득 내가 떠오를 때 <span class="h">[hey]</span><br>
+You are gonna be mine again<br></p>
 
-<p>You're gonna say more, more, more, more, more and more
-멈추지 못해 more, more, more and more
-그러니 한 번 더
-I wanna have more, more, more, more, more and more
-멈추기 싫어 more, more, more and more
-그러니 한 번 더</p>
+<p>You're gonna say <span class="h">more, more, more, more, more and more</span><br>
+멈추지 못해 <span class="h">more, more, more and more</span><br>
+그러니 한 번 더<br>
+I wanna have <span class="h">more, more, more, more, more and more</span><br>
+멈추기 싫어 <span class="h">more, more, more and more</span><br>
+그러니 한 번 더 <span class="h">[TWICE!]</span><br></p>
 
-<p>멈추지를 못해
-More and more
-그러니 한 번 더
-멈추기가 싫어
-More and more
-그러니 한 번 더</p>
+<p>멈추지를 못해<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[偷]</span><br>
+멈추기가 싫어<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[TWICE!]</span><br></p>
 
-<p>Do you feel me?
-니가 날 위한 사람이라고 믿니
-Only for me, only for me
-간지러운 말은 굳이 하지 않아도 넌
-'Cause you know me, you know me</p>
+<p>Do you feel me?<br>
+니가 날 위한 사람이라고 믿니<br>
+Only for me, <span class="h">only for me</span><br>
+간지러운 말은 굳이 하지 않아도 넌<br>
+'Cause you know me, <span class="h">you know me</span><br></p>
 
-<p>네 귀를 자꾸 막아도
-나를 멀리 밀어내도
-나에게서 멀어져도 (저 멀리) no, no
-내가 다시 널 부르면
-나의 목소릴 들으면
-You are gonna be mine again
-Yeah 한 번 더</p>
+<p>네 귀를 자꾸 막아도 <span class="h">[hey]</span><br>
+나를 멀리 밀어내도 <span class="h">[hey]</span><br>
+나에게서 멀어져도 (저 멀리) no, no<br>
+내가 다시 널 부르면 <span class="h">[hey]</span><br>
+나의 목소릴 들으면 <span class="h">[hey]</span><br>
+You are gonna be mine again<br>
+Yeah 한 번 더<br></p>
 
-<p>You're gonna say more, more, more, more, more and more
-멈추지 못해 more, more, more and more
-그러니 한 번 더
-I wanna have more, more, more, more, more and more
-멈추기 싫어 more, more, more and more
-그러니 한 번 더</p>
+<p>You're gonna say <span class="h">more, more, more, more, more and more</span><br>
+멈추지 못해 <span class="h">more, more, more and more</span><br>
+그러니 한 번 더<br>
+I wanna have <span class="h">more, more, more, more, more and more</span><br>
+멈추기 싫어 <span class="h">more, more, more and more</span><br>
+그러니 한 번 더 <span class="h">[TWICE!]</span><br></p>
 
-<p>멈추지를 못해
-More and more
-그러니 한 번 더
-멈추기가 싫어
-More and more
-그러니 한 번 더</p>
+<p>멈추지를 못해<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[偷]</span><br>
+멈추기가 싫어<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[TWICE!]</span><br></p>
 
-<p>난 원래 욕심쟁이 몰랐다면 미안
-사과는 미리 할게 'cause I want you more more
-의견은 필요 없어 훔칠 거야 네 맘
-내게 홀리게 될걸 you can't say no, no
-난 도둑고양이 오늘만은 널
-꼭 잡으러 왔으니까 딱 기다려 너
-멀리 가지 말고 다시 내게 come come
-Yeah 한 번 더</p>
+<p>
+<span class="h">[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! 科漏逆! 憨本豆! 那冏莫! 撒基米! 塔且子!]</span><br>
+    난 원래 욕심쟁이 몰랐다면 <u>미안 <span class="h">咪安</span></u><br>
+사과는 미리 할게 'cause I want you <span class="h">more more</span><br>
+의견은 필요 없어 훔칠 거야 <u>네맘 <span class="h">捏滿</span></u><br>
+내게 홀리게 될걸 you can't say <span class="h">no, no</span><br>
+난 도둑고양이 <u>오늘만은 널 <span class="h">喔能滿恩 漏</span></u><br>
+꼭 잡으러 왔으니까 <u>딱 기다려 너 <span class="h">搭 ㄎㄧ搭流 no</span></u><br>
+멀리 가지 말고 다시 내게 <span class="h">come come</span><br>
+Yeah 한 번 더<br></p>
 
-<p>멈추지를 못해
-More and more
-그러니 한 번 더
-멈추기가 싫어
-More and more
-그러니 한 번 더
+<p>멈추지를 못해<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[偷]</span><br>
+멈추기가 싫어<br>
+<span class="h">More and more</span><br>
+그러니 한 번 더 <span class="h">[TWICE!]</span><br>
             </p>
         `
 },

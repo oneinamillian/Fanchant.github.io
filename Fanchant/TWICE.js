@@ -1389,45 +1389,45 @@ Ooh-hoo, ooh-hoo, hoo, hoo, hoo</mark><br>
 <span class="h">I'm warning myself</span><br>
 너 그러면 안 돼<br>
 매분, 매초, 내 맘이 내 맘을 추월해<br>
-Out of control <span class="h">[TWICE!]</span></p><br>
+Out of control <span class="h">[TWICE!]</span><br></p>
 
 <p>나를 감시하는 저 <span class="h">spot, spot, spotlight</span><br>
 비출수록 어둠 속으로 빨려 들어<br>
 끝이 보이는데 <span class="h">I know it's not right</span><br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa, ha!</span>)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa, ha!</span>)<br></p>
 
 <p>내 앞에 놓여진 이 <span class="h">red, red, red line</span><br>
 건너편의 너와 난 이미 눈을 맞춰<br>
 느끼고 싶어 <u>짜릿한 <span class="h">家裡炭</span></u> <span class="h">highlight</span><br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa,</span> ha!)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa,</span> ha!)<br></p>
 
 <p>Ooh-hoo, ooh-hoo, hoo, hoo, hoo <span class="h">[那冏莫]</span><br>
 Ooh-hoo, ooh-hoo, hoo, hoo, hoo <span class="h">[撒基米]</span><br>
-Ooh-hoo, ooh-hoo, hoo, hoo, hoo <span class="h">[塔且子]</span></p><br>
+Ooh-hoo, ooh-hoo, hoo, hoo, hoo <span class="h">[塔且子]</span><br></p>
 
-<p>I can't stop me, can't stop me</p><br>
+<p>I can't stop me, can't stop me<br></p>
 
 <p>눈감아 달라구 (<span class="h">ya, ya</span>)<br>
 딱 한 번만 no rules (<span class="h">ah, ah</span>)<br>
 모른 척해 줘 lights off <span class="h">tonight</span><br>
-나 참을 수 없을 거 같아 losing myself (yeah, yeah)</p><br>
+나 참을 수 없을 거 같아 losing myself (yeah, yeah)<br></p>
 
 <p>이제는 <span class="h">turning back</span><br>
 불가능해 난 점점 더 깊은 어둠에<br>
 너무나 <u>짜릿해 <span class="h">家裡貼</span></u> 나 눈을 감을래<br>
 다시는 돌아갈 수 없을 것만 같애<br>
-<span class="h">Out of control [TWICE!]</span> (ooh, yeah, ha!)</p><br>
+<span class="h">Out of control [TWICE!]</span> (ooh, yeah, ha!)<br></p>
 
 <p>나를 감시하는 저 <span class="h">spot, spot, spotlight</span><br>
 비출수록 어둠 속으로 빨려 들어<br>
 끝이 보이는데 <span class="h">I know it's not right</span><br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa, ha!</span>)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa, ha!</span>)<br></p>
 
 <p>내 앞에 놓여진 이 <span class="h">red, red, red line</span> (red line)<br>
 건너편의 너와 난 이미 눈을 맞춰<br>
 느끼고 싶어 <u>짜릿한 <span class="h">家裡炭</span></u> <span class="h">highlight</span><br>
 (I can't stop me, yeah)<br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa</span>)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa</span>)<br></p>
 
 <p>Risky, risky, wiggy 위기<br>
 <span class="h">This is an emergency</span><br>
@@ -1436,22 +1436,22 @@ Help me, help me, somebody stop me<br>
 답은 알고 있잖아<br>
 <u>근데 가고 있잖아 <span class="h">肯爹 卡溝 以加那</span></u><br>
 이러고 싶지 않아<br>
-내 안에 내가 <u>또 있나 봐 <span class="h">都 以那 八</span></u></p><br>
+내 안에 내가 <u>또 있나 봐 <span class="h">都 以那 八</span></u><br></p>
 
 <p>나는 원하는데 (ah)<br>
 원하는 게 안돼 (ah)<br>
 Guilty 난 싫은데<br>
-I can't stop me, can't stop me, can't stop me (oh, ha)</p><br>
+I can't stop me, can't stop me, can't stop me (oh, ha)<br></p>
 
 <p>나를 감시하는 저 <span class="h">spot, spot, spotlight</span> (oh)<br>
 비출수록 어둠 속으로 빨려 들어 (oh, oh)<br>
 끝이 보이는데 <span class="h">I know it's not right</span> (oh, oh, oh)<br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa</span>)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa</span>)<br></p>
 
 <p>내 앞에 놓여진 이 <span class="h">red red red line</span> (oh, oh)<br>
 건너편의 너와 난 이미 눈을 맞춰 (oh, oh)<br>
 느끼고 싶어 <u>짜릿한 <span class="h">家裡炭</span></u> <span class="h">highlight</span> (ooh, ooh, ooh, ooh, ooh)<br>
-I can't stop me, can't stop me (<span class="h">no, whoa, whoa,</span> yeah, yeah, yeah)</p><br>
+I can't stop me, can't stop me (<span class="h">no, whoa, whoa,</span> yeah, yeah, yeah)<br></p>
 
 <p>
 <mark><span class="h">[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! 家裡ㄊㄟ! I! CAN'T! STOP! ME!]</span><br>
@@ -1480,7 +1480,7 @@ id: "Alcohol-Free",
 너와 있을 땐 내게<br>
 신기한 변화가 있는데 <span class="h">[伊 嫩 ㄉㄟ]</span><br>
 자꾸 미소 짓게 돼<br>
-아무 일도 없는데</p><br>
+아무 일도 없는데<br></p>
 
 <p>자꾸 마법에 걸려 <span class="h">[扣六]</span><br>
 밤을 새워도 안 졸려 <span class="h">[邱六]</span><br>
@@ -1506,7 +1506,7 @@ I'm drunk in you<br>
 너는 정말</mark> 특별해<br>
 전혀 독하지 않은데 yeah<br>
 낮에 별이 뜨게 해<br>
-한 모금 마셨는데</p><br>
+한 모금 마셨는데<br></p>
 
 <p>자꾸 마법에 걸려 <span class="h">[扣六]</span><br>
 밤을 새도 안 졸려 <span class="h">[邱六]</span><br>
@@ -1514,33 +1514,33 @@ I'm drunk in you<br>
 심장 소리는 커져 <span class="h">[kung kung]</span><br>
 사랑이 참 쉬워져<br>
 그래서 빠지고 빠져 <u>점점 <span class="h">冏冏</span></u> 너에게<br>
-That's what you do to me</p><br>
+That's what you do to me<br></p>
 
 <p>나는 alcohol free 근데 취해 (<u>취해, 취해 <span class="h">漆黑, 漆黑</span></u>)<br>
 마신 게 하나도 없는데 (<u>없는데 <span class="h">歐 嫩 ㄉㄟ</span></u>)<br>
 너와 있을 때마다 이래 (<u>이래, 이래 <span class="h">伊勒, 伊勒</span></u>)<br>
-날 보는 네 눈빛 때문에</p><br>
+날 보는 네 눈빛 때문에<br></p>
 
 <p><span class="h">Yo</span><br>
 Alcohol 도수는 완전 <span class="h">zero point zero</span><br>
 근데 마실 때마다 <u>자꾸 길을 잃어 <span class="h">洽辜 ㄎㄧ了 伊摟</span></u><br>
 자고 일어나도 깨지<u>가 않아 <span class="h">嘎 阿那</span></u><br>
-근데 이 기분 싫지<u>가 않아 <span class="h">嘎 阿那</span></u></p><br>
+근데 이 기분 싫지<u>가 않아 <span class="h">嘎 阿那</span></u><br></p>
 
 <p>Easy to the mouth and <span class="h">tummy</span><br>
 Like a drink made of <span class="h">honey</span><br>
 이 술 이름은 도대체 <u>뭐니 <span class="h">摸尼</span></u><br>
-Makes the whole world <span class="h">bright and sunny</span></p><br>
+Makes the whole world <span class="h">bright and sunny</span><br></p>
 
 <p>나는 alcohol free 근데 취해 (<u>취해, 취해 <span class="h">漆黑, 漆黑</span></u>)<br>
 마신 게 하나도 없는데 (<u>없는데 <span class="h">歐 嫩 ㄉㄟ</span></u>)<br>
 너와 있을 때마다 이래 (<u>이래, 이래 <span class="h">伊勒, 伊勒</span></u>)<br>
-날 보는 네 눈빛 때문에</p><br>
+날 보는 네 눈빛 때문에<br></p>
 
 <p>너는 눈으로 마시는 내 <span class="h">champagne</span> <u>내 <span class="h">內</span></u> <span class="h">wine</span><br>
 내 tequila, margarita<br>
 <span class="h">Mojito with lime</span><br>
-Sweet mimosa, pina colada</p><br>
+Sweet mimosa, pina colada<br></p>
 
 <p>I'm drunk in you (I'm drunk in you)<br>
 I'm drunk in you (I'm drunk in you)<br>
@@ -1558,7 +1558,7 @@ id: "TheFeels",
             <p>
 Boy I, boy I, boy I know<br>
 I know you get the feels (yeah)<br>
-Boy I, boy I, boy I know</p><br>
+Boy I, boy I, boy I know<br></p>
 
 <p>
 <mark><span class="h">[TWICE]</span>Uh</mark>, I'm so curious<br>
@@ -1570,33 +1570,33 @@ It's <span class="h">obvious</span> (yeah, yeah)<br>
 Catchin' feels like butterflies<br>
 If I say what's <span class="h">on my mind</span><br>
 Would I hit bullseye? (Woo)<br>
-Shoot <span class="h">[Bang!]</span>, I'm ready, aim and fire (fire)</p><br>
+Shoot <span class="h">[Bang!]</span>, I'm ready, aim and fire (fire)<br></p>
 
 <p>Baby I (<span class="h">whoa</span>)<br>
 Feel like Cupid's alive<br>
 Alive tonight<br>
 Yeah, tonight<br>
 If your heart beats the same way, let me know (yeah, let me know)<br>
-'Cause I'm <span class="h">boom, boom, boom</span> from head to toe and I (from head to toe)</p><br>
+'Cause I'm <span class="h">boom, boom, boom</span> from head to toe and I (from head to toe)<br></p>
 
 <p>I know love, it is such a funny thing<br>
 A mystery allure<br>
 Gotta get to know you more<br>
 'Cause I, I can feel a real <span class="h">connection</span><br>
 A supernatural <span class="h">attraction-ah</span><br>
-I got the feels for you, yeah, yeah, yeah, <mark>yeah <span class="h">[oh~ yeah!]</span></mark></p><br>
+I got the feels for you, yeah, yeah, yeah, <mark>yeah <span class="h">[oh~ yeah!]</span></mark><br></p>
 
 <p>You have stolen my heart, oh yeah<br>
 Never let it <span class="h">go, oh, oh,</span> no<br>
 Never let it go, oh, oh, oh<br>
 Lightning straight to my heart, oh yeah<br>
 I got all the <span class="h">feels for sure</span><br>
-Yeah, I got all the feels for ya</p><br>
+Yeah, I got all the feels for ya<br></p>
 
 <p><span class="h">Boy I, boy I, boy I know</span><br>
 I know I get the feels<br>
 <span class="h">Boy I, boy I, boy I know</span><br>
-I know you feel it, too</p><br>
+I know you feel it, too<br></p>
 
 <p>Sway in the moonlight, dance in the dark<br>
 I, I know that I caught your eye (that's right)<br>
@@ -1605,21 +1605,21 @@ I wonder what's on your mind<br>
 'Cause you got me good and I wanna be your <span class="h">boo</span><br>
 If it's dumb, well, I wanna be a <span class="h">fool</span><br>
 Underneath the neon lights, <span class="h">baby</span><br>
-Electricity tonight, <span class="h">baby</span></p><br>
+Electricity tonight, <span class="h">baby</span><br></p>
 
 <p>I know love, it is such a funny thing<br>
 A mystery allure<br>
 Gotta get to know you more<br>
 'Cause I, I can feel a real <span class="h">connection</span><br>
 A supernatural attraction-ah<br>
-I got the feels for you, yeah, yeah, yeah, <mark>yeah <span class="h">[oh~ yeah!]</span></mark></p><br>
+I got the feels for you, yeah, yeah, yeah, <mark>yeah <span class="h">[oh~ yeah!]</span></mark><br></p>
 
 <p>You have stolen my heart, oh yeah<br>
 Never let it <span class="h">go, oh, oh,</span> no<br>
 Never let it go, oh, oh, oh<br>
 Lightning straight to my heart, oh yeah<br>
 I got all the <span class="h">feels for sure</span><br>
-Yeah, I got all the feels for ya</p><br>
+Yeah, I got all the feels for ya<br></p>
 
 <p><span class="h">Boy I, boy I, boy I know</span><br>
 I know I get the feels<br>
@@ -1628,20 +1628,20 @@ I know you feel it, too<br>
 <span class="h">Boy I, boy I, boy I know</span><br>
 I know I get the feels<br>
 <span class="h">Boy I, boy I, boy I know</span><br>
-I know you feel it, too</p><br>
+I know you feel it, too<br></p>
 
 <p>You got my attention (oh)<br>
 So what's your intention<br>
 Yeah, tell me baby what's the deal?<br>
 Oh, one look and I know it, baby, my eyes reveal<br>
-That you, you, you give me the feels (oh), oh yeah</p><br>
+That you, you, you give me the feels (oh), oh yeah<br></p>
 
 <p>You have stolen my heart, oh yeah <span class="h">[那冏莫]</span><br>
 Never let it go, oh, oh, no <span class="h">[撒基米]</span><br>
 Never let it go, oh, oh, oh <span class="h">[塔且子]</span><br>
 Lightning straight to my heart, oh yeah <span class="h">[The Feels]</span><br>
 I got all the feels for sure <span class="h">[Forever]</span><br>
-Yeah, I got all the feels for ya <span class="h">[I Love You]</span></p><br>
+Yeah, I got all the feels for ya <span class="h">[I Love You]</span><br></p>
 
 <p><span class="h">Boy, I, boy, I, boy, I know</span> (the feels)<br>
 I know I get the feels (oh, yeah) (the feels)<br>
@@ -1663,7 +1663,7 @@ id: "SCIENTIST",
         videoRefUrl: "https://www.youtube.com/watch?v=jcHcRqqm8KQ",
         lyricsHTML:`
             <p>
-Yeah <span class="h">[TWICE!]</span></p><br>
+Yeah <span class="h">[TWICE!]</span><br></p>
 
 <p>왜 자꾸 날 연구해<br>
 아인슈타인도 <u>아니고 <span class="h">阿逆勾</span></u><br>
@@ -1671,21 +1671,21 @@ Yeah <span class="h">[TWICE!]</span></p><br>
 Sine, cosine도 <u>아니고 <span class="h">阿逆勾</span></u><br>
 밀고 당기는 게 내 스타일은 더 <u>아니고 <span class="h">阿逆勾</span></u><br>
 알아보다 말 거면<br>
-눈에 밟히지나 마 좀 제발 <span class="h">[切拜]</span></p><br>
+눈에 밟히지나 마 좀 제발 <span class="h">[切拜]</span><br></p>
 
 <p>넌 생각이 <u>많아 <span class="h">麻那</span></u> 문제야 <u>문제 <span class="h">悶接</span></u><br>
 머릿속만 들여다보면 뭐 해 (<u>뭐 해 <span class="h">摸 黑</span></u>)<br>
 각 잴 시간에 답 낼 시간에<br>
-<span class="h">Better make a move</span></p><br>
+<span class="h">Better make a move</span><br></p>
 
 <p>Love ain't a science<br>
 Don't need no license<br>
-머리 싸매고 고민할수록 <span class="h">minus</span></p><br>
+머리 싸매고 고민할수록 <span class="h">minus</span><br></p>
 
 <p>Don't try to be a genius<br>
 <span class="h">Why so serious?</span><br>
 맘이 가는 대로 <span class="h">ooh ah</span><br>
-맘이 시킨 대로 what you, what you waiting for?</p><br>
+맘이 시킨 대로 what you, what you waiting for?<br></p>
 
 <p>그래 뭘 알아냈어?<br>
 그동안 나에 <u>대해 <span class="h">貼黑</span></u><br>
@@ -1693,38 +1693,38 @@ Don't need no license<br>
 So what's the next <span class="h">class, then?</span><br>
 백날 연구해봤자 이런 식이면 <span class="h">failure</span><br>
 분 단위로 바뀌어대는<br>
-내 맘은 <u>못 풀어낼걸 <span class="h">摸 鋪漏內溝</span></u></p><br>
+내 맘은 <u>못 풀어낼걸 <span class="h">摸 鋪漏內溝</span></u><br></p>
 
 <p>넌 생각이 <u>많아 <span class="h">麻那</span></u> 문제야 <u>문제 <span class="h">悶接</span></u><br>
 머릿속만 들여다보면 뭐 해 (<u>뭐 해 <span class="h">摸 黑</span></u>)<br>
 각 잴 시간에 답 낼 시간에<br>
-<span class="h">Better make a move</span></p><br>
+<span class="h">Better make a move</span><br></p>
 
 <p>Love ain't a science<br>
 Don't need no license<br>
-머리 싸매고 고민할수록 <span class="h">minus</span></p><br>
+머리 싸매고 고민할수록 <span class="h">minus</span><br></p>
 
 <p>Don't try to be a genius<br>
 <span class="h">Why so serious?</span><br>
 맘이 가는 대로 <span class="h">ooh ah</span><br>
-맘이 시킨 대로 what you, what you waiting for?</p><br>
+맘이 시킨 대로 what you, what you waiting for?<br></p>
 
 <p><span class="h">[ooh]</span>You got a crush on me<br>
 <span class="h">[ooh]</span>You're gonna fall for me<br>
-사랑 앞에서 이론이 무슨 소용, it's all useless, <span class="h">uh huh</span></p><br>
+사랑 앞에서 이론이 무슨 소용, it's all useless, <span class="h">uh huh</span><br></p>
 
 <p>이론 빠삭한 genius <u>아인슈타인 <span class="h">阿因ㄙ坦</span></u><br>
 보단 불도저 curious <u>프랑켄슈타인 <span class="h">franks坦</span></u><br>
 처럼 돌진해 서툰데 멋지네<br>
 거침없이, 세게 rush<br>
-Got a crush on me</p><br>
+Got a crush on me<br></p>
 
 <p>답이 없어 재미있는 걸 넌 왜 <u>몰라 <span class="h">摸拉</span></u><br>
 답을 몰라 설레었던 걸 넌 왜 <u>몰라 <span class="h">摸拉</span></u><br>
 나사 하나 빠진 것처럼 <u>사랑하자 <span class="h">撒浪哈價</span></u><br>
 <mark><span class="h">[TWICE! 撒浪嘿!]</span><br>
 딱 하나만 아는 </mark><br>
-바보 된 것처럼</p><br>
+바보 된 것처럼<br></p>
 
 <p>Love ain't a science, <span class="h">uhm uhm</span><br>
 Need no license, <span class="h">uhm uhm</span><br>
@@ -1732,16 +1732,16 @@ Need no license, <span class="h">uhm uhm</span><br>
 충분히 <span class="h">you know 'bout me</span><br>
 Love ain't a science, <span class="h">uhm uhm</span><br>
 Need no license, <span class="h">uhm uhm</span><br>
-말했잖아 what you, what you, what you waiting for?</p><br>
+말했잖아 what you, what you, what you waiting for?<br></p>
 
 <p>Love ain't a science<br>
 Don't need no license<br>
-머리 싸매고 고민할수록 <span class="h">minus</span></p><br>
+머리 싸매고 고민할수록 <span class="h">minus</span><br></p>
 
 <p>Don't try to be a genius<br>
 <span class="h">Why so serious?</span><br>
 맘이 가는 대로 ooh ah<br>
-맘이 시킨 대로 what you, what you waiting for? (hoo)</p><br>
+맘이 시킨 대로 what you, what you waiting for? (hoo)<br></p>
 
 <p>
 <span class="h">[ImNaYeon! YuJeongYeon! MoMojjang! SaNajjang! ParkJiHyo! MiNajjang! KimDaHyun! SonChaeYeong! ChouTzuYu! 邱哇嘿! 他必 歐搜 搜勒優! 他本 摸拉 撒浪嘿! 兔! 哇! 意! 思!]</span><br>
@@ -1874,7 +1874,7 @@ id: "TalkthatTalk",
 니 A to Z 꽤 달콤해 (<span class="h">that's right</span>)<br>
 But I wanna skip (<span class="h">just skip</span>)<br>
 더 결정적인 thing (<span class="h">that thing</span>)<br>
-본론을 원해, 빙빙 돌린 서론 따위 말고 (<span class="h">I mean L-word</span>)</p><br>
+본론을 원해, 빙빙 돌린 서론 따위 말고 (<span class="h">I mean L-word</span>)<br></p>
 
 <p>더-더-더, 더-더 더 <u>보여줘 <span class="h">ㄅㄨ右九</span></u><br>
 너-너-너, 너-너 널 <u>알려줘 <span class="h">哀六九</span></u><br>
@@ -1882,12 +1882,12 @@ But I wanna skip (<span class="h">just skip</span>)<br>
 채우고 있어 <u>너란 <span class="h">挪藍</span></u> <span class="h">crosswords</span><br>
 Beep-beep-beep, beep-beep, the time is up<br>
 난 이미 <u>알 것 같지만 <span class="h">阿 勾 卡積滿</span></u><br>
-니 목소리로 바로 듣고 싶은데 <span class="h">[TWICE!]</span></p><br>
+니 목소리로 바로 듣고 싶은데 <span class="h">[TWICE!]</span><br></p>
 
 <p>Baby 내 답은 뻔하잖아 <span class="h">yes or yes</span><br>
 밀거나 당기는 괜한 시간 낭비는 싫으니<br>
 과감하게 say it now 원해 <span class="h">one to ten</span><br>
-시작해볼까? Right now <span class="h">[卡價]</span></p><br>
+시작해볼까? Right now <span class="h">[卡價]</span><br></p>
 
 <p>Tell me what you want<br>
 Tell me what you need<br>
@@ -1895,7 +1895,7 @@ Tell me what you need<br>
 <span class="h">Talk that talk</span> 딱 한 마디<br>
 Talk that talk <span class="h">L-O-V-E</span><br>
 <u>들려줘 <span class="h">特六就</span></u> <span class="h">ooh</span><br>
-Now-now-now-now-now, yeah (yeah, turn it up)</p><br>
+Now-now-now-now-now, yeah (yeah, turn it up)<br></p>
 
 <p>너의 눈 <span class="h">look, look, look</span><br>
 위아래로 <span class="h">roll, roll, roll</span><br>
@@ -1903,14 +1903,14 @@ Now-now-now-now-now, yeah (yeah, turn it up)</p><br>
 차근차근 one, two, three (just one, two, three)<br>
 더 친절하게 ABC (like ABC)<br>
 <span class="h">Don't stop</span> and just replay<br>
-Replay (yeah, that's my only request)</p><br>
+Replay (yeah, that's my only request)<br></p>
 
 <p>Baby 날 안고 달콤하게<br>
 <span class="h">Tell me now</span> (just tell me now)<br>
 때로는 뻔한 말이 더 좋다는 걸 알잖니<br>
 Favorite part 지금이야 (want it more)<br>
 Now we're almost there<br>
-시작해볼까? Right now <span class="h">[卡價]</span></p><br>
+시작해볼까? Right now <span class="h">[卡價]</span><br></p>
 
 <p>Tell me what you want<br>
 Tell me what you need<br>
@@ -1918,19 +1918,19 @@ Tell me what you need<br>
 <span class="h">Talk that talk</span> 딱 한 마디<br>
 Talk that talk <span class="h">L-O-V-E</span><br>
 <u>들려줘 <span class="h">特六就</span></u> <span class="h">ooh</span><br>
-Now-now-now-now-now, yeah</p><br>
+Now-now-now-now-now, yeah<br></p>
 
 <p>단순한 words 사랑한다는 말<br>
 그게 다야, 난 <u>꾸밈없이 듣길 원하지 <span class="h">古敏鷗喜 特ㄍㄧ 往那記</span></u><br>
 미루지 않아, 너에게 다가가<br>
-난 심플하게 다 말할게 I love you <span class="h">[I LOVE YOU]</span></p><br>
+난 심플하게 다 말할게 I love you <span class="h">[I LOVE YOU]</span><br></p>
 
 <p>Tell me what you want<br>
 Tell me what you need<br>
 <span class="h">A to Z</span> <u>다 좋지만 <span class="h">塔 邱擠滿</span></u> 난 이 말이 제일 좋은데<br>
 <span class="h">Talk that talk</span> 딱 한 마디<br>
 Talk that talk <span class="h">L-O-V-E</span><br>
-Oh, yeah, it sounds so good <span class="h">[ㄟ]</span> 더 빠져들어 푹</p><br>
+Oh, yeah, it sounds so good <span class="h">[ㄟ]</span> 더 빠져들어 푹<br></p>
 
 <p>Tell me what you want<br>
 Tell me what you need<br>
@@ -1956,11 +1956,11 @@ id: "SETMEFREE",
 모든 걸 잃어버린대도 <u>상관없어 <span class="h">商管喔搜</span></u> <br>
 지금 이 감정이 순간이라 해도<br>
 이제는 더 이상 내 맘 <u>숨기긴 싫어 <span class="h">孫ㄍㄧㄍㄧ 西摟</span></u><br>
-니 눈빛이 날 자유롭게 만들잖아</p><br>
+니 눈빛이 날 자유롭게 만들잖아<br></p>
 
 <p><span class="h">No, no-no-no-no</span><br>
 의식하지 말고 날 안아줘<br>
-더는 잃을 것도 숨길 것도 없어</p><br>
+더는 잃을 것도 숨길 것도 없어<br></p>
 
 <p>내 모든 걸 걸어 <span class="h">risk it all</span><br>
 이 사랑 말고는 <span class="h">fade out</span><br>
@@ -1968,23 +1968,23 @@ Gonna <span class="h">set me, set me, set me free</span><br>
 (Oh)<br>
 내 맘 끝까지 갈 테니<br>
 넌 그냥 날 안으면 돼<br>
-Come and <span class="h">set me, set me, set me free</span></p><br>
+Come and <span class="h">set me, set me, set me free</span><br></p>
 
 <p>내가 원하던 best of me <span class="h">[那冏莫]</span><br>
 이제 나는 ready to be <span class="h">[撒基米]</span><br>
 Yeah, <span class="h">gonna set me, set me, set me free [塔且子]</span><br>
 지금 all eyes on me (ah)<br>
 나를 안아줘 다 보란 듯이 <span class="h">[TWICE!]</span><br>
-Yeah, come and <span class="h">set me, set me, set me free</span></p><br>
+Yeah, come and <span class="h">set me, set me, set me free</span><br></p>
 
 <p>어리석은 충동이래도 <u>상관없어 <span class="h">商管喔搜</span></u> (yeah-yeah)<br>
 날 가두는 시선 따윈 이미 out of sight (oh-oh)<br>
 지금 우린 내가 꿈꿔왔던 <u>그대로 <span class="h">ㄎ爹囉</span></u><br>
-눈앞에 그려진 완벽한 fantasy</p><br>
+눈앞에 그려진 완벽한 fantasy<br></p>
 
 <p><span class="h">No, no-no-no-no</span><br>
 신경 쓰지 말고 날 안아줘<br>
-더는 잃을 것도 숨길 것도 없어</p><br>
+더는 잃을 것도 숨길 것도 없어<br></p>
 
 <p>모든 걸 걸어 <span class="h">risk it all</span><br>
 이 사랑 말고는 <span class="h">fade out</span><br>
@@ -1992,7 +1992,7 @@ Gonna <span class="h">set me, set me, set me free</span><br>
 (Oh)<br>
 내 맘 끝까지 갈 테니<br>
 넌 그냥 날 안으면 돼<br>
-Come and <span class="h">set me, set me, set me free</span></p><br>
+Come and <span class="h">set me, set me, set me free</span><br></p>
 
 <p>내가 원하던 best of me <span class="h">[那冏莫]</span><br>
 이제 나는 ready to be <span class="h">[撒基米]</span><br>
@@ -2008,7 +2008,7 @@ No matter what they say <span class="h">[ㄟ]</span><br>
 부딪히고 넘어져도 일으켜 날<br>
 두 눈이 맞닿을 땐 <span class="h">make me feel special</span><br>
 너로 인해 완전한 나로 completed<br>
-이 말 믿어도 돼 'cause <span class="h">this is official, uh</span></p><br>
+이 말 믿어도 돼 'cause <span class="h">this is official, uh</span><br></p>
 
 <p>내 모든 걸 걸어 <span class="h">risk it all</span><br>
 이 사랑 말고는 <span class="h">fade out</span><br>
@@ -2016,7 +2016,7 @@ Gonna <span class="h">set me, set me, set me free</span><br>
 (Oh)<br>
 내 맘 끝까지 갈 테니<br>
 넌 그냥 날 안으면 돼<br>
-Come and <span class="h"></span>set me, set me, set me free</p><br>
+Come and <span class="h"></span>set me, set me, set me free<br></p>
 
 <p>내가 원하던 best of me <span class="h">[那冏莫]</span><br>
 이제 나는 ready to be <span class="h">[撒基米]</span><br>
@@ -2044,21 +2044,21 @@ id: "Killin'MeGood",
             <p>
 Yeah<br>
 <span class="h">[母ㄉㄟ瓊界 ParkJiHyo! 勇萬ㄏㄧ! 批那假!]</span><br>
-Yeah</p><br>
+Yeah<br></p>
 
 <p>Something that I can't deny <span class="h">[ParkJiHyo!]</span><br>
 처음 입을 댄 그 순간<br>
 온몸이 느끼는 뭔가<br>
 Something that I can't explain <span class="h">[撒浪嘿]</span><br>
 하지만 너무 특별해<br>
-눈을 감고서 집중해</p><br>
+눈을 감고서 집중해<br></p>
 
 <p>몸이 떠오르는 <u>시간 <span class="h">溪乾</span></u><br>
 내 안에 들리는 <u>소리만 <span class="h">[搜利曼]</span></u><br>
 듣고 그대로 따라갈래 (that's what you do)<br>
 I'm losing all my <span class="h">senses</span><br>
 You're taking me to <span class="h">places</span><br>
-And you know all that I can say is</p><br>
+And you know all that I can say is<br></p>
 
 <p>Killin' me, killin' me good (<span class="h">so good, so good</span>)<br>
 Feeling things I never knew that I could, ooh<br>
@@ -2067,19 +2067,19 @@ Feeling things I never knew that I could, ooh<br>
 내 모습에 내가 놀라 <br>
 You're <span class="h">killin' me, killin' me good</span><br>
 (You're making me feel something new, <span class="h">hey</span>)<br>
-(You're making me feel so brand new)</p><br>
+(You're making me feel so brand new)<br></p>
 
 <p>나보다 날 더 잘 아는 거야<br>
 Oh, you keep on making me say, oh my, oh my<br>
 <span class="h">Don't stop</span> 두 단어만 끝없이<br>
-네 귀에 속삭이지 take me so high</p><br>
+네 귀에 속삭이지 take me so high<br></p>
 
 <p>나에게 널 맡길 <u>시간 <span class="h">溪乾</span></u><br>
 이제 널 위해 <u>준비한 <span class="h">俊必漢</span></u><br>
 날 보여줄게 너에게만 (that's what I'll do)<br>
 I'll let you lose your <span class="h">senses</span><br>
 And make you and go to <span class="h">places</span><br>
-Then I know all that you can say is</p><br>
+Then I know all that you can say is<br></p>
 
 <p>You're killin' me, killin' me good (<span class="h">so good, so good</span>)<br>
 Feeling things I never knew that I could, ooh<br>
@@ -2088,20 +2088,20 @@ Feeling things I never knew that I could, ooh<br>
 내 모습에 내가 놀라<br>
 You're <span class="h">killin' me, killin' me good</span><br>
 (You're making me feel something new, <span class="h">hey</span>)<br>
-(You're making me feel so brand new)</p><br>
+(You're making me feel so brand new)<br></p>
 
 <p>Oh, oh 날 솔직하게 해, 모두 표현하게 돼<br>
 그래서 또 내 입에서 나오는<br>
 Oh, oh 넌 위험하게 달콤해 <span class="h">[太空美]</span><br>
 그래서 난 계속 원해 <span class="h">窩嘿</span><br>
-I just can't help but to say</p><br>
+I just can't help but to say<br></p>
 
 <p>Killin' me, killin' me good (<span class="h">so good, so good</span>) yeah, yeah<br>
 Feeling things I never knew that I could, ooh<br>
 니가 만들어주는 이 기분 (so good, so good)<br>
 십 초마다 생각이 나 <span class="h">[JiHyo尬]</span><br>
 내 모습에 내가 놀라 (내가 놀라)<br>
-You're <span class="h">killin' me, killin' me good</span><br>
+You're <span class="h">killin' me, killin' me good<br></span>
 
 (You're making me feel <mark><span class="h">[森嘎ㄍㄧ那 ParkJiHyo!]</span> something new, hey</mark> )<br>
 (You're making me feel <mark><span class="h">[大辣咖勒 ParkJiHyo!]</span> so brand new</mark> )<br>
@@ -2128,12 +2128,12 @@ Keep me guessing (<span class="h">keep me guessing</span>)<br>
 How the story unfolds with you (you)<br>
 When I'm walking into the darkness<br>
 I know you'll be right there, lighting up the flares<br>
-When it's starless <span class="h">[When it's starless]</span>, I will follow you to the moon (moon, ayy)</p><br>
+When it's starless <span class="h">[When it's starless]</span>, I will follow you to the moon (moon, ayy)<br></p>
 
 <p>No, we'll never fall apart <span class="h">[兔! 哇! 意! 思!]</span><br>
 Even million miles apart <span class="h">[兔! 哇! 意! 思!]</span><br>
 We were lightning from the start (lightning from the start)<br>
-And it keeps me going to know that</p><br>
+And it keeps me going to know that<br></p>
 
 <p>Ooh, no matter what, you got me<br>
 I got you <span class="h">[I伊! GOT! YOU!]</span><br>
@@ -2142,7 +2142,7 @@ Ooh, no drop of doubt, I know deep down that<br>
 We'll make it through (it through)<br>
 Just like we always do<br>
 <span class="h">[那冏莫! 撒基米! 塔且子! ONE IN A! MILLION!]</span><br>
-<span class="h">[兔! 哇! 意! 思!]</span></p><br>
+<span class="h">[兔! 哇! 意! 思!]</span><br></p>
 
 <p>Ayy, every second <span class="h">[hey]</span>, every minute <span class="h">[hey]</span><br>
 Want you close to me like you're supposed to be<br>
@@ -2150,30 +2150,30 @@ Ain't no limit (ain't no limit)<br>
 To what I would do for you, oh, oh<br>
 And you know, you turn my whole world <span class="h">upside down</span><br>
 Catch me before I ever <span class="h">hit the ground</span><br>
-And I'd do the same for you, oh, whoa</p><br>
+And I'd do the same for you, oh, whoa<br></p>
 
 <p>No, we'll never fall apart <span class="h">[兔! 哇! 意! 思!]</span><br>
 Even million miles apart <span class="h">[兔! 哇! 意! 思!]</span><br>
 We were lightning from the start (we were lightning from the)<br>
-And it keeps me going to know that</p><br>
+And it keeps me going to know that<br></p>
 
 <p>Ooh, no matter what, you got me<br>
 I got you <span class="h">[I伊! GOT! YOU!]</span><br>
 and I wouldn't want it any other way<br>
 Ooh, no drop of doubt, I know deep down that<br>
 We'll make it through (make it through)<br>
-Just like we always do</p><br>
+Just like we always do<br></p>
 
 <p><span class="h">Do-do-do, do-do, do-do, do, do<br>
 Do-do-do, do-do, do-do, do, do<br>
-Do-do-do, do-do, do-do, do, do,</span> oh-oh</p><br>
+Do-do-do, do-do, do-do, do, do,</span> oh-oh<br></p>
 
 <p>Ooh, no matter what, you got me<br>
 I got you <span class="h">[I伊! GOT! YOU!]</span><br>
 and I wouldn't want it any other way<br>
 Ooh, no drop of doubt, I know deep down that<br>
 We'll make it through (through)<br>
-Just like we always do</p><br>
+Just like we always do<br></p>
 
 <p><span class="h">Do-do-do, do-do, do-do, do, do<br>
 Do-do-do, do-do, do-do, do, do<br>
@@ -2192,13 +2192,13 @@ id: "ONESPARK",
         lyricsHTML:`
             <p>
 Ah, he-he-he<br>
-<span class="h">One spark, baby</span></p><br>
+<span class="h">One spark, baby</span><br></p>
 
 <p>Everybody wants that endless flame<br>
 식지 않을 everlasting blast<br>
 영원한 걸 <u>염원해 <span class="h">用萬黑</span></u>, 그래, <u>영원히 <span class="h">用萬ㄏㄧ</span></u><br>
 We're sparkling beautifully (ooh)<br>
-아름다울 걸 난 확신해</p><br>
+아름다울 걸 난 확신해<br></p>
 
 <p>너의 숨결에 온기를 데워<br>
 계속 타오르는 energy<br>
@@ -2207,18 +2207,18 @@ Then your beat goes on and on (on and on)<br>
 <span class="h">Bring me the, bring me the spark in my veins<br>
 Give me the freedom, the freedom to chase</span><br>
 You know it's all ours<br>
-이대로 make this moment last</p><br>
+이대로 make this moment last<br></p>
 
 <p>'Cause my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
 So good that it's hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span><br>
 눈부시게 아름답고 아프다 해도 it's our golden days <span class="h">[兔! 哇! 意! 思!]</span><br>
 Yeah, my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
-Don't lose this spark, baby</p><br>
+Don't lose this spark, baby<br></p>
 
 <p>너와 누워본 coral 빛 heaven<br>
 붉은 두 뺨이 식지 않도록<br>
 <u>더 세게 <span class="h">偷 ㄙㄟ給</span></u> 끌어안고<br>
-<u>더 크게 <span class="h">偷 ㄎ給</span></u> 불러줄게</p><br>
+<u>더 크게 <span class="h">偷 ㄎ給</span></u> 불러줄게<br></p>
 
 <p>너의 숨결에 온기를 데워<br>
 계속 타오르는 energy<br>
@@ -2227,13 +2227,13 @@ Thеn your beat goes on and on (on and on)<br>
 <span class="h">Bring me thе, bring me the spark in my veins<br>
 Gimme the freedom the freedom to chase</span><br>
 You know it's all ours<br>
-이대로 make this moment last (<span class="h">baby</span>)</p><br>
+이대로 make this moment last (<span class="h">baby</span>)<br></p>
 
 <p>'Cause my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
 So good that it's hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span><br>
 눈부시게 아름답고 아프다 해도 it's our golden days <span class="h">[兔! 哇! 意! 思!]</span><br>
 Yeah, my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
-Don't lose this spark, baby</p><br>
+Don't lose this spark, baby<br></p>
 
 <p>Lighting it up 빛이 나는 시간을 건너 (빛의 시간을 건너)<br>
 Glowing so bright 찬란한 환상쯤에 이르러<br>
@@ -2241,13 +2241,13 @@ This is the time of our lives <span class="h">[lives]</span><br>
 Carved into our minds <span class="h">[minds]</span><br>
 저물지 않아 there ain't no sundown<br>
 An everlasting spark to an everlasting fire<br>
-<span class="h">Don't let this fire die</span> (oh-whoa, burning on, ooh)</p><br>
+<span class="h">Don't let this fire die</span> (oh-whoa, burning on, ooh)<br></p>
 
 <p>'Cause my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
 So good that it's hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span>, hurting <span class="h">[hurting]</span><br>
 눈부시게 아름답고 아프다 해도 it's our golden days <span class="h">[兔! 哇! 意! 思!]</span><br>
 Yeah, my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span><br>
-Don't lose this spark, baby (oh)</p><br>
+Don't lose this spark, baby (oh)<br></p>
 
 <p>'Cause my heart is burning <span class="h">[burning]</span>, burning <span class="h">[burning]</span>, burning<br>
             </p>
@@ -2479,7 +2479,7 @@ Hey, boy, I'ma get ya<br>
 I'ma get you real good and I bet ya (it's Megan Thee Stallion)<br>
 Hey, boy, once I get ya<br>
 You'll be, oh, so glad that I met ya (and TWICE)<br>
-Ow <span class="h">[兔! 哇! 意! 思!]</span></p><br>
+Ow <span class="h">[兔! 哇! 意! 思!]</span><br></p>
 
 <p>Step one <span class="h">[one]</span>, do my highlight<br>
 Make me shine so bright in the moonlight<br>
@@ -2488,7 +2488,7 @@ Baby, even my shadow looks good, right?<br>
 Step three <span class="h">[three]</span>, when I arrive<br>
 Make you look my way with your heart eyes<br>
 Step four <span class="h">[four]</span>, got you on the floor<br>
-Make you say, "<span class="h">More, more, more</span>"</p><br>
+Make you say, "<span class="h">More, more, more</span>"<br></p>
 
 <p>When I say, "Hi"<br>
 I'm feeling all your attention on me<br>
@@ -2496,17 +2496,17 @@ Hi<br>
 No reason to be so shy with me<br>
 I ain't gonna bite, come on over (<span class="h">no</span>)<br>
 I know you wanna move a little closer (<span class="h">yeah</span>)<br>
-I got a plan to get you with me <span class="h">[ah]</span></p><br>
+I got a plan to get you with me <span class="h">[ah]</span><br></p>
 
 <p>I got you on my radar, soon you're gonna be with me<br>
 My strategy, strategy will <span class="h">get ya, get ya,</span> baby<br>
 Winning is my trademark, soon you'll never wanna leave<br>
-My strategy, strategy will <span class="h">get ya, get ya,</span> baby</p><br>
+My strategy, strategy will <span class="h">get ya, get ya,</span> baby<br></p>
 
 <p>Hey, boy, I'ma <span class="h">get ya</span><br>
 I'ma get you real good and I <span class="h">bet ya</span><br>
 Hey, boy, once I <span class="h">get ya</span><br>
-You'll be, oh, so glad that I <span class="h">met ya</span></p><br>
+You'll be, oh, so glad that I <span class="h">met ya</span><br></p>
 
 <p>When your cheeks go red (<span class="h">that's cute</span>)<br>
 I wanna dance, you said, "<span class="h">Oh, cool</span>"<br>
@@ -2515,7 +2515,7 @@ And you can't forget<br>
 You're feeling things now, and you're confused<br>
 Watching my body getting loose<br>
 You don't know what you're gonna do<br>
-You're mine</p><br>
+You're mine<br></p>
 
 <p>When I say, "Hi"<br>
 I'm feeling all your attention on me<br>
@@ -2523,12 +2523,12 @@ Hi<br>
 No reason to be so shy with me<br>
 I ain't gonna bite, come on over (<span class="h">no</span>)<br>
 I know you wanna move a little closer (<span class="h">yeah</span>)<br>
-I got a plan to get you with me <span class="h">[ah]</span></p><br>
+I got a plan to get you with me <span class="h">[ah]</span><br></p>
 
 <p>I got you on my radar, soon you're gonna be with me<br>
 My strategy, strategy will <span class="h">get ya, get ya,</span> baby<br>
 Winning is my trademark, soon you'll never wanna leave<br>
-My strategy, strategy will <span class="h">get ya, get ya,</span> baby (real hot girl, shh)</p><br>
+My strategy, strategy will <span class="h">get ya, get ya,</span> baby (real hot girl, shh)<br></p>
 
 <p>My <span class="h">strategy, strategy</span><br>
 Like <span class="h">gravity, gravity</span><br>
@@ -2538,7 +2538,7 @@ You'll be down on your knees<br>
 Calling me up, begging me, don't leave<br>
 My <span class="h">strategy, strategy</span><br>
 Will <span class="h">get ya, get ya, get ya,</span> boy <br>
-<span class="h">[兔! 哇! 意! 思!]</span></p><br>
+<span class="h">[兔! 哇! 意! 思!]</span><br></p>
 
 <p>Hey, boy, I'ma <span class="h">get ya</span><br>
 I'ma get you real good and I <span class="h">bet ya</span><br>
@@ -2547,7 +2547,7 @@ You'll be, oh, so glad that I <span class="h">met ya</span> (ooh)<br>
 Hey, boy, I'ma <span class="h">get ya</span> (yeah)<br>
 I'ma get you real good and I <span class="h">bet ya</span> (good and I bet ya)<br>
 Hey, boy, once I <span class="h">get ya</span><br>
-You'll be, oh, so glad that I <span class="h">met ya</span></p><br>
+You'll be, oh, so glad that I <span class="h">met ya</span><br></p>
 
 <p>Hey, boy, I'ma <span class="h">get ya</span><br>
 I'ma get you real good and I <span class="h">bet ya</span><br>
@@ -2562,19 +2562,16 @@ id: "THISISFOR",
         sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-this-is-for",
         videoRefUrl: "https://www.youtube.com/watch?v=cfMFmH2qmyc",
         lyricsHTML:`
-            <p>
-</p>
-
 <p>(Ha-ha-ha)<br>
 This is for all my ladies<br>
 Who don't get hyped enough (hey, ladies)<br>
 If you've been done wrong<br>
-Then this your song, so turn it up <span class="h">[TWICE!]</span></p><br>
+Then this your song, so turn it up <span class="h">[TWICE!]</span><br></p>
 
 <p>I wanna go where the baddest girls are from (uh, uh)<br>
 Might be another planet maybe that's where mother <span class="h">nature made me</span> (ooh)<br>
 Something about that water tastes like fun (<span class="h">yeah, yeah</span>)<br>
-My girls make it rain confetti, sweet on your tongue</p><br>
+My girls make it rain confetti, sweet on your tongue<br></p>
 
 <p><span class="h">Beep, beep, beep</span><br>
 I'm outside your door, so let's go, don't let that<br>
@@ -2582,7 +2579,7 @@ I'm outside your door, so let's go, don't let that<br>
 Have you feeling low when you're grown, you got the<br>
 <span class="h">Key, key, keys</span> (you got it)<br>
 You already know and it shows tonight<br>
-It's you and me how it should be</p><br>
+It's you and me how it should be<br></p>
 
 <p>This is for <span class="h">all my ladies</span><br>
 Who don't get <span class="h">hyped enough</span><br>
@@ -2591,7 +2588,7 @@ Then this your song, so <span class="h">turn it up</span><br>
 One time for <span class="h">all my ladies</span><br>
 You looking <span class="h">good as what</span><br>
 So tell 'em <span class="h">bye, bye</span><br>
-'Cause it's your time to <span class="h">turn it up</span></p><br>
+'Cause it's your time to <span class="h">turn it up</span><br></p>
 
 <p>Thi-thi-this for the girls with that light inside<br>
 They spin around you like satellite<br>
@@ -2599,7 +2596,7 @@ Yeah, you the baddest all day and night<br>
 I'll give you flowers 'til the end of time<br>
 (<span class="h">Ooh</span>) this your moment, go get it<br>
 (<span class="h">Ooh</span>) forget that boy and don't sweat it<br>
-<span class="h">[ah ah]</span>I'll always be your ride or die so</p><br>
+<span class="h">[ah ah]</span>I'll always be your ride or die so<br></p>
 
 <p><span class="h">Beep, beep, beep</span><br>
 I'm outside your door, so let's go don't let that<br>
@@ -2607,7 +2604,7 @@ I'm outside your door, so let's go don't let that<br>
 Have you feeling low when you're grown, you got the<br>
 <span class="h">Key, key, keys</span> (you got it)<br>
 You already know and it shows tonight<br>
-It's you and me how it should be (yeah)</p><br>
+It's you and me how it should be (yeah)<br></p>
 
 <p>This is for <span class="h">all my ladies</span> (ooh, ooh)<br>
 Who don't get <span class="h">hyped enough</span> (hyped enough)<br>
@@ -2616,7 +2613,7 @@ Then this your song so <span class="h">turn it up</span> (turn it up, oh, ooh-wo
 One time for <span class="h">all my ladies</span> (all my ladies)<br>
 You looking <span class="h">good as what</span> (good as what)<br>
 So tell 'em <span class="h">bye, bye</span> (step out, done wrong)<br>
-'Cause it's your time to <span class="h">turn it up</span></p><br>
+'Cause it's your time to <span class="h">turn it up</span><br></p>
 
 <p>All my ladies now (now)<br>
 Oh, oh, oh, oh<br>
@@ -2717,7 +2714,7 @@ id: "ME+YOU",
 Yeah<br>
 You know I'm always by your side<br>
 So just listen <span class="h">[兔! 哇! 意! 思!]</span><br>
-Yeah</p><br>
+Yeah<br></p>
 
 <p>Babe<br>
 Feels like only yesterday<br>
@@ -2726,10 +2723,10 @@ So many dreams we've been chasing together<br>
 We've been through the tears and the laughter<br>
 Now we've found a happy ever after<br>
 I got you and that's all that matters<br>
-<span class="h">I'm so glad you're in my life</span></p><br>
+<span class="h">I'm so glad you're in my life</span><br></p>
 
 <p><span class="h">No one knows me</span> like you do, honestly<br>
-Better than I know myself</p><br>
+Better than I know myself<br></p>
 
 <p>All I need is <mark><span class="h">[TWICE, just TWICE]</span>you, just you</mark><br>
 For everything we've been through<br>
@@ -2738,7 +2735,7 @@ I'll stick by your side like glue<br>
 It's true<br>
 Nothing's ever gonna come between us<br>
 Ain't no way we can't lose<br>
-<span class="h">Always me plus you</span></p><br>
+<span class="h">Always me plus you</span><br></p>
 
 <p>It still feels the same (uh-huh) and though the seasons change (yeah)<br>
 Through the ups and the downs, you'll stay my main (right?)<br>
@@ -2747,10 +2744,10 @@ We got a connection that gets stronger every time, ride or die<br>
 (Yup) I won't take you for granted (<span class="h">granted</span>)<br>
 A shoulder to cry on, I got it (<span class="h">no, no, no</span>)<br>
 So reach out your hand and I'll grab it<br>
-Day or night, I hold you down</p><br>
+Day or night, I hold you down<br></p>
 
 <p><span class="h">No one knows me</span> like you do, honestly<br>
-Better than I know myself</p><br>
+Better than I know myself<br></p>
 
 <p>All I need is <mark><span class="h">[TWICE, just TWICE]</span>you, just you</mark> (oh)<br>
 For everything we've been through<br>
@@ -2759,7 +2756,7 @@ I'll stick by your side like glue<br>
 It's true (nothing's ever come between us)<br>
 Nothing's ever gonna come between us<br>
 Ain't no way we can't lose (we can't lose)<br>
-<span class="h">Always me plus you</span></p><br>
+<span class="h">Always me plus you</span><br></p>
 
 <p>All I know<br>
 It just gets better with time<br>
@@ -2767,12 +2764,12 @@ When you're feeling so down and lonely<br>
 I'll be there come rain or shine<br>
 Oh, if you don't already know<br>
 There's nothing that I won't do<br>
-It's always <span class="h">me plus you</span></p><br>
+It's always <span class="h">me plus you</span><br></p>
 
 <p><span class="h">Oh, yeah, yeah</span> (oh, yeah, yeah)<br>
 <span class="h">Oh, yeah, yeah, yeah, yeah</span><br>
 <span class="h">Oh, yeah, yeah</span><br>
-Ain't no thing, it's just me plus you</p><br>
+Ain't no thing, it's just me plus you<br></p>
 
 <p>All I need is <mark><span class="h">[TWICE, just TWICE]</span>you, just you</mark><br>
 For everything we've been through<br>
@@ -2781,7 +2778,7 @@ I'll stick by your side like glue<br>
 It's true<br>
 Nothing's ever gonna come between us (no, no, no)<br>
 Ain't no way we can't lose (we can't lose)<br>
-<span class="h">Always me plus you</span> (always me plus you)</p><br>
+<span class="h">Always me plus you</span> (always me plus you)<br></p>
 
 <p>
 <span class="h">[那冏莫! 撒基米! 塔且子!]</span><br>

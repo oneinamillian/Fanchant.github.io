@@ -2,47 +2,58 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>FANCHANT</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTS Fan Chant</title>
+    <link rel="stylesheet" href="song.css">
+    
+    <style>
+        :root {
+            --theme-main: #dd63e1;   /* 主色：歌名文字、應援詞、連結 */
+            --theme-light: #fbeafc; /* 內容區底色 (淺) */
+            --theme-bg: #eefbd5;    /* 備用底色 */
+        }
+    </style>
 </head>
-<body style="--group-color: #dd63e1;">
-    <nav class="navbar">
-        <div class="logo">BTS</div>
-        <div class="search-box">
-            <a href="index.html" class="back-link"> ← 返回首頁</a>
-            <select id="songSelect">
-                <option value="all">全部歌曲</option>
-                
-                <option value="BoyWithLuv">Boy With Luv</option>
+<body>
 
-            </select>
+    <!-- 1. 歌曲選單 -->
+    <div class="fixed-top-bar">
+   
+        <div class="filter-container">
+            <a href="index.html" class="home-btn">← 返回主頁</a>
+
+        <!-- 選項現在由 TWICE.js 的 initFilter() 依 songDatabase 自動產生，
+             之後在 songDatabase 加新歌，這裡不用手動同步新增 <option> -->
+        <select id="songSelect" onchange="filterSong()"></select>
+     </div>
+
+
+    <!-- 2. 歌名切換控制列 -->
+    <div class="song-control-bar">
+        <button class="nav-btn" onclick="prevSong()">❮</button>
+        <div class="song-title-wrapper">
+            <span class="artist-name" id="artist-name">BTS</span>
+            <h1 id="song-title">Boy With Luv</h1>
         </div>
-    </nav>
-
-    <main class="timeline-wrapper">
-        <div class="timeline">
-
-            <div class="timeline-item" id="BoyWithLuv" onclick="location.href='BTS/Boy_With_Luv.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2020.02.01</div>
-                <div class="timeline-card">
-                    <img src="image/BTS/500x500.jpg" alt="Boy With Luv" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">MAP OF THE SOUL : 7</div>
-                        <div class="timeline-title">Boy With Luv</div>
-                    </div>
-                </div>
-            </div>
-<div class="timeline-divider">
-    <span>以下歌曲尚未完成</span>
+        <button class="nav-btn" onclick="nextSong()">❯</button>
+    </div>
 </div>
-            
-            
-        </div>
-    </main>
+     
 
-    <script src="script.js" defer></script>
+    <!-- 3. 自己的內容區 (支援左右滑動切換) -->
+    <div class="content-container" id="content-container">
+        <!-- 影片區 -->
+        <div class="video-wrapper" id="video-area">
+            <!-- 動態插入 YouTube iframe -->
+        </div>
+
+        <!-- 應援與歌詞區 -->
+        <div class="lyrics-wrapper" id="lyrics-area">
+            <!-- 動態插入歌詞與應援 -->
+        </div>
+    </div>
+
+    <script src="BTS.js"></script>
+    <script src="register-sw.js" defer></script>
 </body>
 </html>
-

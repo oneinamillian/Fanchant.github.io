@@ -2,393 +2,58 @@
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
-    <title>FANCHANT</title>
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ITZY Fan Chant</title>
+    <link rel="stylesheet" href="song.css">
+    
+    <style>
+        :root {
+            --theme-main: #FF1744;   /* 主色：歌名文字、應援詞、連結 */
+            --theme-light: #ffe7ec; /* 內容區底色 (淺) */
+            --theme-bg: #eefbd5;    /* 備用底色 */
+        }
+    </style>
 </head>
-<body style="--group-color: #FF1744;">
-    <nav class="navbar">
-        <div class="logo">小品女團 ITZY</div>
-        <div class="search-box">
-            <a href="index.html" class="back-link"> ← 返回首頁</a>
-            <select id="songSelect">
-                <option value="all">全部歌曲</option>
-                <option value="dalla">DALLA DALLA</option>
-                <option value="ICY">ICY</option>
-                <option value="WANNABE">WANNABE</option>
-                <option value="Not Shy">Not Shy</option>
-                <option value="Inthemorning">In the morning</option>
-                <option value="LOCO">LOCO</option>
-                <option value="SNEAKERS">SNEAKERS</option>
-                <option value="Cheshire">Cheshire</option>
-                <option value="BoysLikeYou">Boys Like You</option>
-                <option value="MrVampire">Mr. Vampire</option>
-                <option value="BORNTOBE">BORN TO BE</option>
-                <option value="CAKE">CAKE</option>
-                <option value="UNTOUCHABLE">UNTOUCHABLE</option>
-                <option value="ImaginaryFriend">Imaginary Friend</option>
-                <option value="GOLD">GOLD</option>
-                <option value="Kiss&Tell">Kiss & Tell</option>
-                <option value="GirlsWillBeGirls">Girls Will Be Girls</option>
-                <option value="NoneofMyBusiness">None of My Business</option>
-                <option value="TUNNELVISION">TUNNEL VISION</option>
-                <option value="Motto">Motto</option>
-                <option value="NONO">THAT'S A NO NO</option>
-                <option value="Air">Air</option>
-            </select>
+<body>
+
+    <!-- 1. 歌曲選單 -->
+    <div class="fixed-top-bar">
+   
+        <div class="filter-container">
+            <a href="index.html" class="home-btn">← 返回主頁</a>
+
+        <!-- 選項現在由 TWICE.js 的 initFilter() 依 songDatabase 自動產生，
+             之後在 songDatabase 加新歌，這裡不用手動同步新增 <option> -->
+        <select id="songSelect" onchange="filterSong()"></select>
+     </div>
+
+
+    <!-- 2. 歌名切換控制列 -->
+    <div class="song-control-bar">
+        <button class="nav-btn" onclick="prevSong()">❮</button>
+        <div class="song-title-wrapper">
+            <span class="artist-name" id="artist-name">ITZY</span>
+            <h1 id="song-title">DALLA DALLA</h1>
         </div>
-    </nav>
-
-    <main class="timeline-wrapper">
-        <div class="timeline">
-
-            <div class="timeline-item" id="dalla" onclick="location.href='ITZY/DALLA_DALLA.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2019.02.12</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500.jpg" alt="" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">IT'z Different</div>
-                        <div class="timeline-title">DALLA DALLA</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="ICY" onclick="location.href='ITZY/ICY.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2019.07.29</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (1).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">IT'z ICY</div>
-                        <div class="timeline-title">ICY</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="WANNABE" onclick="location.href='ITZY/WANNABE.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2020.03.09</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (2).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">IT'z ME</div>
-                        <div class="timeline-title">WANNABE</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="NONO" onclick="location.href='ITZY/NONO.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2020.03.09</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (2).jpg" alt="NONO" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">IT'z ME</div>
-                        <div class="timeline-title">THAT'S A NO NO (舞台版本)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="NotShy" onclick="location.href='ITZY/NotShy.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2020.08.17</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (3).jpg" alt="NotShy" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Not Shy</div>
-                        <div class="timeline-title">Not Shy</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Inthemorning" onclick="location.href='ITZY/InTheMorning.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2021.04.30</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (4).jpg" alt="Inthemorning" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">GUESS WHO</div>
-                        <div class="timeline-title">In the morning</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="LOCO" onclick="location.href='ITZY/LOCO.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2021.09.24</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (5).jpg" alt="LOCO" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">CRAZY IN LOVE</div>
-                        <div class="timeline-title">LOCO</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="SNEAKERS" onclick="location.href='ITZY/SNEAKERS.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.07.15</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (6).jpg" alt="SNEAKERS" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">CHECKMATE</div>
-                        <div class="timeline-title">SNEAKERS</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="BoysLikeYou" onclick="location.href='ITZY/BoysLikeYou.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.10.21</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (7).jpg" alt="BoysLikeYou" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Boys Like You</div>
-                        <div class="timeline-title">Boys Like You</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Cheshire" onclick="location.href='ITZY/Cheshire.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2022.11.30</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (8).jpg" alt="Cheshire" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Cheshire</div>
-                        <div class="timeline-title">Cheshire</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="CAKE" onclick="location.href='ITZY/CAKE.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.07.31</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (9).jpg" alt="CAKE" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">KILL MY DOUBT</div>
-                        <div class="timeline-title">CAKE</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="NoneofMyBusiness" onclick="location.href='ITZY/NoneofMyBusiness.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2023.07.31</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (9).jpg" alt="NoneofMyBusiness" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">KILL MY DOUBT</div>
-                        <div class="timeline-title">None of My Business</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="BORNTOBE" onclick="location.href='ITZY/BORNTOBE.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="BORNTOBE" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title">BORN TO BE</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="UNTOUCHABLE" onclick="location.href='ITZY/UNTOUCHABLE.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="UNTOUCHABLE" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title">UNTOUCHABLE</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="MrVampire" onclick="location.href='ITZY/MrVampire.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="MrVampire" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title">Mr. Vampire</div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="timeline-item" id="ImaginaryFriend" onclick="location.href='ITZY/ImaginaryFriend.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.10.15</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY//500x500 (11).jpg" alt="ImaginaryFriend" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">GOLD</div>
-                        <div class="timeline-title">Imaginary Friend</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="GOLD" onclick="location.href='ITZY/GOLD.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.10.15</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (11).jpg" alt="GOLD" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">GOLD</div>
-                        <div class="timeline-title">GOLD</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="GirlsWillBeGirls" onclick="location.href='ITZY/GirlsWillBeGirls.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.06.09</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (12).jpg" alt="GirlsWillBeGirls" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Girls Will Be Girls</div>
-                        <div class="timeline-title">Girls Will Be Girls</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Kiss&Tell" onclick="location.href='ITZY/Kiss&Tell.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.06.09</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (12).jpg" alt="Kiss&Tell" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Girls Will Be Girls</div>
-                        <div class="timeline-title">Kiss & Tell</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Air" onclick="location.href='ITZY/Air.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.03.10</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (15).jpg" alt="Air" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">AIR</div>
-                        <div class="timeline-title" style="color:#3c3c44;">Air</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="TUNNELVISION" onclick="location.href='ITZY/TUNNELVISION.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2025.11.10</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (13).jpg" alt="TUNNELVISION" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">TUNNEL VISION</div>
-                        <div class="timeline-title">TUNNEL VISION</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="Motto" onclick="location.href='ITZY/Motto.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2026.05.18</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (14).jpg" alt="Motto" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Motto</div>
-                        <div class="timeline-title">Motto</div>
-                    </div>
-                </div>
-            </div>
-
-            
-
-            
-<div class="timeline-divider">
-    <span>以下歌曲尚未完成</span>
+        <button class="nav-btn" onclick="nextSong()">❯</button>
+    </div>
 </div>
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2026.03.23</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (16).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">Ice Cream</div>
-                        <div class="timeline-title" style="color:#FFB6C1;">Ice Cream</div>
-                    </div>
-                </div>
-            </div>
+     
 
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title" style="color:#3c3c44;">Crown On My Head (YEJI)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title" style="color:#89CFF0;">Blossom (LIA)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title" style="color:#4169E1;">Run Away (RYUJIN)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title" style="color:#8A2BE2;">Mine (CHAERYEONG)</div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="timeline-item" id="" onclick="location.href='ya.html'">
-                <div class="timeline-dot" ></div>
-                <div class="timeline-date" >2024.01.08</div>
-                <div class="timeline-card">
-                    <img src="image/ITZY/500x500 (10).jpg" alt="O.O" class="timeline-img">
-                    <div class="timeline-info">
-                        <div class="timeline-album">BORN TO BE</div>
-                        <div class="timeline-title" style="color:#FFB6C1;">Yet, but (YUNA)</div>
-                    </div>
-                </div>
-            </div>
-            
-            
+    <!-- 3. 自己的內容區 (支援左右滑動切換) -->
+    <div class="content-container" id="content-container">
+        <!-- 影片區 -->
+        <div class="video-wrapper" id="video-area">
+            <!-- 動態插入 YouTube iframe -->
         </div>
-    </main>
 
-    <script src="script.js" defer></script>
+        <!-- 應援與歌詞區 -->
+        <div class="lyrics-wrapper" id="lyrics-area">
+            <!-- 動態插入歌詞與應援 -->
+        </div>
+    </div>
+
+    <script src="ITZY.js"></script>
+    <script src="register-sw.js" defer></script>
 </body>
 </html>
-

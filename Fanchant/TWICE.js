@@ -3084,7 +3084,7 @@ Baby, why you stone cold?<br>
         category: "DAHYUN",
         artist: "DAHYUN",
         themeOverride: { 
-            main: "#2e2c29",
+            main: "#FFFDF8",
             light: "#F6EEE5",
             bg: "#CDDBEE"
         },

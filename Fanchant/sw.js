@@ -1,5 +1,5 @@
 // ====== 版本號：每次更新內容(新增團體、新增圖片、改口號)都要改這裡 ======
-const CACHE_NAME = 'kpop-cheering-guide-v15';
+const CACHE_NAME = 'kpop-cheering-guide-v17';
 
 // ====== 需要離線快取的檔案清單 ======
 const urlsToCache = [
@@ -25,6 +25,8 @@ const urlsToCache = [
   '/ITZY.js',
   '/BTS.html',
   '/BTS.js',
+  '/IVE.html',
+  '/IVE.js',
 
   // 如果有共用的 JS 檔案也要加進來，例如：
    '/script.js',

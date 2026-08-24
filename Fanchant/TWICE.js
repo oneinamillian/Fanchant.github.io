@@ -2798,8 +2798,8 @@ I gotta tell you<br>
         category: "NAYEON",
         artist: "NAYEON",                 // 蓋掉頁面預設的 "TWICE"
         themeOverride: {                 // 蓋掉頁面預設的粉色主題
-            main: "#4cdbf7",
-            light: "#e6f8fc",
+            main: "#95DFED",
+            light: "#e4f6fa",
             bg: "#CDDBEE"
         },
         youtubeId: "NEPHzkDCw08", // YouTube 影片網址後的 ID
@@ -2870,6 +2870,315 @@ Don't play with a girl, don't play with a girl like<br>
                     Like me! ImNayeon! <br>]</span>
 Don't play with a girl, don't play with a girl like (play with a girl like)  <br>
             </p>`
+},
+{id: "FIXADRINK",
+        title: "FIX A DRINK",
+        category: "JEONGYEON",
+        artist: "JEONGYEON",
+        themeOverride: { 
+            main: "#BED48A",
+            light: "#faffed",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "ZW5_I1A9IOQ",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-fix-a-drink",
+        videoRefUrl: "https://www.youtube.com/watch?v=UBztpe1hh8c",
+        lyricsHTML:`<p>오늘 밤 같이 cheers to good times<br>
+가끔 모든 걸 잊고 싶은 밤<br>
+무거운 마음의 <u>짐을 내려놔 <span class="h">漆木 內六啊</span></u><br>
+잔을 들어봐 hmm <span class="h">[YuJEONGYEON!]</span><br>
+처진 분위기, 지루한 기분 <span class="h">yeah</span><br>
+가볍게 바꿔줄 신나는 rhythm <span class="h">[rhythm]</span><br>
+너를 흔드는 음악에 취해<br>
+</p>
+<p>I can't fix a heart, but I'll take off the edge <span class="h">[YuJEONGYEON!]</span><br>
+I've got shots for jealousy<br>
+And a bottle for your pain<br>
+I've got this, <span class="h">remedy</span><br>
+금방 잊게 될 <span class="h">heartbreak</span><br>
+Caught between two stools 너를 위한 <span class="h">taste</span><br>
+I can't fix a heart, but I sure know <span class="h">how to fix a drink</span><br>
+</p>
+<p>
+I've got shots for jealousy<br>
+And a bottle for your pain<br>
+I've got this, <span class="h">remedy</span><br>
+금방 잊게 될 <span class="h">heartbreak</span><br>
+Caught between two stools, 너를 위한 <span class="h">taste</span><br>
+I can't fix a heart, but I sure know how to fix a drink<br>
+</p>`
+},
+{id: "MOVELIKETHAT",
+        title: "MOVE LIKE THAT",
+        category: "MOMO",
+        artist: "MOMO",
+        themeOverride: { 
+            main: "#FF8DAC",
+            light: "#ffeaef",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "jVHrsvzExug",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-move-like-that",
+        videoRefUrl: "https://www.youtube.com/watch?v=zmn8BCIdzSE",
+        lyricsHTML:`<p>Move to the bassline, pull me in tight<br>
+Give me, give me a taste, taste of your eyes<br>
+Step to the left, take it back to the right<br>
+Uh, we can do it all night<br>
+Move to the bassline, pull me in tight<br>
+Give me, give me a taste, taste of your eyes<br>
+Step to the left, take it back to the right<br>
+Uh, we can do it all night<br>
+</p>
+<p>It's a ghost town 주변의 소음조차 멎은 이 밤 <span class="h">[Momo醬]</span><br>
+Just you and me 우리만의 이 순간<br>
+It's so wild <span class="h">[Momo醬]</span> 심장이 널 따라 가<br>
+There's something in the way that you move<br>
+</p>
+<p><u>느낌이 느낌이 <span class="h">ㄋㄍㄧ咪 ㄋㄍㄧ咪</span></u> <span class="h">lit</span><br>
+Feeling that beat in my chest (<span class="h">yeah, yeah, yeah</span>)<br>
+감춰진 나를 꺼내<br>
+Letting my hips do the rest (<span class="h">yeah, yeah, yeah</span>)<br>
+<u>느낌이 느낌이 <span class="h">ㄋㄍㄧ咪 ㄋㄍㄧ咪</span></u> <span class="h">lit</span><br>
+Feeling that beat in my chest<br>
+한 순간 hypnotized<br>
+Yeah, there's something in the way that you move<br>
+</p>`
+},
+{id: "DECAFFEINATED",
+        title: "DECAFFEINATED",
+        category: "SANA",
+        artist: "SANA",
+        themeOverride: { 
+            main: "#9065C2",
+            light: "#f5ecff",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "stOJK5Ghyho",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-decaffeinated",
+        videoRefUrl: "https://www.youtube.com/watch?v=MPR4RbVACzk",
+        lyricsHTML:`<p><mark><span class="h">Sa</span> Say</mark> <span class="h">na-na-na-na-na-na<br>
+                Na-na-na-na-na-na<br>
+Na-na-na-na-na-na</span><br>
+De-caffeine, <mark><span class="h">Sana醬</span> get high</mark><br>
+</p>
+<p>내 전부를 이해하려 하지 마<br>
+이미 제 정신일 리 없잖아<br>
+깊어진 이 감정 can't control it<br>
+Want you to <span class="h">take me to heaven, take me to heaven<br>
+Take, take, take</span><br>
+</p>
+<p>No need to stay awake (so don't mess it up)<br>
+중독될수록 이건 <u>위험해 <span class="h">we後妹</span></u><br>
+Don't need no <span class="h">caffeine for ya</span><br>
+지금 있는 <u>그대로 <span class="h">ㄎ爹摟</span></u><br>
+We goin' crazy, crazy, <span class="h">can't stop it</span> (yeah-yeah)<br>
+</p>
+<p>Takin' in all the love<br>
+<span class="h">Trippin', trippin'</span> on your lust<br>
+날 절대 깨우지 말아 줘<br>
+더 빠져들 수 있게<br>
+</p>
+<p>I need you with all the love<br>
+<span class="h">Trippin', trippin'</span> on your lust<br>
+맨정신으로는 감당 못 해<br>
+Love is all that you need<br>
+Drip it<br>
+</p>
+<p>Gimme that, gimme de-caffeine<br>
+Gimme that, gimme that<br>
+<mark><span class="h">Sa</span> Say</mark> <span class="h">na-na-na-na-na-na<br>
+Na-na-na-na-na-na</span><br>
+Drip it<br>
+</p>
+<p>Gimme that, gimme de-caffeine<br>
+Gimme that, gimme that<br>
+<mark><span class="h">Sa</span> Say</mark> <span class="h">na-na-na-na-na-na<br>
+Na-na-na-na-na-na</span><br>
+</p>`
+},
+{id: "ATM",
+        title: "ATM",
+        category: "JIHYO",
+        artist: "JIHYO",
+        themeOverride: { 
+            main: "#fac066",
+            light: "#faf0e1",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "4kAcZ-V-Ens",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-atm",
+        videoRefUrl: "https://www.youtube.com/watch?v=S_3pHAHnfDU",
+        lyricsHTML:`<p>Bos' goin' crazy (yo)<br>
+</p>
+<p><span class="h">[ParkJIHYO!]</span><br>
+        All the way up <span class="h">[up]</span>, no one does it like we do<br>
+All in my bag <span class="h">[bag]</span>, throw it in the back<br>
+<span class="h">On top</span>, we the best, <span class="h">don't stop</span><br>
+Keep it comin' with that lovin'<br>
+</p>
+<p>They all love that I'm <span class="h">classy</span>, they all love that I <span class="h">do</span><br>
+Friends in every <span class="h">country</span>, numbers off the <span class="h">roof</span><br>
+You'll be good for a good life if I'm next to you<br>
+We go another round 'cause they can't get enough<br>
+</p>
+<p>Comin' back for more, oh, oh<br>
+Addicted to me, yeah, <span class="h">ATM</span><br>
+Flawless when we glow, oh, oh<br>
+Shine like all that marquee, <span class="h">ATM</span> (uh)<br>
+I've been keepin' my <span class="h">eye, eye, eyes on you</span><br>
+Know you got <span class="h">eye, eyes on me too</span><br>
+I got, I got all the moves<br>
+Midas touch, got you coming back for more , oh, oh<br>
+Addicted to me (yeah), <span class="h">ATM</span> (yeah)<br>
+</p>
+<p>
+Coming back for more<br>
+Me<br>
+</p>`
+},
+{id: "STONECOLD",
+        title: "STONE COLD",
+        category: "MINA",
+        artist: "MINA",
+        themeOverride: { 
+            main: "#8EE8CC",
+            light: "#e8fcf5",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "qbyYALf1Hc8",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-stone-cold",
+        videoRefUrl: "https://www.youtube.com/watch?v=OV0VpwnFhuY",
+        lyricsHTML:`<p>Hey Why you being stone cold?<br>
+<span class="h">[STONE COLD MINA醬! STONE COLD MINA醬! STONE COLD MINA醬!]</span><br>
+</p>
+<p>Used to make me happy-clappy, baby, you were <span class="h">flirty</span><br>
+Now you're acting super wacky, love has gotten <span class="h">dirty</span><br>
+E-e-every day is like a rainy <span class="h">Monday</span><br>
+Where are all the fun days?<br>
+I want you to know, I don't cry myself to sleep<br>
+I want you to know, that I'm over you in two weeks<br>
+We should blow it off<br>
+</p>
+<p><span class="h">Look at me</span>, I'm praying for a <span class="h">miracle</span><br>
+Wanna be happy and not too <span class="h">cynical</span><br>
+'Cause it feels that we are not <span class="h">compatible</span><br>
+I guess you are putting our love on hold (show)<br>
+</p>
+<p>Every shade of you was pure <span class="h">gold</span><br>
+Now your heart is getting ice <span class="h">cold</span><br>
+And you're breaking down my <span class="h">walls</span><br>
+One by one, you're stone cold<br>
+</p>
+<p>Baby, why you stone cold?<br>
+Someone else is your gold<br>
+Heart is getting <span class="h">stone cold, stone cold</span><br>
+Baby, why you stone cold?<br>
+Baby, why you stone cold?<br>
+Someone else is your gold (yea-yeah)<br>
+Heart is getting cold, cold, cold<br>
+Baby, why you stone cold?<br>
+</p>`
+},
+{id: "CHESS",
+        title: "CHESS",
+        category: "DAHYUN",
+        artist: "DAHYUN",
+        themeOverride: { 
+            main: "#2e2c29",
+            light: "#F6EEE5",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "mdAVQ3vZxFg",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-chess",
+        videoRefUrl: "https://www.youtube.com/watch?v=kr1mThC2n1s",
+        lyricsHTML:`<p><p class="tip">前奏播放後等兩拍</p><br>
+                <span class="h">[KimDAHYUN! KimDAHYUN! KimDAHYUN!]</span><br>
+                <p class="tip">等兩拍</p><br>
+                <span class="h">[KimDAHYUN! KimDAHYUN! 度!]</span><br>
+                Oh, I used to be unskilled and naive<br>
+You deceived me for your own <span class="h">benefit</span><br>
+With a cunning trick more than anything<br>
+Now completely I realize <span class="h">everything</span><br>
+</p>
+<p>Calculated, educated<br>
+<span class="h">I'm the monster you created</span><br>
+So you changed me, I've upgraded<br>
+I'ma tell ya<br>
+</p>
+<p>I ain't playin' checkers, I play chess <span class="h">[I make 'em sweat]</span><br>
+Became the best <span class="h">[I make a mess]</span> and nothing less <span class="h">[I must confess]</span><br>
+Yeah, that's what I do <span class="h">[I bet ya knew]</span>, I'm making moves <span class="h">[I never do]</span><br>
+I never lose and that's on you <span class="h">[that's on you, yeah]</span><br>
+</p>
+<p>Because of you<br>
+I've become stronger<br>
+And I can go with the flow<br>
+</p>
+<p>Uh, better without you, better now<br>
+With or without you, ain't no doubt<br>
+You know you gotta, you gotta show me your <span class="h">manners bow down</span><br>
+Better without you, better now<br>
+Want me to lose, I don't know how<br>
+You know you gotta, you gotta, you gotta, <span class="h">uh</span><br>
+</p>
+<p>Lettin' you shoot your shot now, that's on you <span class="h">[KimDAHYUN!]</span><br>
+Shoulda done it better when you had it all together<br>
+What now?<br>
+</p>
+<p>Now you're really running out of moves, ohh, oh<br>
+Yeah, that's what I do, I'm making moves <span class="h">[I bet ya knew]</span><br>
+I never lose <span class="h">[I never do]</span> and that's on you <span class="h">[and that's on you]</span><br>
+</p>`
+},
+{id: "INMYROOM",
+        title: "IN MY ROOM",
+        category: "CHAEYOUNG",
+        artist: "CHAEYOUNG",
+        themeOverride: { 
+            main: "#CF2E45",
+            light: "#fcecee",
+            bg: "#CDDBEE"
+        },
+        youtubeId: "RWAN4_twVuo",
+        sourceUrl: "https://lyrics.lyricfind.com/lyrics/twice-in-my-room",
+        videoRefUrl: "https://www.youtube.com/watch?v=RWAN4_twVuo",
+        lyricsHTML:`<p>You're on my mind all of the time<br>
+I <span class="h">like it, like it</span><br>
+Head in the clouds, not coming down<br>
+<span class="h">Exciting-citing</span><br>
+They see how I'm acting and they tellin' me I'm crazy<br>
+I can taste you on my tongue<br>
+A cotton candy daydream<br>
+</p>
+<p>Anything can happen in my room<br>
+In my <span class="h">room, room, room, in my room</span><br>
+I can be whoever I want to<br>
+In my <span class="h">room, room, room,</span> just me and you<br>
+Anything can happen, anything<br>
+</p>
+<p><span class="h">[Room, room, room]</span><br>
+</p>
+<p>I don't think that what we got is just a fling <span class="h">[SonCHAEYOUNG!]</span><br>
+I know you got more than just a crush on me <span class="h">[SonCHAEYOUNG!]</span><br>
+I don't think that what we got is just a fling <span class="h">[SonCHAEYOUNG!]</span><br>
+</p>
+<p>Anything can happen in my room<br>
+In my <span class="h">room, room, room, in my room</span><br>
+I can be whoever I want to<br>
+In my <span class="h">room, room, room,</span> just me and you<br>
+Anything can happen in my room<br>
+In my <span class="h">room, room, room, in my room</span><br>
+I can be whoever I want to<br>
+In my <span class="h">room, room, room,</span> just me and you<br>
+Anything can happen, anything<br>
+</p>
+<p>(Room, room, room)<br>
+Anything can happen in my room<br>
+(Room)<br>
+(Anything)<br>
+Anything can happen in my room<br>
+(Room, room, room)<br>
+</p>`
 },
     {
         id: "DIVEIN",

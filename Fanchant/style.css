@@ -160,7 +160,8 @@ body {
     font-weight: 900;
     margin: 0;
     line-height: 1;
-    
+    width: 100%;
+    text-align: center;
 }
 .progress-badge {
     display: inline-block;
@@ -177,6 +178,7 @@ body {
     align-items: center;
     text-align: center;
     justify-content: center;
+    flex: 1; /* 新增這行：撐滿 .song-card 剩下的寬度 */
 }
 .back-link {
             text-decoration: none;

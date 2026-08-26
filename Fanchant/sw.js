@@ -1,5 +1,5 @@
 // ====== 版本號：每次更新內容(新增團體、新增圖片、改口號)都要改這裡 ======
-const CACHE_NAME = 'kpop-cheering-guide-v22';
+const CACHE_NAME = 'kpop-cheering-guide-v23';
 
 // ====== 需要離線快取的檔案清單 ======
 const urlsToCache = [

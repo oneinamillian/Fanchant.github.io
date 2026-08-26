@@ -1901,7 +1901,7 @@ Now-now-now-now-now, yeah (yeah, turn it up)<br></p>
 
 <p>너의 눈 <span class="h">look, look, look</span><br>
 위아래로 <span class="h">roll, roll, roll</span><br>
-읽었잖아 뭐 피차, 눈빛 사이 오고 가는 말<br>
+읽었잖아 뭐 피차, 눈빛 사이 오고 가는 말 <span class="h">[TWICE!]</span><br>
 차근차근 one, two, three (just one, two, three)<br>
 더 친절하게 ABC (like ABC)<br>
 <span class="h">Don't stop</span> and just replay<br>

@@ -321,7 +321,7 @@ Hey <span class="h">[hey]</span>, hey <span class="h">[hey]</span><br>
 내일의 우리는 알지도 몰라 <span class="h">[say! 度! Let's go!!]</span><br>
 </p>
 <p>오늘따라 왠지 말이 꼬여 <span class="h">[T! WS!]</span><br>
-성을 빼고 부르는 건 아직 어색해 (<u>지훈아 <span class="h">[JIHOON 吶]</span></u>)<br>
+성을 빼고 부르는 건 아직 어색해 (<u>지훈아 <span class="h">JIHOON 吶</span></u>)<br>
 너와 나 우리 모여보니까<br>
 같은 색 더듬이가 자라나 <span class="h">[恰拉那]</span><br>
 </p>
@@ -366,8 +366,9 @@ N과 S 우리는 <span class="h">castanets</span>, yeah<br>
 너의 이름조차 내겐 특별하니까<br>
 오직 너에게만 말할게 (널 마주 보고서)<br>
 </p>
-<p><mark><span class="h">[SHINYU! DOHOON! YOUNGJAE! HANJIN! JIHOON! KYUNGMIN!]</span>반대, 반대, 반대, 반대<br>
-반대, 반대가 끌린</mark> 이유는 <span class="h">[T WS!]</span><br>
+<p><mark><span class="h">[SHINYU! DOHOON! YOUNGJAE! HANJIN! JIHOON! KYUNGMIN!]</span><br>
+반대, 반대, 반대, 반대, 반대, 반대가 끌린</mark><br>
+ 이유는 <span class="h">[T WS!]</span><br>
 어떤 순간에도 우린 하나이니까<br>
 그거면 충분해 난<br>
 있잖아, 오늘부터<br>
@@ -540,7 +541,7 @@ Yeah 첫 만남에 난 <u>너였다고 <span class="h">no又搭go</span></u><br>
 하고 싶은 걸 따라가자 외치는 거야<br>
 더 이상 망설이기 싫은 날<br>
 준비하고서<br>
-이제 <span class="h">one, two, three, countdown</span><br>
+이제 <span class="h">one, two, three, countdown</span><br></p><p>
 <span class="h">[SHINYU! DOHOON! YOUNGJAE! HANJIN! JIHOON! KYUNGMIN! TWS! SHINYU! DOHOON! YOUNGJAE! HANJIN! JIHOON! KYUNGMIN! Let's go!]</span><br>
 </p>
 <p>뭐든 가능할 것 같은<br>
@@ -558,7 +559,7 @@ Yeah 매일 두근대고 있잖아 <span class="h">[困困]</span><br>
 셋 하면 멀리 뛰자 <span class="h">[哈娜 吐 say!]</span><br>
 </p>
 <p>거칠어진 숨이 <span class="h">[TWS]</span><br>
-자꾸 뛰는 심장이 (countdown)<br>
+자꾸 뛰는 심장이 <span class="h">(countdown)</span><br>
 하고 싶은 걸 따라가자 외치는 거야<br>
 더 이상 망설이기 싫은 날<br>
 준비하고서<br>
@@ -621,10 +622,10 @@ Now <span class="h">one, two, three, countdown</span><br>
 When I'm with you, I'm at home<br>
 나다울 수 있는 걸 <span class="h">I know, I know</span><br></p>
 
-<p>I'm lucky to be loved by you <mark><span class="h">[TWS]</span> (be loved by)</mark><br>
-Lucky to be loved by you <mark><span class="h">[TWS]</span> (be loved by)</mark><br>
-Lucky to be loved by you <mark><span class="h">[哀迦納]</span> (be loved by)</mark><br>
-알잖아 feels like I'm up on the moon (be loved by)<br>
+<p>I'm lucky to be loved by you <span class="h">[TWS]</span><br>
+Lucky to be loved by you <span class="h">[TWS]</span><br>
+Lucky to be loved by you <br>
+<u> 알잖아<span class="h">哀迦納 </span><> feels like I'm up on the moon (be loved by)<br>
 Lucky to be loved by you <span class="h">[TWS]</span><br></p>
 
 <p>요즘엔 막연히 꿈꾸던 일들을 이뤄 가고 <u>있어 <span class="h">依搜</span></u><br>
